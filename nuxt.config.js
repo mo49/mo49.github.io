@@ -42,6 +42,13 @@ module.exports = {
     '@nuxtjs/style-resources',
     'nuxt-fontawesome'
   ],
+  router: {
+    routes: {
+      name: 'index',
+      path: '/public',
+      component: 'index.vue'
+    }
+  },
   styleResources: {
     scss: [
       '~/assets/sass/_variable.scss',

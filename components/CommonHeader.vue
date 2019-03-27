@@ -1,6 +1,9 @@
 <template>
   <header class="header">
-    <h1>header</h1>
+    <router-link to="index">
+    <h1>logo</h1>
+    </router-link>
+
   </header>
 </template>
 
