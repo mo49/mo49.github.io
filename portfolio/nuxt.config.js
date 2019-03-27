@@ -37,9 +37,6 @@ module.exports = {
       }
     }
   },
-  // generate: {
-  //   dir: `/${DIST_DIR}/`
-  // },
   router: {
     base: `/${DIST_DIR}/`
   },
