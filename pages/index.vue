@@ -4,6 +4,7 @@
       <h1 class="title">
         PORTFOLIO SITE
       </h1>
+      <gallery />
       <!-- <font-awesome-icon icon="coffee" /> -->
       <font-awesome-icon :icon="['fab', 'facebook']" class="fa-2x"/>
       <font-awesome-icon :icon="['fab', 'twitter-square']" class="fa-2x"/>
@@ -15,11 +16,11 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+import Gallery from '~/components/Gallery.vue'
 
 export default {
   components: {
-    AppLogo
+    Gallery
   }
 }
 </script>
