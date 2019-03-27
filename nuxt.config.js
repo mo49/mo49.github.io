@@ -35,6 +35,9 @@ module.exports = {
       }
     }
   },
+  generate: {
+    dir: 'public'
+  },
   modules: ['@nuxtjs/style-resources'],
   styleResources: {
     scss: [
