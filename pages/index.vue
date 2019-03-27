@@ -5,6 +5,10 @@
       <h1 class="title">
         portfolio
       </h1>
+      <font-awesome-icon icon="coffee" />
+      <font-awesome-icon :icon="['fab', 'facebook']" />
+      <font-awesome-icon :icon="['fab', 'twitter-square']" />
+      <font-awesome-icon :icon="['fab', 'instagram']" class="fa-2x"/>
       <h2 class="subtitle">
         Nuxt.js project
       </h2>

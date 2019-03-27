@@ -38,11 +38,27 @@ module.exports = {
   generate: {
     dir: 'public'
   },
-  modules: ['@nuxtjs/style-resources'],
+  modules: [
+    '@nuxtjs/style-resources',
+    'nuxt-fontawesome'
+  ],
   styleResources: {
     scss: [
       '~/assets/sass/_variable.scss',
       '~/assets/sass/_mixin.scss'
+    ]
+  },
+  fontawesome: {
+    // component: 'fa',
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      },
+      {
+        set: '@fortawesome/free-brands-svg-icons',
+        icons: ['fab']
+      }
     ]
   }
 }
