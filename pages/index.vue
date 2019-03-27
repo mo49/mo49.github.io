@@ -5,22 +5,19 @@
         PORTFOLIO SITE
       </h1>
       <gallery />
-      <!-- <font-awesome-icon icon="coffee" /> -->
-      <font-awesome-icon :icon="['fab', 'facebook']" class="fa-2x"/>
-      <font-awesome-icon :icon="['fab', 'twitter-square']" class="fa-2x"/>
-      <font-awesome-icon :icon="['fab', 'instagram']" class="fa-2x"/>
-      <font-awesome-icon :icon="['fab', 'github']" class="fa-2x"/>
-      <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-2x"/>
+      <social-accounts />
     </div>
   </section>
 </template>
 
 <script>
 import Gallery from '~/components/Gallery.vue'
+import SocialAccounts from '~/components/SocialAccounts.vue'
 
 export default {
   components: {
-    Gallery
+    Gallery,
+    SocialAccounts
   }
 }
 </script>
