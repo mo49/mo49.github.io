@@ -43,9 +43,9 @@ module.exports = {
       }
     }
   },
-  // router: {
-  //   base: `/${DIST_DIR}/`
-  // },
+  router: {
+    base: `/${DIST_DIR}/`
+  },
   ...routerBase,
   modules: [
     '@nuxtjs/style-resources',
