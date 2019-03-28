@@ -1,11 +1,6 @@
 <template>
   <footer class="footer">
-    <h1>footer</h1>
-    <ul>
-      <li>hoge</li>
-      <li>huga</li>
-      <li>fuga</li>
-    </ul>
+    <small>&copy; Kazuki Mochizuki</small>
   </footer>
 </template>
 
