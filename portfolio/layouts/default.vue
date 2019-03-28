@@ -26,7 +26,6 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   outline: none;
-  overflow: hidden;
 }
 body{
   width: 100%;
