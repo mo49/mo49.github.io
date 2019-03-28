@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <common-header/>
     <nuxt/>
     <common-footer/>
@@ -19,21 +19,35 @@ export default {
 
 <style lang="scss">
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
+  font-family: $font-family;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
 }
 body{
+  width: 100%;
+  min-height: 100vh;
+  @include pc-layout{
+    overflow-x: scroll;
+  }
   @include pc-layout{
     font-size: $base-font-size--pc;
   }
   @include sp-layout{
     font-size: $base-font-size--sp;
+  }
+}
+.wrapper{
+  margin: 0 auto;
+  @include pc-layout{
+    width: $pc_min_width;
+  }
+  @include sp-layout{
+    width: 100%;
   }
 }
 </style>
