@@ -39,6 +39,9 @@ module.exports = {
     '@nuxtjs/style-resources',
     'nuxt-fontawesome'
   ],
+  css: [
+    'normalize.css'
+  ],
   styleResources: {
     scss: [
       '~/assets/sass/_variable.scss',
