@@ -50,5 +50,8 @@ body{
     width: 100%;
   }
 }
+div[data-bg="odd"]{
+  background-color: $bg-color;
+}
 </style>
 

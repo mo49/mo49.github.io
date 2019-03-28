@@ -2,10 +2,10 @@
   <section class="container">
     <div>
       <h1 class="title">PORTFOLIO SITE</h1>
-      <profile />
-      <history />
-      <gallery />
-      <social-accounts />
+      <profile data-bg="odd"/>
+      <history data-bg="even" />
+      <gallery data-bg="odd" />
+      <social-accounts data-bg="even" />
     </div>
   </section>
 </template>
