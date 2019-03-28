@@ -35,9 +35,35 @@ body{
   }
   @include pc-layout{
     font-size: $base-font-size--pc;
+    line-height: $base-line-height--pc;
   }
   @include sp-layout{
     font-size: $base-font-size--sp;
+    line-height: $base-line-height--sp;
+  }
+  h1{
+    @include pc-layout{
+      font-size: $base-font-size--pc*1.5;
+    }
+    @include sp-layout{
+      font-size: $base-font-size--sp*1.5;
+    }
+  }
+  h2{
+    @include pc-layout{
+      font-size: $base-font-size--pc*1.3;
+    }
+    @include sp-layout{
+      font-size: $base-font-size--sp*1.3;
+    }
+  }
+  h3{
+    @include pc-layout{
+      font-size: $base-font-size--pc*1.1;
+    }
+    @include sp-layout{
+      font-size: $base-font-size--sp*1.1;
+    }
   }
 }
 .wrapper{
