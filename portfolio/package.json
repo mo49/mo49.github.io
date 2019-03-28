@@ -9,8 +9,9 @@
     "build": "nuxt build",
     "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate && rm -rf gh-pages/* && cp -r dist/ gh-pages/",
+    "generate": "nuxt generate",
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
@@ -21,7 +22,8 @@
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "@nuxtjs/style-resources": "^0.1.2",
     "nuxt": "^2.0.0",
-    "nuxt-fontawesome": "^0.4.0"
+    "nuxt-fontawesome": "^0.4.0",
+    "push-dir": "^0.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

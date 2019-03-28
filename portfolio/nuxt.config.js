@@ -1,5 +1,11 @@
 const DIST_DIR = "portfolio"
 
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: `/${DIST_DIR}/`
+  }
+} : {}
+
 module.exports = {
   /*
   ** Headers of the page
@@ -37,9 +43,10 @@ module.exports = {
       }
     }
   },
-  router: {
-    base: `/${DIST_DIR}/`
-  },
+  // router: {
+  //   base: `/${DIST_DIR}/`
+  // },
+  ...routerBase,
   modules: [
     '@nuxtjs/style-resources',
     'nuxt-fontawesome'
