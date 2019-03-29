@@ -16,7 +16,7 @@
 <style lang="scss">
 @import "~assets/sass/module/profile";
 .profile__thumb{
-  background-image: url("~assets/image/profile2.png");
+  background-image: url("~assets/image/profile.jpg");
 }
 </style>
 
