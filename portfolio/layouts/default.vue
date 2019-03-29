@@ -26,6 +26,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   outline: none;
+  color: $font-color-desc;
 }
 body{
   width: 100%;
@@ -41,7 +42,12 @@ body{
     font-size: $base-font-size--sp;
     line-height: $base-line-height--sp;
   }
+  p,div,ul,li,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+  }
   h1{
+    color: $font-color-main;
     @include pc-layout{
       font-size: $base-font-size--pc*1.5;
     }
@@ -50,6 +56,7 @@ body{
     }
   }
   h2{
+    color: $font-color-main;
     @include pc-layout{
       font-size: $base-font-size--pc*1.3;
     }
@@ -58,6 +65,7 @@ body{
     }
   }
   h3{
+    color: $font-color-main;
     @include pc-layout{
       font-size: $base-font-size--pc*1.1;
     }
@@ -68,6 +76,7 @@ body{
 }
 .wrapper{
   margin: 0 auto;
+  padding: 0 5px;
   @include pc-layout{
     width: $pc_min_width;
   }

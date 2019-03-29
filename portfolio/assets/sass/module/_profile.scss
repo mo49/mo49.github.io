@@ -1,5 +1,5 @@
 .profile{
-  padding: 10px;
+  padding: 30px 10px;
 
   &__content{
     display: flex;
@@ -10,12 +10,22 @@
     margin-right: 20px;
   }
 
+  &__right{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    p{
+      margin: 5px 0;
+    }
+  }
+
   &__thumb{
     @include image(100,100);
     border-radius: 50%;
   }
 
   &__name{
+    color: $font-color-sub;
     font-weight: bold;
   }
   &__desc{

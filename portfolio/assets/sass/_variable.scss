@@ -17,9 +17,9 @@ $accent-color: #ff4200 !default;
 // background
 $bg-color: #fafafa !default;
 // font
-$font-color-main: #333 !default;
-$font-color-sub: #939293 !default;
-$font-color-desc: #ccc !default;
+$font-color-main: #000 !default;
+$font-color-sub: #222 !default;
+$font-color-desc: #444 !default;
 // links
 $link-color: #4174d5 !default;
 $link-color-hover: $link-color !default;
@@ -58,5 +58,5 @@ $serif: YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明�
 $base-font-size--pc: 16px;
 $base-font-size--sp: 14px;
 
-$base-line-height--pc: 21px;
-$base-line-height--sp: 18px;
+$base-line-height--pc: 18px;
+$base-line-height--sp: 16px;

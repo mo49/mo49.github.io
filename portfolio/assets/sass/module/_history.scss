@@ -1,3 +1,34 @@
 .history{
-  padding: 10px;
+  $padding-left: 15px;
+  padding: 30px 10px;
+
+  &__content{
+    padding-left: $padding-left;
+  }
+
+  h3{
+  }
+
+  &__list{
+    padding-left: $padding-left;
+    margin-bottom: 30px;
+  }
+  &__item{
+    list-style: none;
+  }
+  &__year{
+    font-weight: bold;
+    color: $font-color-sub;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  &__name{
+    font-weight: bold;
+    color: $font-color-sub;
+    padding-left: $padding-left;
+    margin-bottom: 5px;
+  }
+  &__desc{
+    padding-left: $padding-left;
+  }
 }

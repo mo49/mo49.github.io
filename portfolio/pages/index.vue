@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="container" data-page="index">
     <div>
       <h1 class="title">PORTFOLIO SITE</h1>
       <profile data-bg="odd"/>
