@@ -3,11 +3,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'portfolio',
+    title: 'Portfolio Site | Kazuki Mochizuki',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'Mochizuki Kazuki のポートフォリオサイトです' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: `/favicon.ico` }
