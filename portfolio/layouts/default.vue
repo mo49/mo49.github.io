@@ -21,6 +21,7 @@ export default {
 *{
   box-sizing: border-box;
   outline: none;
+  line-height: 1.5;
 }
 html {
   font-family: $font-family;

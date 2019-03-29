@@ -1,3 +1,35 @@
 .work{
-  padding: 0 15px;
+
+  .work__title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+  }
+
+  h2{
+    margin-bottom: 20px;
+  }
+
+  div[data-bg]{
+    padding: 30px 20px;
+  }
+
+  &-image__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &-image__item{
+    list-style: none;
+    margin-bottom: 10px;
+    @include pc-layout{
+      width: 49%;
+    }
+    @include sp-layout{
+      width: 100%;
+    }
+    img{
+      width: 100%;
+    }
+  }
 }
