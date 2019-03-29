@@ -12,7 +12,7 @@
         <li class="history__item">
           <p class="history__year">2018 –</p>
           <p class="history__name">SHOWROOM</p>
-          <p class="history__desc">・xR Lab / Unity Developer, Web Front-End Engineer</p>
+          <p class="history__desc">・xR Div. / Unity Developer, Web Front-End Engineer</p>
         </li>
       </ul>
       <h3>EDUCATION</h3>
