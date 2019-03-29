@@ -18,14 +18,16 @@ export default {
 </script>
 
 <style lang="scss">
+*{
+  box-sizing: border-box;
+  outline: none;
+}
 html {
   font-family: $font-family;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-  outline: none;
   color: $font-color-desc;
 }
 body{
@@ -42,7 +44,7 @@ body{
     font-size: $base-font-size--sp;
     line-height: $base-line-height--sp;
   }
-  p,div,ul,li,h1,h2,h3,h4,h5,h6{
+  p,div,ul,li,h1,h2,h3,h4,h5,h6,figure,figcaption{
     margin: 0;
     padding: 0;
   }
