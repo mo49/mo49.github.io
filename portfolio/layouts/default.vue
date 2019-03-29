@@ -77,13 +77,13 @@ body{
     }
   }
 }
+[v-cloak]{
+  display: none;
+}
+@keyframes cloak-in{
+  0%{opacity: 0;}
+}
 .wrapper{
-  [v-cloak]{
-    display: none;
-  }
-  @keyframes cloak-in{
-    0%{opacity: 0;}
-  }
   animation: cloak-in 1s;
   &[v-cloak]{
     opacity: 0;
