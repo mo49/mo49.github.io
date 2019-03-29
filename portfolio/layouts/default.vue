@@ -76,7 +76,6 @@ body{
 }
 .wrapper{
   margin: 0 auto;
-  padding: 0 5px;
   @include pc-layout{
     width: $pc_min_width;
   }
