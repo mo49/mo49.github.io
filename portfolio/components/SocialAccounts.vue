@@ -1,7 +1,6 @@
 <template>
   <div class="social-accounts">
     <h2>SOCIAL ACCOUNTS</h2>
-    <!-- <font-awesome-icon icon="coffee" /> -->
     <a href="https://www.facebook.com/kazuki.mochizuki" target="_blank">
       <font-awesome-icon :icon="['fab', 'facebook']" class="fa-3x"/>
     </a>
@@ -23,6 +22,5 @@
     <a href="https://www.instagram.com/mczkzk_/" target="_blank">
       <font-awesome-icon :icon="['fab', 'instagram']" class="fa-3x"/>
     </a>
-
   </div>
 </template>
