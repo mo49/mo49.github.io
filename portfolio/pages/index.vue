@@ -1,12 +1,10 @@
 <template>
   <section class="container" data-page="index">
-    <div>
-      <h1 class="title">PORTFOLIO SITE</h1>
-      <profile data-bg="odd"/>
-      <history data-bg="even" />
-      <gallery data-bg="odd" />
-      <social-accounts data-bg="even" />
-    </div>
+    <h1 class="index__title">PORTFOLIO SITE</h1>
+    <profile data-bg="odd"/>
+    <history data-bg="even" />
+    <gallery data-bg="odd" />
+    <social-accounts data-bg="even" />
   </section>
 </template>
 
