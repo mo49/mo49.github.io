@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper" v-cloak>
     <common-header/>
     <nuxt/>
     <common-footer/>
@@ -78,6 +78,17 @@ body{
   }
 }
 .wrapper{
+  [v-cloak]{
+    display: none;
+  }
+  @keyframes cloak-in{
+    0%{opacity: 0;}
+  }
+  animation: cloak-in 1s;
+  &[v-cloak]{
+    opacity: 0;
+  }
+
   margin: 0 auto;
   @include pc-layout{
     width: $pc_min_width;
