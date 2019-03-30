@@ -14,10 +14,10 @@
       <h2>Image / Movie</h2>
       <ul class="work-image__list">
         <li class="work-image__item">
-          <img src="~assets/image/works/3dcg-vfx/showroom-office/1.jpg">
+          <img src="~assets/image/works/3dcg-vfx/showroom-office/1.jpg" @click="openModal">
         </li>
         <li class="work-image__item">
-          <img src="~assets/image/works/3dcg-vfx/showroom-office/2.jpg">
+          <img src="~assets/image/works/3dcg-vfx/showroom-office/2.jpg" @click="openModal">
         </li>
       </ul>
     </div>
@@ -29,13 +29,22 @@
       <h2>Production Time</h2>
       <p>December, 2018. (about 1week)</p>
     </div>
+    <modal ref="modal" />
   </section>
 </template>
 
 <script>
+import Modal from "~/components/Modal"
+
 export default {
   components: {
-  }
+    Modal,
+  },
+  methods: {
+    openModal(evt) {
+      this.$refs.modal.openModal(evt);
+    },
+  },
 }
 </script>
 
