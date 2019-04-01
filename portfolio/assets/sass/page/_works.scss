@@ -22,6 +22,16 @@
   &-image__item{
     list-style: none;
     margin-bottom: 10px;
+    &.size-half{
+      @include pc-layout{
+        width: 49%;
+      }
+    }
+    &.size-full{
+      @include pc-layout{
+        width: 109%;
+      }
+    }
     @include pc-layout{
       width: 49%;
     }
@@ -31,6 +41,17 @@
     img{
       width: 100%;
       @include hover();
+    }
+    .youtube{
+      @include flex-img();
+      position: relative;
+      iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 }

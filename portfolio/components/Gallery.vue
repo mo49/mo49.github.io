@@ -20,7 +20,7 @@
     <h3>VR</h3>
     <ul class="gallery__list" data-genre="vr">
       <li class="gallery__item">
-        <nuxt-link to="works/3dcg-vfx/showroom-office">
+        <nuxt-link to="works/vr/tele-magic">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">

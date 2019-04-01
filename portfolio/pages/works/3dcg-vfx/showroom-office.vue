@@ -7,16 +7,17 @@
       <h2>About</h2>
       <p>
         デジタルハリウッド3DCGコースに入学から3ヶ月後の課題制作。近い将来VR出社するのが当たり前になるかもしれないと考え、より具体的なイメージを掴むため弊社オフィスを3DCGで再現してみた。<br>
+        <br>
         約30のスポットライトとポイントライトを仕込んだり、スタンドライトにSSSで透け感を出してみたりと、ライティング周りに時間を割いた。Arnoldレンダリング。スーパースキャンスタジオで撮影した人体モデル以外をモデリングした。
       </p>
     </div>
     <div class="work-image" data-bg="even">
       <h2>Image / Movie</h2>
       <ul class="work-image__list">
-        <li class="work-image__item">
+        <li class="work-image__item size-half">
           <img src="~assets/image/works/3dcg-vfx/showroom-office/1.jpg" @click="openModal">
         </li>
-        <li class="work-image__item">
+        <li class="work-image__item size-half">
           <img src="~assets/image/works/3dcg-vfx/showroom-office/2.jpg" @click="openModal">
         </li>
       </ul>
@@ -27,7 +28,7 @@
     </div>
     <div class="work-time" data-bg="even">
       <h2>Production Time</h2>
-      <p>December, 2018. (about 1week)</p>
+      <p>December, 2018. (about 2week)</p>
     </div>
     <modal ref="modal" />
   </section>
