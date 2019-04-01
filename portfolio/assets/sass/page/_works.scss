@@ -10,6 +10,17 @@
     margin-bottom: 20px;
   }
 
+  a{
+    color: $link-color;
+    &:visited{
+      color: $link-color-visited;
+    }
+    &:hover{
+      color: #fff;
+      background-color: $link-color-hover;
+    }
+  }
+
   div[data-bg]{
     padding: 30px 20px;
   }
