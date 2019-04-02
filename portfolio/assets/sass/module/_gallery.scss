@@ -28,15 +28,16 @@
     left: 0;
     background-color: rgba(#000, .3);
     color: #fff;
-    font-size: 12px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     @include pc-layout{
+      font-size: 12px;
       padding: 15px;
     }
     @include sp-layout{
+      font-size: 10px;
       padding: 5px;
     }
     p:nth-child(1){
