@@ -1,15 +1,10 @@
 .additional-information{
 
-  &__content{
-    padding-left: 15px;
-  }
-
-  &__list{
-
-  }
-
   &__item{
     list-style: none;
+    p:nth-child(2){
+      margin-left: 15px;
+    }
   }
 
 }

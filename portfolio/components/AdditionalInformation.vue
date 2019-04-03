@@ -9,9 +9,7 @@
           </p>
         </li>
         <li class="additional-information__item">
-          <p>・Japanese
-            - Native, English
-            - Basic</p>
+          <p>・Japanese - Native, English - Basic</p>
         </li>
         <li class="additional-information__item">
           <p>・Travel Abroad</p>
