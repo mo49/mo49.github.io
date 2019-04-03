@@ -143,6 +143,7 @@
 </template>
 
 <style lang="scss">
+@import "~assets/sass/module/gallery";
 .gallery__list{
   &[data-genre="3dcg-vfx"]{
     .gallery__item{

@@ -1,4 +1,4 @@
-.work{
+section[data-page="work"]{
 
   .work__title{
     margin-top: 30px;
@@ -27,12 +27,12 @@
     padding: 30px 20px;
   }
 
-  &-image__list{
+  .work-image__list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  &-image__item{
+  .work-image__item{
     list-style: none;
     margin-bottom: 10px;
     &.size-half{

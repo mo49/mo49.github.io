@@ -1,5 +1,5 @@
 <template>
-  <section class="container work">
+  <section class="container work" data-page="work">
     <h1 class="work__title">
       (株)SHOWROOM荒井ビルオフィスのモデリング
     </h1>

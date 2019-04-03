@@ -24,3 +24,7 @@
     </a>
   </div>
 </template>
+
+<style lang="scss">
+@import "~assets/sass/module/social-accounts";
+</style>
