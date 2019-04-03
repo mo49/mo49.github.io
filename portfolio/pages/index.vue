@@ -5,6 +5,7 @@
     <history data-bg="even" />
     <gallery data-bg="odd" />
     <social-accounts data-bg="even" />
+    <additional-information data-bg="odd" />
   </section>
 </template>
 
@@ -13,13 +14,15 @@ import Profile from '~/components/Profile.vue'
 import History from '~/components/History.vue'
 import Gallery from '~/components/Gallery.vue'
 import SocialAccounts from '~/components/SocialAccounts.vue'
+import AdditionalInformation from '~/components/AdditionalInformation.vue'
 
 export default {
   components: {
     Profile,
     History,
     Gallery,
-    SocialAccounts
+    SocialAccounts,
+    AdditionalInformation
   }
 }
 </script>
