@@ -5,4 +5,11 @@
     margin-right: 10px;
     margin-bottom: 10px;
   }
+
+  a{
+    color: $link-color;
+    &:visited{
+      color: $link-color-visited;
+    }
+  }
 }

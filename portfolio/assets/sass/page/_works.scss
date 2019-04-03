@@ -13,14 +13,7 @@ section[data-page="work"]{
   }
 
   a{
-    color: $link-color;
-    &:visited{
-      color: $link-color-visited;
-    }
-    &:hover{
-      color: #fff;
-      background-color: $link-color-hover;
-    }
+    @include link();
   }
 
   div[data-bg]{

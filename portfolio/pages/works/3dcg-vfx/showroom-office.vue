@@ -28,7 +28,7 @@
     </div>
     <div class="work-time" data-bg="even">
       <h2>Production Time</h2>
-      <p>December, 2018. (about 2week)</p>
+      <p>December, 2018. (about 2weeks)</p>
     </div>
     <modal ref="modal" />
   </section>

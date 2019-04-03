@@ -1,5 +1,9 @@
 .additional-information{
 
+  a{
+    @include link();
+  }
+
   &__item{
     list-style: none;
     p:nth-child(2){
