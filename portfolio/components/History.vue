@@ -7,12 +7,16 @@
         <li class="history__item">
           <p class="history__year">2015 – 2018</p>
           <h4 class="history__name">KAYAC.INC</h4>
-          <p class="history__desc">・HTMLファイ部 | Web Front-End Engineer</p>
+          <ul class="history__desc">
+            <li>HTMLファイ部 | Web Front-End Engineer</li>
+          </ul>
         </li>
         <li class="history__item">
           <p class="history__year">2018 –</p>
           <h4 class="history__name">SHOWROOM</h4>
-          <p class="history__desc">・xR Div. | Unity Developer, Web Front-End Engineer</p>
+          <ul class="history__desc">
+            <li>xR Div. | Unity Developer, Web Front-End Engineer</li>
+          </ul>
         </li>
       </ul>
       <h3>EDUCATION</h3>
@@ -20,24 +24,32 @@
         <li class="history__item">
           <p class="history__year">2009 – 2013</p>
           <h4 class="history__name">KEIO UNIVERSITY</h4>
-          <p class="history__desc">・Bachelor of Arts in Human Science</p>
-          <p class="history__desc">・Development Economics Seminar</p>
+          <ul class="history__desc">
+            <li>Bachelor of Arts in Human Science</li>
+            <li>Development Economics Seminar</li>
+          </ul>
         </li>
         <li class="history__item">
           <p class="history__year">2014 – 2015</p>
           <h4 class="history__name">DIGITAL HOLLYWOOD SCHOOL</h4>
-          <p class="history__desc">・Interactive Design Course</p>
-          <p class="history__desc">・G’s Academy Developer Course, a 3rd cohort</p>
+          <ul class="history__desc">
+            <li>Interactive Design Course</li>
+            <li>G’s Academy Developer Course, a 3rd cohort</li>
+          </ul>
         </li>
         <li class="history__item">
           <p class="history__year">2017</p>
           <h4 class="history__name">VR ACADEMY</h4>
-          <p class="history__desc">・Expert Course, a 2nd cohort</p>
+          <ul class="history__desc">
+            <li>Expert Course, a 2nd cohort</li>
+          </ul>
         </li>
         <li class="history__item">
           <p class="history__year">2018 – 2019</p>
           <h4 class="history__name">DIGITAL HOLLYWOOD SCHOOL</h4>
-          <p class="history__desc">・3DCG Course, A scholarship student</p>
+          <ul class="history__desc">
+            <li>3DCG Course, a scholarship student</li>
+          </ul>
         </li>
       </ul>
     </div>

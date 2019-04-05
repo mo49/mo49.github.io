@@ -5,10 +5,14 @@
   }
 
   &__item{
-    list-style: none;
+    list-style: disc;
     margin-bottom: 5px;
-    p:nth-child(2){
-      margin-left: 10px;
+    margin-left: 20px;
+    ul{
+      margin-left: 20px;
+    }
+    li{
+      list-style-type: circle;
     }
   }
 

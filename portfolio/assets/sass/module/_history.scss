@@ -19,15 +19,16 @@
     font-weight: bold;
     color: $font-color-sub;
     margin-top: 20px;
-    // margin-bottom: 10px;
   }
   &__name{
     font-weight: bold;
     color: $font-color-sub;
     padding-left: $padding-left;
-    // margin-bottom: 5px;
   }
   &__desc{
-    padding-left: $padding-left;
+    padding-left: 30px;
+    li{
+      list-style-type: disc;
+    }
   }
 }
