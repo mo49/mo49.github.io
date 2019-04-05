@@ -6,7 +6,7 @@
         <p class="profile__thumb"></p>
       </div>
       <div class="profile__right">
-        <p class="profile__name">Kazuki Mochizuki | 1989.04.09</p>
+        <h3 class="profile__name">Kazuki Mochizuki | 1989.04.09</h3>
         <p class="profile__desc">Developer / Otaku / Backpacker</p>
       </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
   <section class="container work" data-page="work">
     <h1 class="work__title">
-      (株)SHOWROOM荒井ビルオフィスのモデリング
+      株式会社SHOWROOM,荒井ビルオフィス
     </h1>
     <div class="work-about" data-bg="odd">
       <h2>About</h2>

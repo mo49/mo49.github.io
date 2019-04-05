@@ -52,28 +52,37 @@ body{
   h1{
     color: $font-color-main;
     @include pc-layout{
-      font-size: $base-font-size--pc*1.5;
+      font-size: $base-font-size--pc*1.6;
     }
     @include sp-layout{
-      font-size: $base-font-size--sp*1.5;
+      font-size: $base-font-size--sp*1.6;
     }
   }
   h2{
     color: $font-color-main;
     @include pc-layout{
-      font-size: $base-font-size--pc*1.3;
+      font-size: $base-font-size--pc*1.6;
     }
     @include sp-layout{
-      font-size: $base-font-size--sp*1.3;
+      font-size: $base-font-size--sp*1.6;
     }
   }
   h3{
     color: $font-color-main;
     @include pc-layout{
-      font-size: $base-font-size--pc*1.1;
+      font-size: $base-font-size--pc*1.4;
     }
     @include sp-layout{
-      font-size: $base-font-size--sp*1.1;
+      font-size: $base-font-size--sp*1.4;
+    }
+  }
+  h4{
+    color: $font-color-main;
+    @include pc-layout{
+      font-size: $base-font-size--pc*1.2;
+    }
+    @include sp-layout{
+      font-size: $base-font-size--sp*1.2;
     }
   }
 }

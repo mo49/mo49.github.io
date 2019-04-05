@@ -9,7 +9,7 @@
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
-              <p>(株)SHOWROOM荒井ビルオフィスのモデリング</p>
+              <p>株式会社SHOWROOM,荒井ビルオフィス</p>
               <p>Maya</p>
             </figcaption>
           </figure>

@@ -2,24 +2,37 @@
 
   &__content{
     display: flex;
-    // padding-left: 15px;
+    flex-wrap: wrap;
   }
 
   &__left{
     margin-right: 20px;
+    @include sp-layout{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
   }
 
   &__right{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
+    @include pc-layout{
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+    }
     p{
       margin: 5px 0;
     }
   }
 
   &__thumb{
-    @include image(120,120);
+    @include pc-layout{
+      @include image(150,150);
+    }
+    @include sp-layout{
+      @include image(180,180);
+    }
     border-radius: 50%;
   }
 
