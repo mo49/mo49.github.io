@@ -1,22 +1,27 @@
 .gallery{
 
   &__list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+    @include sp-layout{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
   }
 
   &__item{
     list-style: none;
-    margin-bottom: 20px;
     position: relative;
     overflow: hidden;
     @include hover();
     @include pc-layout{
-      width: 32%;
+      width: 230px;
+      margin: 0 4px 8px;
+      display: inline-block;
     }
     @include sp-layout{
       width: 49%;
+      margin-bottom: 10px;
     }
   }
 
