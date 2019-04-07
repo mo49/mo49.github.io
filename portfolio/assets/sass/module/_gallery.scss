@@ -8,11 +8,16 @@
 
   &__item{
     list-style: none;
-    width: 32%;
     margin-bottom: 20px;
     position: relative;
     overflow: hidden;
     @include hover();
+    @include pc-layout{
+      width: 32%;
+    }
+    @include sp-layout{
+      width: 49%;
+    }
   }
 
   &__thumb{
@@ -38,10 +43,40 @@
     }
     @include sp-layout{
       font-size: 10px;
-      padding: 5px;
+      padding: 10px;
+    }
+    &:after{
+      content: 'private';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-weight: bold;
+      @include pc-layout{
+        font-size: 14px;
+        padding: 10px 15px;
+      }
+      @include sp-layout{
+        font-size: 12px;
+        padding: 5px 8px;
+      }
     }
     p:nth-child(1){
       font-weight: bold;
+    }
+  }
+  &__item{
+    &[data-label="business"]{
+      .gallery__caption:after{
+        content:'business';
+        background-color: rgba($label-color-business, .3);
+      }
+    }
+    &[data-label="private"]{
+      .gallery__caption:after{
+        content:'private';
+        background-color: rgba($label-color-private, .3);
+      }
     }
   }
 }

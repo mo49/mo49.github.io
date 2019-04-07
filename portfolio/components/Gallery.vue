@@ -4,7 +4,7 @@
 
     <h3>3DCG/VFX</h3>
     <ul class="gallery__list" data-genre="3dcg-vfx">
-      <li class="gallery__item">
+      <li class="gallery__item" data-label="private">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
@@ -19,7 +19,7 @@
 
     <h3>VR</h3>
     <ul class="gallery__list" data-genre="vr">
-      <li class="gallery__item">
+      <li class="gallery__item" data-label="private">
         <nuxt-link to="works/vr/tele-magic">
           <figure>
             <div class="gallery__thumb"></div>
@@ -30,7 +30,7 @@
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item">
+      <li class="gallery__item" data-label="private">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
@@ -41,7 +41,7 @@
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item">
+      <li class="gallery__item" data-label="private">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
@@ -56,7 +56,7 @@
 
     <h3>Web Front-End</h3>
     <ul class="gallery__list" data-genre="web">
-      <li class="gallery__item">
+      <li class="gallery__item" data-label="business">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
@@ -67,7 +67,7 @@
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item">
+      <li class="gallery__item" data-label="business">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
@@ -78,7 +78,7 @@
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item">
+      <li class="gallery__item" data-label="private">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
@@ -89,7 +89,7 @@
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item">
+      <li class="gallery__item" data-label="private">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
@@ -104,7 +104,7 @@
 
     <h3>Other</h3>
     <ul class="gallery__list" data-genre="other">
-      <li class="gallery__item">
+      <li class="gallery__item" data-label="private">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
@@ -115,7 +115,7 @@
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item">
+      <li class="gallery__item" data-label="private">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
@@ -126,7 +126,7 @@
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item">
+      <li class="gallery__item" data-label="private">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
