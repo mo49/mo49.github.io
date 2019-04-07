@@ -18,6 +18,9 @@ section[data-page="work"]{
 
   div[data-bg]{
     padding: 30px 20px;
+    &:empty{
+      display: none;
+    }
   }
 
   .work-image__list{
