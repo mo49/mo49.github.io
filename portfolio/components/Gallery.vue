@@ -41,7 +41,7 @@
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item" data-label="private">
+      <!-- <li class="gallery__item" data-label="private">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
@@ -51,7 +51,7 @@
             </figcaption>
           </figure>
         </nuxt-link>
-      </li>
+      </li> -->
     </ul>
 
     <h3>Web Front-End</h3>
@@ -152,6 +152,16 @@
       }
       &:nth-child(2) .gallery__thumb{
         background-image: url("~assets/image/works/3dcg-vfx/showroom-office/1.jpg");
+      }
+    }
+  }
+  &[data-genre="vr"]{
+    .gallery__item{
+      &:nth-child(1) .gallery__thumb{
+        background-image: url("~assets/image/works/vr/tele-magic/1.png");
+      }
+      &:nth-child(2) .gallery__thumb{
+        background-image: url("~assets/image/works/vr/gracity/1.png");
       }
     }
   }

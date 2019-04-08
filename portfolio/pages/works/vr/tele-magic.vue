@@ -37,6 +37,8 @@
       <h2>Production Time</h2>
       <p>December, 2018. (about 2week)</p>
     </div>
+    <div class="work-media" data-bg="odd">
+    </div>
     <modal ref="modal" />
   </section>
 </template>
