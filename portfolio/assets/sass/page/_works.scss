@@ -59,6 +59,9 @@ section[data-page="work"]{
       font-size: 14px;
       font-style: italic;
       padding: 5px 0 10px;
+      &:empty{
+        display: none;
+      }
     }
     .youtube{
       @include flex-img();
