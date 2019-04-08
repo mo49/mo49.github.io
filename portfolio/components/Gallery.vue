@@ -105,7 +105,7 @@
     <h3>Other</h3>
     <ul class="gallery__list" data-genre="other">
       <li class="gallery__item" data-label="private">
-        <nuxt-link to="works/3dcg-vfx/showroom-office">
+        <nuxt-link to="works/other/tabippo2015">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -116,7 +116,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private">
-        <nuxt-link to="works/3dcg-vfx/showroom-office">
+        <nuxt-link to="works/other/creators-audition">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -127,7 +127,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private">
-        <nuxt-link to="works/3dcg-vfx/showroom-office">
+        <nuxt-link to="works/other/sendenkaigi">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -178,6 +178,19 @@
       }
       &:nth-child(4) .gallery__thumb{
         background-image: url("~assets/image/works/web/webgl-world-heritage/1.png");
+      }
+    }
+  }
+  &[data-genre="other"]{
+    .gallery__item{
+      &:nth-child(1) .gallery__thumb{
+        background-image: url("~assets/image/works/other/tabippo2015/1.png");
+      }
+      &:nth-child(2) .gallery__thumb{
+        background-image: url("~assets/image/works/other/creators-audition/1.png");
+      }
+      &:nth-child(3) .gallery__thumb{
+        background-image: url("~assets/image/works/other/sendenkaigi/1.png");
       }
     }
   }
