@@ -7,7 +7,7 @@
       </div>
       <div class="profile__right">
         <h3 class="profile__name">Kazuki Mochizuki | 1989.04.09</h3>
-        <p class="profile__desc">Developer / Otaku / Backpacker</p>
+        <p class="profile__desc">Developer / Virtual Being / Backpacker / Anime Otaku</p>
       </div>
     </div>
   </div>
