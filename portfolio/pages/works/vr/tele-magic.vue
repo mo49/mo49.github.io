@@ -22,19 +22,19 @@
           <div class="youtube">
             <iframe src="https://www.youtube.com/embed/oVYiC1urFyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <caption>Theta背景あり</caption>
+          <figcaption>Theta背景あり</figcaption>
         </li>
         <li class="work-image__item size-full">
           <div class="youtube">
             <iframe src="https://www.youtube.com/embed/HAP6bRYbTqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <caption>Theta背景なし</caption>
+          <figcaption>Theta背景なし</figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/vr/tele-magic/2.jpg" @click="openModal">
-          <caption>
+          <figcaption>
             <a href="https://vracademy.jp/events/vrfes/" target="_blank">VRコンテンツfes. 2018 Spring</a> に出展
-          </caption>
+          </figcaption>
         </li>
       </ul>
     </div>

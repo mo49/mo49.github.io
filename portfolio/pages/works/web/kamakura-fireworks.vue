@@ -19,21 +19,21 @@
       <ul class="work-image__list">
         <li class="work-image__item">
           <img src="~assets/image/works/web/kamakura-fireworks/2.png" @click="openModal">
-          <caption>
+          <figcaption>
             しだれ柳
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/kamakura-fireworks/3.png" @click="openModal">
-          <caption>
+          <figcaption>
             水中花火
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/kamakura-fireworks/5.png" @click="openModal">
-          <caption>
+          <figcaption>
             ブレーン2017年10月号
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item size-full">
           <div class="youtube">

@@ -16,44 +16,44 @@
       <ul class="work-image__list">
         <li class="work-image__item size-full">
           <img src="~assets/image/works/web/webgl-world-heritage/1.png" @click="openModal">
-          <caption>
-          </caption>
+          <figcaption>
+          </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/webgl-world-heritage/2.png" @click="openModal">
-          <caption>
+          <figcaption>
             チュートリアル
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/webgl-world-heritage/3.png" @click="openModal">
-          <caption>
+          <figcaption>
             ポップアップを表示
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item size-full">
           <div class="youtube">
             <iframe src="https://www.youtube.com/embed/7ai4iDLLyCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <caption>
+          <figcaption>
             プロモーションビデオ
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item size-full">
           <div class="youtube">
             <iframe src="https://www.youtube.com/embed/1O1qjFUHb3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <caption>
+          <figcaption>
             インタビュー映像
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item size-full">
           <div class="youtube">
             <iframe src="https://www.youtube.com/embed/0ARLtfpPxUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <caption>
+          <figcaption>
             デジタルフロンティアグランプリ2016授賞式
-          </caption>
+          </figcaption>
         </li>
       </ul>
     </div>

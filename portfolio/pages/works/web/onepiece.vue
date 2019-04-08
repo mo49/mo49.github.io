@@ -17,39 +17,39 @@
       <ul class="work-image__list">
         <li class="work-image__item">
           <img src="~assets/image/works/web/onepiece/1.png" @click="openModal">
-          <caption>
+          <figcaption>
             オンエア画面
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/onepiece/2.png" @click="openModal">
-          <caption>
+          <figcaption>
             結果画面
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/onepiece/3.jpg" @click="openModal">
-          <caption>
+          <figcaption>
             ジャンプ誌面掲載
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item size-full">
           <div class="youtube">
             <iframe src="https://www.youtube.com/embed/8st9LbcYIHQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <caption>実際に遊んでみている様子</caption>
+          <figcaption>実際に遊んでみている様子</figcaption>
         </li>
         <li class="work-image__item size-full">
           <div class="youtube">
             <iframe src="https://www.youtube.com/embed/nYvS4oDFHlo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <caption>画面キャプチャ</caption>
+          <figcaption>画面キャプチャ</figcaption>
         </li>
         <li class="work-image__item size-full">
           <div class="youtube">
             <iframe src="https://www.youtube.com/embed/Eqf75kwe1CM?start=1305" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <caption>特番でスタッフさんに触ってみていただいている様子</caption>
+          <figcaption>特番でスタッフさんに触ってみていただいている様子</figcaption>
         </li>
       </ul>
     </div>

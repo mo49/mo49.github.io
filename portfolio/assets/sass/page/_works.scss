@@ -53,8 +53,9 @@ section[data-page="work"]{
       display: block;
       @include hover();
     }
-    caption{
+    figcaption{
       display: block;
+      text-align: center;
       font-size: 14px;
       font-style: italic;
       padding: 5px 0 10px;

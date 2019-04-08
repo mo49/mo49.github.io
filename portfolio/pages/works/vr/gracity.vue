@@ -29,15 +29,15 @@
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/vr/gracity/2.jpg" @click="openModal">
-          <caption>
+          <figcaption>
             展示の様子
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/vr/gracity/3.jpg" @click="openModal">
-          <caption>
+          <figcaption>
             コントローラー操作方法
-          </caption>
+          </figcaption>
         </li>
       </ul>
     </div>
