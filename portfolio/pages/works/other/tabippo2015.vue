@@ -34,7 +34,13 @@
           <div class="youtube">
             <iframe src="https://www.youtube.com/embed/aSiUjBCBKgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <figcaption></figcaption>
+          <figcaption>本番ムービー</figcaption>
+        </li>
+        <li class="work-image__item size-full">
+          <div class="youtube">
+            <iframe src="https://www.youtube.com/embed/nuqTiQUO7hs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <figcaption>次回のデモムービー（非公開）</figcaption>
         </li>
       </ul>
     </div>
