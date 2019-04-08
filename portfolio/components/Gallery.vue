@@ -57,7 +57,7 @@
     <h3>Web Front-End</h3>
     <ul class="gallery__list" data-genre="web">
       <li class="gallery__item" data-label="business">
-        <nuxt-link to="works/3dcg-vfx/showroom-office">
+        <nuxt-link to="works/web/onepiece">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -68,7 +68,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="business">
-        <nuxt-link to="works/3dcg-vfx/showroom-office">
+        <nuxt-link to="works/web/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -79,7 +79,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private">
-        <nuxt-link to="works/3dcg-vfx/showroom-office">
+        <nuxt-link to="works/web/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -90,7 +90,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private">
-        <nuxt-link to="works/3dcg-vfx/showroom-office">
+        <nuxt-link to="works/web/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -162,6 +162,22 @@
       }
       &:nth-child(2) .gallery__thumb{
         background-image: url("~assets/image/works/vr/gracity/1.png");
+      }
+    }
+  }
+  &[data-genre="web"]{
+    .gallery__item{
+      &:nth-child(1) .gallery__thumb{
+        background-image: url("~assets/image/works/web/onepiece/1.png");
+      }
+      &:nth-child(2) .gallery__thumb{
+        background-image: url("~assets/image/works/web/kamakura-fireworks/1.png");
+      }
+      &:nth-child(3) .gallery__thumb{
+        background-image: url("~assets/image/works/web/mental-energy/2.png");
+      }
+      &:nth-child(4) .gallery__thumb{
+        background-image: url("~assets/image/works/web/webgl-world-heritage/1.png");
       }
     }
   }
