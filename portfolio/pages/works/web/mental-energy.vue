@@ -20,27 +20,27 @@
           <div class="youtube">
             <iframe src="https://www.youtube.com/embed/FrOB_j6wHa0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <caption>
+          <figcaption>
             プロモーションビデオ
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/mental-energy/2.png" @click="openModal">
-          <caption>
+          <figcaption>
             マイルールを登録する
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/mental-energy/3.png" @click="openModal">
-          <caption>
+          <figcaption>
             マイルールを地図上に表示する
-          </caption>
+          </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/mental-energy/4.png" @click="openModal">
-          <caption>
+          <figcaption>
             達成度をエネルギーで可視化
-          </caption>
+          </figcaption>
         </li>
       </ul>
     </div>
