@@ -68,7 +68,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="business">
-        <nuxt-link to="works/web/showroom-office">
+        <nuxt-link to="works/web/kamakura-fireworks">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -79,7 +79,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private">
-        <nuxt-link to="works/web/showroom-office">
+        <nuxt-link to="works/web/mental-energy">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -90,7 +90,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private">
-        <nuxt-link to="works/web/showroom-office">
+        <nuxt-link to="works/web/webgl-world-heritage">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">

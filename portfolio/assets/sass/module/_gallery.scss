@@ -1,7 +1,7 @@
 .gallery{
 
   &__list{
-
+    margin-bottom: 20px;
     @include sp-layout{
       display: flex;
       flex-wrap: wrap;
