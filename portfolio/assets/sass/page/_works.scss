@@ -50,6 +50,7 @@ section[data-page="work"]{
     }
     img{
       width: 100%;
+      display: block;
       @include hover();
     }
     caption{

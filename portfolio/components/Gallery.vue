@@ -83,7 +83,7 @@
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
-              <p>メンタルエナジー</p>
+              <p>Mental Energy</p>
               <p>PHP / MySQL / Canvas / CreateJS</p>
             </figcaption>
           </figure>
