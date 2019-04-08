@@ -56,6 +56,7 @@ section[data-page="work"]{
     caption{
       display: block;
       font-size: 14px;
+      font-style: italic;
       padding: 5px 0 10px;
     }
     .youtube{
@@ -78,7 +79,8 @@ section[data-page="work"]{
     }
   }
 
-  .work-media{
+  .work-media,
+  .work-award{
     ul{
       margin-left: 20px;
     }
