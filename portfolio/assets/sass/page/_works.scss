@@ -30,7 +30,6 @@ section[data-page="work"]{
   }
   .work-image__item{
     list-style: none;
-    margin-bottom: 10px;
     &.size-half{
       @include pc-layout{
         width: 49%;
@@ -43,9 +42,11 @@ section[data-page="work"]{
     }
     @include pc-layout{
       width: 49%;
+      padding: 10px 0 20px;
     }
     @include sp-layout{
       width: 100%;
+      padding: 5px 0 15px;
     }
     img{
       width: 100%;
@@ -53,7 +54,8 @@ section[data-page="work"]{
     }
     caption{
       display: block;
-      font-size: 12px;
+      font-size: 14px;
+      padding: 5px 0 10px;
     }
     .youtube{
       @include flex-img();

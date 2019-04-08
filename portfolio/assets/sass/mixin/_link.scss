@@ -1,5 +1,6 @@
 @mixin link(){
   color: $link-color;
+  padding: 2px 5px;
   &:visited{
     color: $link-color-visited;
   }
