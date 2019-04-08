@@ -68,8 +68,8 @@
     <div class="work-media" data-bg="odd">
       <h2>Media</h2>
       <ul>
-        <li><a href="http://school.dhw.co.jp/course/digital/index.html">デジタルハリウッド（専門スクール） 本科UI/UXD専攻</a></li>
-        <li><a href="http://school.dhw.co.jp/p/uiuxd-lp/1708dhw/">デジタルハリウッド（専門スクール） 本科UI/UXD専攻 201708</a></li>
+        <li><a href="http://school.dhw.co.jp/course/digital/index.html" target="_blank">デジタルハリウッド（専門スクール） 本科UI/UXD専攻</a></li>
+        <li><a href="http://school.dhw.co.jp/p/uiuxd-lp/1708dhw/" target="_blank">デジタルハリウッド（専門スクール） 本科UI/UXD専攻 201708</a></li>
       </ul>
     </div>
     <div class="work-award" data-bg="even">

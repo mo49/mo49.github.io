@@ -55,7 +55,7 @@
     <div class="work-media" data-bg="odd">
       <h2>Media</h2>
       <ul>
-        <li><a href="http://gsacademy.tokyo/news/2016/11/000203.html">文系・未経験からプログラミングを学んだメンバーがリリースしたジーズ発サービス13選 Vol.2 2016.11.15</a></li>
+        <li><a href="http://gsacademy.tokyo/news/2016/11/000203.html" target="_blank">文系・未経験からプログラミングを学んだメンバーがリリースしたジーズ発サービス13選 Vol.2 2016.11.15</a></li>
       </ul>
     </div>
     <modal ref="modal" />

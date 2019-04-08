@@ -55,7 +55,7 @@
     <div class="work-media" data-bg="odd">
       <h2>Media</h2>
       <ul>
-        <li><a href="http://tabippo.net/tabippo2015tokyo-report/">【2200人が歓喜！】TABIPPO2015東京イベントレポート</a></li>
+        <li><a href="http://tabippo.net/tabippo2015tokyo-report/" target="_blank">【2200人が歓喜！】TABIPPO2015東京イベントレポート</a></li>
       </ul>
     </div>
     <div class="work-award" data-bg="even">
