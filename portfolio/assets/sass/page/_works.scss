@@ -51,6 +51,10 @@ section[data-page="work"]{
       width: 100%;
       @include hover();
     }
+    caption{
+      display: block;
+      font-size: 12px;
+    }
     .youtube{
       @include flex-img();
       position: relative;
