@@ -74,13 +74,13 @@
     &[data-label="business"]{
       .gallery__caption:after{
         content:'business';
-        background-color: rgba($label-color-business, .3);
+        background-color: rgba($label-color-business, .5);
       }
     }
     &[data-label="private"]{
       .gallery__caption:after{
         content:'private';
-        background-color: rgba($label-color-private, .3);
+        background-color: rgba($label-color-private, .5);
       }
     }
   }

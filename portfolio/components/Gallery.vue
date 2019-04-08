@@ -31,7 +31,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private">
-        <nuxt-link to="works/3dcg-vfx/showroom-office">
+        <nuxt-link to="works/vr/gracity">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">

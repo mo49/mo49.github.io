@@ -42,7 +42,7 @@ section[data-page="work"]{
     }
     @include pc-layout{
       width: 49%;
-      padding: 10px 0 20px;
+      padding: 10px 0 25px;
     }
     @include sp-layout{
       width: 100%;
@@ -69,4 +69,27 @@ section[data-page="work"]{
       }
     }
   }
+
+  .work-about{
+    text-align: center;
+    h2,p{
+      text-align: left;
+    }
+  }
+
+  .slideshare{
+    $w: 595px;
+    $h: 485px;
+    @include pc-layout{
+      width: $w;
+      height: $h;
+      margin-top: 30px;
+    }
+    @include sp-layout{
+      width: $w/1.5;
+      height: $h/1.5;
+      margin-top: 20px;
+    }
+  }
+
 }
