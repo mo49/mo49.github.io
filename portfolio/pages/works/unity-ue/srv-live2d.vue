@@ -29,7 +29,7 @@
     </div>
     <div class="work-skill" data-bg="odd">
       <h2>Skill</h2>
-      <p>Unity / C#</p>
+      <p>Unity / C# / Live2D</p>
     </div>
     <div class="work-time" data-bg="even">
       <h2>Production Time</h2>

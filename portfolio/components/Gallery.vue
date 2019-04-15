@@ -62,7 +62,7 @@
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
               <p>SHOWROOM V - Readyyy!版</p>
-              <p>Unity</p>
+              <p>Unity / Live2D</p>
             </figcaption>
           </figure>
         </nuxt-link>
