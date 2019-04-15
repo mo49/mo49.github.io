@@ -54,6 +54,21 @@
       </li> -->
     </ul>
 
+    <h3>Unity/UE4</h3>
+    <ul class="gallery__list" data-genre="unity-ue">
+      <li class="gallery__item" data-label="business">
+        <nuxt-link to="works/unity-ue/srv-live2d">
+          <figure>
+            <div class="gallery__thumb"></div>
+            <figcaption class="gallery__caption">
+              <p>SHOWROOM V - Readyyy!版</p>
+              <p>Unity</p>
+            </figcaption>
+          </figure>
+        </nuxt-link>
+      </li>
+    </ul>
+
     <h3>Web Front-End</h3>
     <ul class="gallery__list" data-genre="web">
       <li class="gallery__item" data-label="business">
@@ -162,6 +177,13 @@
       }
       &:nth-child(2) .gallery__thumb{
         background-image: url("~assets/image/works/vr/gracity/1.png");
+      }
+    }
+  }
+  &[data-genre="unity-ue"]{
+    .gallery__item{
+      &:nth-child(1) .gallery__thumb{
+        background-image: url("~assets/image/works/unity-ue/readyyy/1.png");
       }
     }
   }
