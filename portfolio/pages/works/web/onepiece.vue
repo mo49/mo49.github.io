@@ -63,10 +63,10 @@
     <div class="work-media" data-bg="odd">
       <h2>Media</h2>
       <ul>
-        <li><a href="https://www.kayac.com/news/2017/09/ONEPIECE_1709" target="_blank">史上初！？『ワンピース』アニメ放送とスマホがリアルタイムで連動する、特設プレゼントキャンペーンがスタート！</a></li>
-        <li><a href="https://www.kayac.com/service/client/1576" target="_blank">ONE PIECE（ワンピース）アニメ連動キャンペーン</a></li>
-        <li><a href="http://www.animatetimes.com/news/details.php?id=1506090757" target="_blank">『ワンピース』アニメ放送とスマホがリアルタイムで連動する、特設プレゼントキャンペーンサイトがオープン！</a></li>
-        <li><a href="http://news.mynavi.jp/news/2017/09/24/033/" target="_blank">TVアニメ『ワンピース』、スマホとリアルタイムで連動する特設サイト開設</a></li>
+        <li><a class="link-hover" href="https://www.kayac.com/news/2017/09/ONEPIECE_1709" target="_blank">史上初！？『ワンピース』アニメ放送とスマホがリアルタイムで連動する、特設プレゼントキャンペーンがスタート！</a></li>
+        <li><a class="link-hover" href="https://www.kayac.com/service/client/1576" target="_blank">ONE PIECE（ワンピース）アニメ連動キャンペーン</a></li>
+        <li><a class="link-hover" href="http://www.animatetimes.com/news/details.php?id=1506090757" target="_blank">『ワンピース』アニメ放送とスマホがリアルタイムで連動する、特設プレゼントキャンペーンサイトがオープン！</a></li>
+        <li><a class="link-hover" href="http://news.mynavi.jp/news/2017/09/24/033/" target="_blank">TVアニメ『ワンピース』、スマホとリアルタイムで連動する特設サイト開設</a></li>
       </ul>
     </div>
     <modal ref="modal" />

@@ -12,7 +12,7 @@
         <br>
         爆裂魔法スイッチを注視するだけの簡単な操作だが、詠唱時間、スイッチの残数、自身のHP、敵のスピードなどを考慮して最適なタイミングで爆裂魔法を発生させないとクリアできないという戦略性も盛り込んだ。<br>
         <br>
-        Code : <a href="https://github.com/mo49/ThetaLivestreaming" target="_blank">https://github.com/mo49/ThetaLivestreaming</a>
+        Code : <a class="link-hover" href="https://github.com/mo49/ThetaLivestreaming" target="_blank">https://github.com/mo49/ThetaLivestreaming</a>
       </p>
     </div>
     <div class="work-image" data-bg="even">
@@ -33,7 +33,7 @@
         <li class="work-image__item">
           <img src="~assets/image/works/vr/tele-magic/2.jpg" @click="openModal">
           <figcaption>
-            <a href="https://vracademy.jp/events/vrfes/" target="_blank">VRコンテンツfes. 2018 Spring</a> に出展
+            <a class="link-hover" href="https://vracademy.jp/events/vrfes/" target="_blank">VRコンテンツfes. 2018 Spring</a> に出展
           </figcaption>
         </li>
       </ul>

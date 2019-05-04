@@ -12,7 +12,7 @@ section[data-page="work"]{
     border-bottom: dotted 1px $border-color;
   }
 
-  a{
+  a.link-hover{
     @include link();
   }
 
