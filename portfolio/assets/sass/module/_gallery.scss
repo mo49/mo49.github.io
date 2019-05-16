@@ -24,6 +24,18 @@
       width: 49%;
       margin-bottom: 10px;
     }
+    svg{
+      display: none;
+      position: absolute;
+      right: 15px;
+      top: 8px;
+      color: #fff;
+    }
+    &[data-is-lock="true"]{
+      svg{
+        display: block;
+      }
+    }
   }
 
   &__thumb{

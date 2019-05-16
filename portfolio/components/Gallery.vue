@@ -4,7 +4,7 @@
 
     <h3>3DCG/VFX</h3>
     <ul class="gallery__list" data-genre="3dcg-vfx">
-      <li class="gallery__item" data-label="private">
+      <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
@@ -12,6 +12,7 @@
               <p>株式会社SHOWROOM,荒井ビルオフィス</p>
               <p>Maya</p>
             </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li>
@@ -19,7 +20,7 @@
 
     <h3>VR</h3>
     <ul class="gallery__list" data-genre="vr">
-      <li class="gallery__item" data-label="private">
+      <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/vr/tele-magic">
           <figure>
             <div class="gallery__thumb"></div>
@@ -27,10 +28,11 @@
               <p>Tele-Magic</p>
               <p>Unity / FOVE / Theta V</p>
             </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item" data-label="private">
+      <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/vr/gracity">
           <figure>
             <div class="gallery__thumb"></div>
@@ -38,10 +40,11 @@
               <p>Gracity</p>
               <p>Unity / Vive / PUN / VRTK</p>
             </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li>
-      <!-- <li class="gallery__item" data-label="private">
+      <!-- <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb"></div>
@@ -49,6 +52,7 @@
               <p>VR Heading Soccer</p>
               <p>Unity / FOVE</p>
             </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li> -->
@@ -56,7 +60,7 @@
 
     <h3>Unity/UE4</h3>
     <ul class="gallery__list" data-genre="unity-ue">
-      <li class="gallery__item" data-label="business">
+      <li class="gallery__item" data-label="business" data-is-lock="false">
         <nuxt-link to="works/unity-ue/srv-live2d">
           <figure>
             <div class="gallery__thumb"></div>
@@ -64,6 +68,7 @@
               <p>SHOWROOM V - Readyyy!版</p>
               <p>Unity / Live2D</p>
             </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li>
@@ -71,7 +76,7 @@
 
     <h3>Web Front-End</h3>
     <ul class="gallery__list" data-genre="web">
-      <li class="gallery__item" data-label="business">
+      <li class="gallery__item" data-label="business" data-is-lock="false">
         <nuxt-link to="works/web/onepiece">
           <figure>
             <div class="gallery__thumb"></div>
@@ -79,10 +84,11 @@
               <p>ONE PIECE WCI編 テレビアニメ連動サイト</p>
               <p>D3.js / Canvas</p>
             </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item" data-label="business">
+      <li class="gallery__item" data-label="business" data-is-lock="false">
         <nuxt-link to="works/web/kamakura-fireworks">
           <figure>
             <div class="gallery__thumb"></div>
@@ -90,10 +96,35 @@
               <p>第69回 鎌倉花火大会</p>
               <p>Canvas / JavaScript</p>
             </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item" data-label="private">
+      <li class="gallery__item" data-label="business" data-is-lock="true">
+        <nuxt-link to="works/web/obayashi" target="_blank">
+          <figure>
+            <div class="gallery__thumb"></div>
+            <figcaption class="gallery__caption">
+              <p>（仮）BIMシステム</p>
+              <p>Three.js / Blender / WebGL / JavaScript</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
+      <li class="gallery__item" data-label="business" data-is-lock="true">
+        <nuxt-link to="works/web/hirameki" target="_blank">
+          <figure>
+            <div class="gallery__thumb"></div>
+            <figcaption class="gallery__caption">
+              <p>（仮）サイネージ</p>
+              <p>Bodymovin / Electron</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
+      <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/web/mental-energy">
           <figure>
             <div class="gallery__thumb"></div>
@@ -101,10 +132,11 @@
               <p>Mental Energy</p>
               <p>PHP / MySQL / Canvas / CreateJS</p>
             </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item" data-label="private">
+      <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/web/webgl-world-heritage">
           <figure>
             <div class="gallery__thumb"></div>
@@ -112,6 +144,7 @@
               <p>WebGL世界遺産</p>
               <p>Three.js</p>
             </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li>
@@ -119,7 +152,7 @@
 
     <h3>Other</h3>
     <ul class="gallery__list" data-genre="other">
-      <li class="gallery__item" data-label="private">
+      <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/other/tabippo2015">
           <figure>
             <div class="gallery__thumb"></div>
@@ -127,10 +160,11 @@
               <p>TABIPPO2015ショートムービー</p>
               <p>AfterEffects / CINEMA 4D</p>
             </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item" data-label="private">
+      <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/other/creators-audition">
           <figure>
             <div class="gallery__thumb"></div>
@@ -138,10 +172,11 @@
               <p>CREATORS AUDITION ポスター</p>
               <p>Illustrator / Photoshop</p>
             </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item" data-label="private">
+      <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/other/sendenkaigi">
           <figure>
             <div class="gallery__thumb"></div>
@@ -149,6 +184,7 @@
               <p>第52回宣伝会議賞 協賛企業賞</p>
               <p>Copywriting</p>
             </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li>
@@ -195,10 +231,10 @@
       &:nth-child(2) .gallery__thumb{
         background-image: url("~assets/image/works/web/kamakura-fireworks/1.png");
       }
-      &:nth-child(3) .gallery__thumb{
+      &:nth-child(5) .gallery__thumb{
         background-image: url("~assets/image/works/web/mental-energy/2.png");
       }
-      &:nth-child(4) .gallery__thumb{
+      &:nth-child(6) .gallery__thumb{
         background-image: url("~assets/image/works/web/webgl-world-heritage/1.png");
       }
     }
