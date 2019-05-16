@@ -13,6 +13,11 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: `/favicon.ico` }
     ]
   },
+  basic: {
+    name: 'recruiter',
+    pass: 'iwantyou',
+    match: /(virtual-cheki|hirameki|obayashi)$/
+  },
   /*
   ** Customize the progress bar color
   */
@@ -37,7 +42,8 @@ module.exports = {
   },
   modules: [
     '@nuxtjs/style-resources',
-    'nuxt-fontawesome'
+    'nuxt-fontawesome',
+    'nuxt-basic-auth-module'
   ],
   css: [
     'normalize.css'

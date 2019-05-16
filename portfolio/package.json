@@ -21,6 +21,7 @@
     "@nuxtjs/style-resources": "^0.1.2",
     "normalize.css": "^8.0.1",
     "nuxt": "^2.0.0",
+    "nuxt-basic-auth-module": "^1.2.0",
     "nuxt-fontawesome": "^0.4.0",
     "push-dir": "^0.4.1"
   },
