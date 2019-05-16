@@ -76,6 +76,18 @@
 
     <h3>Web Front-End</h3>
     <ul class="gallery__list" data-genre="web">
+      <li class="gallery__item" data-label="business" data-is-lock="true">
+        <nuxt-link to="works/web/virtual-cheki" target="_blank">
+          <figure>
+            <div class="gallery__thumb"></div>
+            <figcaption class="gallery__caption">
+              <p>（仮）バーチャルチェキ</p>
+              <p>WebSocket / Node.js / Canvas / GCP</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
       <li class="gallery__item" data-label="business" data-is-lock="false">
         <nuxt-link to="works/web/onepiece">
           <figure>
@@ -225,16 +237,16 @@
   }
   &[data-genre="web"]{
     .gallery__item{
-      &:nth-child(1) .gallery__thumb{
+      &:nth-child(2) .gallery__thumb{
         background-image: url("~assets/image/works/web/onepiece/1.png");
       }
-      &:nth-child(2) .gallery__thumb{
+      &:nth-child(3) .gallery__thumb{
         background-image: url("~assets/image/works/web/kamakura-fireworks/1.png");
       }
-      &:nth-child(5) .gallery__thumb{
+      &:nth-child(6) .gallery__thumb{
         background-image: url("~assets/image/works/web/mental-energy/2.png");
       }
-      &:nth-child(6) .gallery__thumb{
+      &:nth-child(7) .gallery__thumb{
         background-image: url("~assets/image/works/web/webgl-world-heritage/1.png");
       }
     }
