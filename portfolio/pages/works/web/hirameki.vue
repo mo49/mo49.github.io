@@ -6,11 +6,11 @@
     <div class="work-about" data-bg="odd">
       <h2>About</h2>
       <p>
-        偶発ワード（流行語や辞書のワードなど）と、利用者が設定するワード（ブレストのお題やビジネス上のキーワードなど）を組み合わせることで、新しい発想の種を提供するサイネージ。HONDAの最先端技術を研究するイノベーションラボの会議室にて初めて導入された。ライセンス化しアプリケーションとして販売中。海外オフィスへの導入も進行中。
+        利用者がいつも頭の片隅に置いているワード（ブレストのお題やビジネス上のキーワードなど）と、それとは関係のない偶発ワード（流行語や辞書のワードなど）を組み合わせることで、新しい発想の種を提供するサイネージ。HONDAの最先端技術を研究するイノベーションラボの会議室にて初めて導入された。ライセンス化しアプリケーションとして販売中。
         <br><br>
         私の担当はフロントエンド全般。流行りのワードは各種APIで取得し、背景のアニメーションはBodymovinというライブラリを使用したSVGアニメーションになっている。
         <br><br>
-        <a href="https://confit.atlas.jp/guide/event-img/jsai2018/4Pin1-44/public/pdf?type=in" target="_blank">[PDF]発想支援システム「ひらめきエンジン」の紹介</a>
+        <a href="https://confit.atlas.jp/guide/event-img/jsai2018/4Pin1-44/public/pdf?type=in" target="_blank">発想支援システム「ひらめきエンジン」の紹介</a>
       </p>
 
     </div>
@@ -18,9 +18,21 @@
       <h2>Image / Movie</h2>
       <ul class="work-image__list">
         <li class="work-image__item size-full">
-          <img src="~assets/image/works/web/kamakura-fireworks/2.png" @click="openModal">
+          <img src="~assets/image/works/web/hirameki/1.png" @click="openModal">
           <figcaption>
-            しだれ柳
+            基本画面
+          </figcaption>
+        </li>
+        <li class="work-image__item">
+          <img src="~assets/image/works/web/hirameki/2.jpg" @click="openModal">
+          <figcaption>
+            会議スペース(カヤック)
+          </figcaption>
+        </li>
+        <li class="work-image__item">
+          <img src="~assets/image/works/web/hirameki/3.jpg" @click="openModal">
+          <figcaption>
+            コミュニケーションスペース(乃村工藝社：本社)
           </figcaption>
         </li>
         <li class="work-image__item size-full">
@@ -32,13 +44,21 @@
     </div>
     <div class="work-skill" data-bg="odd">
       <h2>Skill</h2>
-      <p>Bodymovin / Electron</p>
+      <p>Bodymovin / Electron / JavaScript</p>
     </div>
     <div class="work-time" data-bg="even">
       <h2>Production Time</h2>
-      <p>from January to February, 2017. (about 1month)</p>
+      <p>
+        from January to February, 2017. (about 1month)<br>
+        from January to February, 2018. (about 1month)
+      </p>
     </div>
     <div class="work-media" data-bg="odd">
+      <h2>Media</h2>
+      <ul>
+        <li><a class="link-hover" href="https://www.kayac.com/news/2018/06/hiramekiengine" target="_blank">カヤックと乃村工藝社さんで“アイデアの種”を無限に生み出す発想支援アプリケーション「ひらめきエンジン」の販売を開始しました！</a></li>
+        <li><a class="link-hover" href="https://www.nikkei.com/article/DGXLRSP483806_Y8A620C1000000/" target="_blank">乃村工芸社とカヤック、発想支援アプリケーション「ひらめきエンジン」を販売開始 </a></li>
+      </ul>
     </div>
     <modal ref="modal" />
   </section>

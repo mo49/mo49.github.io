@@ -112,6 +112,18 @@
           </figure>
         </nuxt-link>
       </li>
+      <li class="gallery__item" data-label="business" data-is-lock="false">
+        <nuxt-link to="works/web/hirameki">
+          <figure>
+            <div class="gallery__thumb"></div>
+            <figcaption class="gallery__caption">
+              <p>ひらめきエンジン</p>
+              <p>Bodymovin / Electron</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
       <li class="gallery__item" data-label="business" data-is-lock="true">
         <nuxt-link to="works/web/obayashi" target="_blank">
           <figure>
@@ -119,18 +131,6 @@
             <figcaption class="gallery__caption">
               <p>（仮）BIMシステム</p>
               <p>Three.js / Blender / WebGL / JavaScript</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li>
-      <li class="gallery__item" data-label="business" data-is-lock="true">
-        <nuxt-link to="works/web/hirameki" target="_blank">
-          <figure>
-            <div class="gallery__thumb"></div>
-            <figcaption class="gallery__caption">
-              <p>（仮）サイネージ</p>
-              <p>Bodymovin / Electron</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
@@ -242,6 +242,9 @@
       }
       &:nth-child(3) .gallery__thumb{
         background-image: url("~assets/image/works/web/kamakura-fireworks/1.png");
+      }
+      &:nth-child(4) .gallery__thumb{
+        background-image: url("~assets/image/works/web/hirameki/3.jpg");
       }
       &:nth-child(6) .gallery__thumb{
         background-image: url("~assets/image/works/web/mental-energy/2.png");
