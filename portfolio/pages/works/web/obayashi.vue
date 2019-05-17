@@ -11,7 +11,7 @@
         街の全景→異常を検知したビルにズームイン→異常を検知した設備の詳細を表示、という流れ。
         <br>
         <br>
-        私の担当は3Dモデルの表示と、カメラワーク、インタラクション全般。素材のBlenderデータのポリゴンを間引いたり、パーツごとに分解する作業に一番時間をかけた。オブジェクトの点滅表現はGLSLで書いている。
+        私の担当は3Dモデルの表示とカメラワーク、インタラクション全般。パフォーマンスチューニングとして、素材のFBXデータのポリゴンをBlender上で間引いたりパーツごとに分解するなどの作業から自分でやっている。オブジェクトの点滅表現はGLSL。
         <br>
       </p>
 
@@ -20,14 +20,13 @@
       <h2>Image / Movie</h2>
       <ul class="work-image__list">
         <li class="work-image__item size-full">
-          <img src="~assets/image/works/web/kamakura-fireworks/2.png" @click="openModal">
+          <img src="~assets/image/works/web/obayashi/1.png" @click="openModal">
           <figcaption>
-            しだれ柳
           </figcaption>
         </li>
         <li class="work-image__item size-full">
           <div class="youtube">
-            <iframe src="https://www.youtube.com/embed/xfjxG1Ow9J4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/W49Bid_z4d4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </li>
       </ul>
