@@ -62,9 +62,13 @@ module.exports = {
         icons: ['fas']
       },
       {
+        set: '@fortawesome/free-regular-svg-icons',
+        icons: ['far']
+      },
+      {
         set: '@fortawesome/free-brands-svg-icons',
         icons: ['fab']
-      }
+      },
     ]
   }
 }
