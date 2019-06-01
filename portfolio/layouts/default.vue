@@ -100,10 +100,16 @@ body{
 
   margin: 0 auto;
   @include pc-layout{
-    width: $pc_min_width;
+    min-width: $pc_min_width;
   }
   @include sp-layout{
     width: 100%;
+  }
+}
+.container{
+  @include pc-layout{
+    width: $pc_min_width;
+    margin: 0 auto;
   }
 }
 div[data-bg="odd"]{
