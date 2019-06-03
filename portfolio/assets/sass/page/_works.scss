@@ -12,6 +12,21 @@ section[data-page="work"]{
     border-bottom: dotted 1px $border-color;
   }
 
+  p{
+    margin-bottom: 1rem;
+  }
+
+  .en{
+    color: $font-color-en;
+  }
+  h1 .en{
+    font-size: 1rem;
+  }
+  p .en{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
   a.link-hover{
     @include link();
   }
