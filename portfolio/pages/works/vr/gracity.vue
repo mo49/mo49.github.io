@@ -7,10 +7,21 @@
       <h2>About</h2>
       <p>
         PUNとVRTKを組み合わせてVRオンラインマルチプレイ対戦ゲームを制作した。舞台は中世風の街並み。プレイヤー（魔法使い）は街中に散在する魔法の杖を取得し、遭遇した敵と対戦するゲーム。重量変更のギミックを盛り込み、重力（Gravity）と街(City)から、「Gracity」というタイトル（造語）をつけた。<br>
-        <br>
+        <span class="en">
+          I made a VR online multiplayer game with PUN and VRTK. The stage is a medieval city. A player, sorcerer gets magic wands scattered all over the city and tries to beat down the enemies he encounters. Incorporating a gimmick of weight change, from Gravity and City, I gave a title Gracity, coined word.
+        </span>
+      </p>
+      <p>
         <a class="link-hover" href="https://vracademy.jp/" target="_blank">第二回VRアカデミーオーディション</a>に出展。来場者のVR慣れのレベルに対応するため、練習/PvP/PvEの3種類のモードを用意。当日はVRのプロの方が多かったので、ほとんどの方にPvEを楽しんでもらえた。せっかくのマルチプレイなので、私がもう一台のPCのシミュレータで参戦。援護射撃をする形でモンスターを討伐した。<br>
-        <br>
+        <span class="en">
+          Exhibited at the 2nd VR Academy Audition. Three modes of Practice, PvP, PvE are prepared to consider the level of VR familiarity of the visitors. On the day, there were many VR professionals, so most people enjoyed PvE mode. While it is a multiplayer game, I participated in on browser mode and provided covering fire.
+        </span>
+      </p>
+      <p>
         Code : <a class="link-hover" href="https://github.com/mo49/gracity" target="_blank">https://github.com/mo49/gracity</a>
+        <span class="en">
+
+        </span>
       </p>
 
       <iframe class="slideshare" src="//www.slideshare.net/slideshow/embed_code/key/4KSMF3W3VRK83W" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
