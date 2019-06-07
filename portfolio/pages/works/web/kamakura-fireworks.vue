@@ -17,6 +17,7 @@
           I'm in charge of the animation of fireworks. I launched three kinds of fireworks, weeping willows, underwater and circular, and randomly generated geometric fireworks. While finely adjusting various parameters such as particle amount, transparency, gravity, velocity, lifespan, etc. I also expressed attention to afterimage, water surface reflection, wave and ship fluctuation, etc. to make it more realistic. BGM is united and the Web Site is finished quite emo.
         </span>
         <br>
+        <br>
         <a class="link-hover" href="http://hanabi.kamakura-info.jp/" target="_blank" rel="noopener noreferrer">http://hanabi.kamakura-info.jp/</a>
       </p>
 
