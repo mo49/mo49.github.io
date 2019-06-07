@@ -7,8 +7,13 @@
       <h2>About</h2>
       <p>
         『ワンピース』のテレビアニメ放送とスマホがリアルタイムで連動する12週間連続企画。1回の放送を30シーンに分割、アニメ放送中に「アツイ！」と思ったシーンに合わせて連打し、自分が最も連打したシーンとみんなが最も連打したシーンが一致するとプレゼント応募券を獲得できるというサイト。<br>
-        <br>
-        私の担当はオンエア画面と結果画面。全体参加人数、シーンごとの全員のタップ数と個人のタップ数をリアルタイムに表示し連動感を出した。データはパフォーマンス面を考慮しつつAPIを定期的に叩いて取得している。演出面ではインタラクティブかつスケーラブルなグラフを描画するためにD3.jsを使用。オンエア中の随所にはさまれる割り込みアニメーションや結果画面のスロット、紙吹雪の演出などアニメーションもりもり。各放送回のトンマナにより7パターンのデザイン変更もある。放送日という明確な締め切りが決められている中で、クライアント側からのギリギリの演出変更にも対応した。放送初回の直前一週間は会社に泊まり込みで対応し、モノづくりの基礎体力を身につけられた案件。
+        <span class="en">A 12-week continuous project in which the TV Anime, "One Piece" and the smartphone are linked in real time. You try to mash a button when you are excited on air. Divide one broadcast into 30 scenes and you can get an opportunity to apply for the present if the scene you select and the scene other viewer select are same.</span>
+      </p>
+      <p>
+        私の担当はオンエア画面と結果画面。全体参加人数、シーンごとの全員のタップ数と個人のタップ数をリアルタイムに表示し連動感を出した。データはパフォーマンス面を考慮しつつAPIを定期的に叩いて取得している。演出面ではインタラクティブかつスケーラブルなグラフを描画するためにD3.jsを使用。オンエア中の随所にはさまれる割り込みアニメーションや結果画面のスロット、紙吹雪の演出などアニメーションもりもり。各放送回のトンマナにより7パターンのデザイン変更もある。放送日という明確な締め切りが決められている中で、クライアント側からのギリギリの演出変更にも対応した。放送初回の直前一週間は会社に泊まり込みで対応し、モノづくりの基礎体力を身につけられた案件。<br>
+        <span class="en">
+          I'm in charge of top screen and result screen on air. The total number of viewers, the number of taps of everyone for each scene and the number of taps of individuals were displayed in real time to give a sense of coordination. Data is acquired by regularly calling API while considering performance. In terms of direction, we use D3.js to draw interactive and scalable graphs. Animations such as an interruption animation, a result screen slot, and a confetti effect that are caught in any place on air. There are also 7 pattern design changes according to the tone-manner of each broadcast. While the clear deadline of on-air day was decided, we dealt with the request from the client until the last minute. During one week before the first on-air day, we worked staying overnight at the company, and I acquired the basic strength of creator.
+        </span>
       </p>
     </div>
     <div class="work-image" data-bg="even">
