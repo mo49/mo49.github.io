@@ -7,8 +7,15 @@
       <h2>About</h2>
       <p>
         一時は中止が決まった鎌倉花火大会をクラウドファンディングで開催することが決定した。その支援者の皆様のメッセージと名前を入れた花火を打ち上げる公式Webサイト。<br>
-        <br>
+        <span class="en">
+          It was decided to hold the Kamakura Fireworks Festival, which was temporarily suspended, in crowdfunding. The official website to launch fireworks with their supporters' messages and names.
+        </span>
+      </p>
+      <p>
         私の担当はFVの花火の演出。しだれ柳、水中花火、円形花火の3種類と、ランダムに生成される幾何学模様の花火を打ち上げた。パーティクルの量、透明度、重力、ベロシティ、寿命などの多様なパラメータを微調整しつつ、残像や水面反射、波や船の揺らぎなどにもこだわり、よりリアルに近づけるように表現した。BGMと合間ってかなりエモいサイトに仕上がっている。<br>
+        <span class="en">
+          I'm in charge of the animation of fireworks. I launched three kinds of fireworks, weeping willows, underwater and circular, and randomly generated geometric fireworks. While finely adjusting various parameters such as particle amount, transparency, gravity, velocity, lifespan, etc. I also expressed attention to afterimage, water surface reflection, wave and ship fluctuation, etc. to make it more realistic. BGM is united and the Web Site is finished quite emo.
+        </span>
         <br>
         <a class="link-hover" href="http://hanabi.kamakura-info.jp/" target="_blank" rel="noopener noreferrer">http://hanabi.kamakura-info.jp/</a>
       </p>
