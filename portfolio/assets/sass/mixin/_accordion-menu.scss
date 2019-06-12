@@ -1,0 +1,44 @@
+@mixin accordion-menu($toggleClassName: '.content', $arrow-size: 3px, $color: $border-color) {
+  position: relative;
+  i{
+    opacity: 0.8;
+    position: absolute;
+    margin-top: 10px;
+    right: 20px;
+    &:before, &:after{
+      content: '';
+      position: absolute;
+      background-color: $color;
+      width: $arrow-size + 1px;
+      height: $arrow-size * 4 + 1px;
+    }
+    &:before{
+      transform: translate( -$arrow-size , 0 ) rotate( 45deg );
+    }
+    &:after{
+      transform: translate( $arrow-size + 1px , 0 ) rotate( -45deg );
+    }
+  }
+  input[type='checkbox']{
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    &:checked{
+      &~#{$toggleClassName}{
+        display: none;
+        transform: translate( 0 , 50% );
+      }
+      &~i{
+        &:before{
+          transform: translate( $arrow-size , 0 ) rotate( 45deg );
+        }
+        &:after{
+          transform: translate( -$arrow-size - 1px , 0 ) rotate( -45deg );
+        }
+      }
+    }
+  }
+}

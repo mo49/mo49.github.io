@@ -16,9 +16,11 @@
         <li class="additional-information__item">
           <p>Japanese - Native, English - Basic</p>
         </li>
-        <li class="additional-information__item">
-          <p>Travel Abroad</p>
-          <p>
+        <li class="additional-information__item accordion-menu">
+          <input type="checkbox" checked>
+          <p class="accordion-menu__title">Travel Abroad</p>
+          <i></i>
+          <p class="accordion-menu__content">
             <ul>
               <li>China ( Beijing, Shanghai, Xi'an, Shenzhen, Hong Kong )</li>
               <li>Korea ( Seoul )</li>

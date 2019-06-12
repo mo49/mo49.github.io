@@ -67,6 +67,8 @@
 <div class="skillset__list">
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Language">Language</h3>
 <table>
 <thead>
@@ -165,6 +167,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Frameworks-State-Management">Frameworks &amp; State Management</h3>
 <table>
 <thead>
@@ -219,6 +223,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Typed-JavaScript-JS-Compiler">Typed JavaScript &amp; JS Compiler</h3>
 <table>
 <thead>
@@ -249,6 +255,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-JavaScript-Library">JavaScript Library</h3>
 <table>
 <thead>
@@ -271,6 +279,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Testing">Testing</h3>
 <table>
 <thead>
@@ -313,6 +323,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-CSS-Compilers">CSS Compilers</h3>
 <table>
 <thead>
@@ -343,6 +355,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Build-Tools">Build Tools</h3>
 <table>
 <thead>
@@ -381,6 +395,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Mobile-Frameworks">Mobile Frameworks</h3>
 <table>
 <thead>
@@ -407,6 +423,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Desktop-App-Frameworks">Desktop App Frameworks</h3>
 <table>
 <thead>
@@ -429,6 +447,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Server-Side-Framework-API-Layer">Server-Side Framework &amp; API Layer</h3>
 <table>
 <thead>
@@ -462,13 +482,10 @@
 </table>
 </div>
 
-<div class="skillset__item"></div>
-
-<div class="skillset__item"></div>
-
-<div class="skillset__item"></div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Database">Database</h3>
 <table>
 <thead>
@@ -503,6 +520,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Virtualization">Virtualization</h3>
 <table>
 <thead>
@@ -525,6 +544,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-OS">OS</h3>
 <table>
 <thead>
@@ -559,6 +580,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Web-Server">Web Server</h3>
 <table>
 <thead>
@@ -581,6 +604,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Cloud">Cloud</h3>
 <table>
 <thead>
@@ -611,6 +636,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-IDE-Editor">IDE/Editor</h3>
 <table>
 <thead>
@@ -665,6 +692,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-UML-Diagram">UML/Diagram</h3>
 <table>
 <thead>
@@ -695,6 +724,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-SCM">SCM</h3>
 <table>
 <thead>
@@ -729,6 +760,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-CI">CI</h3>
 <table>
 <thead>
@@ -755,6 +788,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Issue-Tracker">Issue Tracker</h3>
 <table>
 <thead>
@@ -785,6 +820,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Agile-Process">Agile Process</h3>
 <table>
 <thead>
@@ -811,6 +848,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Social-Coding-Code-Review">Social Coding &amp; Code Review</h3>
 <table>
 <thead>
@@ -841,6 +880,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Communication-Tools">Communication Tools</h3>
 <table>
 <thead>
@@ -867,6 +908,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Game-Engine">Game Engine</h3>
 <table>
 <thead>
@@ -893,6 +936,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-3DCG">3DCG</h3>
 <table>
 <thead>
@@ -904,7 +949,7 @@
 <tbody>
 <tr>
   <td>Blender</td>
-  <td>★★</td>
+  <td>★★★</td>
 </tr>
 <tr>
   <td>Maya</td>
@@ -916,7 +961,7 @@
 </tr>
 <tr>
   <td>Houdini</td>
-  <td>★</td>
+  <td>★★★</td>
 </tr>
 <tr>
   <td>ZBrush</td>
@@ -935,6 +980,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Head-Mounted-Display">Head Mounted Display</h3>
 <table>
 <thead>
@@ -981,6 +1028,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Electronic">Electronic</h3>
 <table>
 <thead>
@@ -1003,6 +1052,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Robotics">Robotics</h3>
 <table>
 <thead>
@@ -1021,6 +1072,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Sensor">Sensor</h3>
 <table>
 <thead>
@@ -1051,6 +1104,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Visual-Programming-Frameworks">Visual Programming &amp; Frameworks</h3>
 <table>
 <thead>
@@ -1085,6 +1140,8 @@
 </div>
 
 <div class="skillset__item">
+<input type="checkbox" checked>
+<i></i>
 <h3 id="index-Adobe">Adobe</h3>
 <table>
 <thead>

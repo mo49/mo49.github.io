@@ -49,6 +49,7 @@ section[data-page="skillset"]{
   }
   .skillset__item{
     margin: 20px 0 30px;
+    @include accordion-menu(table);
     h3{
 
     }
