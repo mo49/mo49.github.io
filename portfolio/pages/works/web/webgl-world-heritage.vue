@@ -10,8 +10,15 @@
       <h2>About</h2>
       <p>
         デジタルハリウッド東京本校卒業制作。<br>
-        <br>
-        2015年7月現在のすべての世界遺産1,031件のデータ（緯度経度、登録年、ジャンル）をWebGLで可視化したインフォグラフィック作品。
+        <span class="en">
+          Graduation work of Digital Hollywood Tokyo School
+        </span>
+      </p>
+      <p>
+        2015年7月現在のすべての世界遺産1,031件のデータ（緯度経度、登録年、ジャンル）をWebGLで可視化したインフォグラフィック作品。<br>
+        <span class="en">
+          An infographic work that visualizes all World Heritage using WebGL. I used 1,031 data (i.g. latitude, longitude, registered year, genre) from July 2015
+        </span>
       </p>
     </div>
     <div class="work-image" data-bg="even">
