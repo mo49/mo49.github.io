@@ -7,9 +7,20 @@
       <h2>About</h2>
       <p>
         利用者がいつも頭の片隅に置いているワード（ブレストのお題やビジネス上のキーワードなど）と、それとは関係のない偶発ワード（流行語や辞書のワードなど）を組み合わせることで、新しい発想の種を提供するサイネージ。HONDAの最先端技術を研究するイノベーションラボの会議室にて初めて導入された。ライセンス化しアプリケーションとして販売中。
-        <br><br>
+        <br>
+        <span class="en">
+          Digital Signage providing the seed of new idea created by combining the words that users always put in the back of their head such as brainstorming titles and business keywords, and incidental words that don't relate to it such as buzzwords and dictionary words. It was first introduced in the conference room of the Innovation Lab, which is HONDA's most advanced research and development institutions. It's licensed and sold as an application.
+        </span>
+      </p>
+      <p>
         私の担当はフロントエンド全般。流行りのワードは各種APIで取得し、背景のアニメーションはBodymovinというライブラリを使用したSVGアニメーションになっている。
-        <br><br>
+        <br>
+        <span class="en">
+          I'm in charged of whole web-front-end part. I obtained buzzwords with various APIs, and made SVG animation using a library, Bodymovin.
+        </span>
+      </p>
+
+      <p>
         <a href="https://confit.atlas.jp/guide/event-img/jsai2018/4Pin1-44/public/pdf?type=in" target="_blank">発想支援システム「ひらめきエンジン」の紹介</a>
       </p>
 
