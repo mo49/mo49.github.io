@@ -18,13 +18,26 @@ export default {
 </script>
 
 <style lang="scss">
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Noto Sans CJK JP"),
+    local("Noto Sans JP"),
+    url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+}
 *{
+  font-family: "Noto Sans CJK JP", sans-serif;
+  font-feature-settings : "palt";
   box-sizing: border-box;
   outline: none;
   line-height: 1.5;
 }
 html {
-  font-family: $font-family;
+  // font-family: $font-family;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
