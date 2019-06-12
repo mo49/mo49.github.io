@@ -14,25 +14,25 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.17",
-    "@fortawesome/free-brands-svg-icons": "^5.8.1",
-    "@fortawesome/free-regular-svg-icons": "^5.8.2",
-    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "@nuxtjs/style-resources": "^0.1.2",
     "normalize.css": "^8.0.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.8.1",
     "nuxt-basic-auth-module": "^1.2.0",
     "nuxt-fontawesome": "^0.4.0",
     "push-dir": "^0.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^4.19.1",
+    "eslint": "^5.16.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
-    "eslint-plugin-vue": "^4.0.0",
-    "node-sass": "^4.11.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0"
   }
 }
