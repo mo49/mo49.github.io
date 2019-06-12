@@ -1,9 +1,10 @@
 <template>
   <header class="header">
-    <nuxt-link :to="{name: 'index'}">
-      <h1 class="header__logo">logo</h1>
-    </nuxt-link>
-
+    <div class="header__container">
+      <nuxt-link :to="{name: 'index'}">
+        <h1 class="header__logo">logo</h1>
+      </nuxt-link>
+    </div>
   </header>
 </template>
 
