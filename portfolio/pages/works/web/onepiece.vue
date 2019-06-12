@@ -1,7 +1,10 @@
 <template>
   <section class="container work" data-page="work">
     <h1 class="work__title">
-      ONE PIECE WCI編 テレビアニメ連動サイト
+      テレビアニメ連動サイト<br>
+      <span class="en">
+        ONE PIECE Whole Cake Island Arc - Web site interacted with TV animated show
+      </span>
     </h1>
     <div class="work-about" data-bg="odd">
       <h2>About</h2>

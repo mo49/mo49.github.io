@@ -1,7 +1,10 @@
 <template>
   <section class="container work" data-page="work">
     <h1 class="work__title">
-      WebGL世界遺産
+      WebGL世界遺産<br>
+      <span class="en">
+        WebGL World Heritage
+      </span>
     </h1>
     <div class="work-about" data-bg="odd">
       <h2>About</h2>

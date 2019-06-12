@@ -1,7 +1,10 @@
 <template>
   <section class="container work" data-page="work">
     <h1 class="work__title">
-      CREATORS AUDITION ポスター
+      CREATORS AUDITION ポスター<br>
+      <span class="en">
+        CREATORS AUDITION Poster
+      </span>
     </h1>
     <div class="work-about" data-bg="odd">
       <h2>About</h2>

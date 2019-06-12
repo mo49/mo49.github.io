@@ -1,7 +1,10 @@
 <template>
   <section class="container work" data-page="work">
     <h1 class="work__title">
-      第52回宣伝会議賞 協賛企業賞
+      第52回宣伝会議賞 協賛企業賞<br>
+      <span class="en">
+        The 52th Senden-Kaigi Award, Sponsored Company Award, winning work
+      </span>
     </h1>
     <div class="work-about" data-bg="odd">
       <h2>About</h2>

@@ -1,7 +1,10 @@
 <template>
   <section class="container work" data-page="work">
     <h1 class="work__title">
-      ひらめきエンジン
+      ひらめきエンジン<br>
+      <span class="en">
+        Hirameki engine
+      </span>
     </h1>
     <div class="work-about" data-bg="odd">
       <h2>About</h2>
@@ -19,11 +22,9 @@
           I'm in charged of whole web-front-end part. I obtained buzzwords with various APIs, and made SVG animation using a library, Bodymovin.
         </span>
       </p>
-
       <p>
         <a href="https://confit.atlas.jp/guide/event-img/jsai2018/4Pin1-44/public/pdf?type=in" target="_blank">発想支援システム「ひらめきエンジン」の紹介</a>
       </p>
-
     </div>
     <div class="work-image" data-bg="even">
       <h2>Image / Movie</h2>

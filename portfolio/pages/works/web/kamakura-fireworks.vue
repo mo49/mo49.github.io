@@ -1,7 +1,10 @@
 <template>
   <section class="container work" data-page="work">
     <h1 class="work__title">
-      第69回 鎌倉花火大会
+      第69回 鎌倉花火大会<br>
+      <span class="en">
+        The 69th Kamakura Fireworks Festival
+      </span>
     </h1>
     <div class="work-about" data-bg="odd">
       <h2>About</h2>

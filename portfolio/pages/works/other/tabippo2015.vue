@@ -1,7 +1,10 @@
 <template>
   <section class="container work" data-page="work">
     <h1 class="work__title">
-      TABIPPO2015ショートムービー
+      TABIPPO2015ショートムービー<br>
+      <span class="en">
+        TABIPPO2015 Short Movie
+      </span>
     </h1>
     <div class="work-about" data-bg="odd">
       <h2>About</h2>
