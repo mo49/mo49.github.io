@@ -1,6 +1,10 @@
 <template>
   <div class="social-accounts">
     <h2>SOCIAL ACCOUNTS</h2>
+    <a href="https://github.com/mo49" target="_blank">
+      <font-awesome-icon :icon="['fab', 'github']" class="fa-3x"/>
+      <p>GitHub</p>
+    </a>
     <a href="https://www.facebook.com/kazuki.mochizuki" target="_blank">
       <font-awesome-icon :icon="['fab', 'facebook']" class="fa-3x"/>
       <p>Facebook</p>
@@ -8,10 +12,6 @@
     <a href="https://twitter.com/mczkzk" target="_blank">
       <font-awesome-icon :icon="['fab', 'twitter-square']" class="fa-3x"/>
       <p>Twitter</p>
-    </a>
-    <a href="https://github.com/mo49" target="_blank">
-      <font-awesome-icon :icon="['fab', 'github']" class="fa-3x"/>
-      <p>GitHub</p>
     </a>
     <a href="https://www.linkedin.com/in/kazuki-mochizuki" target="_blank">
       <font-awesome-icon :icon="['fab', 'linkedin']" class="fa-3x"/>
@@ -32,6 +32,10 @@
     <a href="https://note.mu/mczkzk" target="_blank" class="is-reverse">
       <font-awesome-icon :icon="['far', 'sticky-note']" class="fa-3x"/>
       <p>Note</p>
+    </a>
+    <a href="https://scrapbox.io/artresearching/" target="_blank">
+      <font-awesome-icon :icon="['fas', 'bookmark']" class="fa-3x"/>
+      <p>Scrapbox</p>
     </a>
   </div>
 </template>
