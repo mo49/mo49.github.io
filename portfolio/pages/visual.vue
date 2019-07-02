@@ -14,22 +14,10 @@ export default {
   data() {
     return {
       ids: [
+        '2dba23046aa0a79cacd6a587bb901111',
         'a24aec12cbb2f75fca805f4f92323458',
         'f103a3e8ede29f9c921e7f1d51924d37',
-        '74175fe7aa907e1df68c8c216ed61cc0',
-        '8945bd8787835c788f1270bd9ac55c46',
-        '5c576d13c787b50490680f78a04ad968',
-        '3ca1156c7d0c3bd8d6321aef4a936038',
-        '2220e5fa64b976c9c967f0dc2b62170a',
-        'b95dce2a38381034fd178e0613167f19',
-        '2220e5fa64b976c9c967f0dc2b62170a',
-        'b95dce2a38381034fd178e0613167f19',
-        'a24aec12cbb2f75fca805f4f92323458',
-        'f103a3e8ede29f9c921e7f1d51924d37',
-        '5c576d13c787b50490680f78a04ad968',
-        '3ca1156c7d0c3bd8d6321aef4a936038',
-        '74175fe7aa907e1df68c8c216ed61cc0',
-        '8945bd8787835c788f1270bd9ac55c46',
+        '276d4ab23c8ce1e01e9f7353371710fc',
       ]
     }
   },
@@ -70,13 +58,13 @@ export default {
     width: 100%;
     column-gap: 0;
     column-count: 5;
-    @media (max-width: 1500px) {
+    @media (max-width: 1800px) {
       column-count: 4;
     }
-    @media (max-width: 1200px) {
+    @media (max-width: 1440px) {
       column-count: 3;
     }
-    @media (max-width: 960px) {
+    @media (max-width: 1080px) {
       column-count: 2;
     }
     @include sp-layout{
