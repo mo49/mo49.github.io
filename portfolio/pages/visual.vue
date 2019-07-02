@@ -76,7 +76,14 @@ export default {
     border-style: inherit;
     width: 100%;
     border-bottom: 3px #ccc dotted;
-    margin: 20px 10px 20px;
+    @include pc-layout{
+      max-height: 800px;
+      padding: 20px 5px 30px;
+    }
+    @include sp-layout{
+      max-height: 600px;
+      padding: 50px 0 50px;
+    }
   }
 }
 </style>
