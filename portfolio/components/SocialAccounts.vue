@@ -25,17 +25,17 @@
       <font-awesome-icon :icon="['fab', 'instagram']" class="fa-3x"/>
       <p>Instagram</p>
     </a>
-    <a href="https://qiita.com/mczkzk" target="_blank">
-      <font-awesome-icon :icon="['fas', 'blog']" class="fa-3x"/>
-      <p>Qiita</p>
-    </a>
-    <a href="https://note.mu/mczkzk" target="_blank" class="is-reverse">
-      <font-awesome-icon :icon="['far', 'sticky-note']" class="fa-3x"/>
-      <p>Note</p>
+    <a href="https://medium.com/@k.mochizuki.0409" target="_blank">
+      <font-awesome-icon :icon="['fab', 'medium']" class="fa-3x"/>
+      <p>Medium</p>
     </a>
     <a href="https://scrapbox.io/artresearching/" target="_blank">
       <font-awesome-icon :icon="['fas', 'bookmark']" class="fa-3x"/>
       <p>Scrapbox</p>
+    </a>
+    <a href="https://qiita.com/mczkzk" target="_blank">
+      <font-awesome-icon :icon="['fas', 'blog']" class="fa-3x"/>
+      <p>Qiita</p>
     </a>
   </div>
 </template>
