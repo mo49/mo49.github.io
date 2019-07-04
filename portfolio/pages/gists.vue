@@ -1,5 +1,5 @@
 <template>
-  <section class="container" data-page="visual">
+  <section class="container" data-page="gists">
     <div class="gallery">
       <script
         v-for="id in ids" :key="id"
@@ -15,6 +15,7 @@ export default {
     return {
       ids: [
         '2dba23046aa0a79cacd6a587bb901111',
+        '336a8c2904c304211cdaf7a1c06370eb',
         'a3ce0a4a085e58f31ff4143da17e496b',
         'a24aec12cbb2f75fca805f4f92323458',
         'f103a3e8ede29f9c921e7f1d51924d37',
@@ -52,7 +53,7 @@ export default {
 </script>
 
 <style lang="scss">
-.container[data-page="visual"]{
+.container[data-page="gists"]{
   width: 100%;
   box-sizing: border-box;
   .gallery{
