@@ -23,6 +23,9 @@ export default {
     Gallery,
     SocialAccounts,
     AdditionalInformation
+  },
+  fetch({redirect}){
+    // redirect('/gists')
   }
 }
 </script>
