@@ -1,9 +1,9 @@
 <template>
   <section class="container" data-page="gists">
     <div class="gallery">
-      <script
-        v-for="id in ids" :key="id"
-        :src="`https://gist.github.com/mo49/${id}.js`"></script>
+      <a v-for="id in ids" :key="id" :href="gist_link(id)" target="_blank">
+        <script :src="`https://gist.github.com/mo49/${id}.js`"></script>
+      </a>
     </div>
   </section>
 </template>
@@ -14,6 +14,7 @@ export default {
   data() {
     return {
       ids: [
+        'd5dccbb27a3016afb4543961282c5866',
         '8f043feeeeb710abe701314d6bf34a64',
         'afedd914135ac082e257c420dc374a6b',
         '386d21550624e25951da2a9ff4bf9064',
@@ -45,7 +46,10 @@ export default {
         }
         parentNode.replaceChild(alternativeNode, script)
       })
-    }
+    },
+    gist_link(id) {
+      return 'https://gist.github.com/mo49/' + id
+    },
   },
   mounted () {
     this.runScript()
@@ -76,15 +80,19 @@ export default {
     @include sp-layout{
       column-count: 1;
     }
+    a{
+      display: block;
+    }
   }
   iframe{
+    pointer-events: none;
     break-inside: avoid;
     border-style: inherit;
     width: 100%;
     border-bottom: 3px #ccc dotted;
     @include pc-layout{
       max-height: 800px;
-      padding: 20px 5px 30px;
+      padding: 20px 10px 30px;
     }
     @include sp-layout{
       max-height: 600px;
