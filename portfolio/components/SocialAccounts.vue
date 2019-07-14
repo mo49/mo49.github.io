@@ -5,6 +5,10 @@
       <font-awesome-icon :icon="['fab', 'github']" class="fa-3x"/>
       <p>GitHub</p>
     </a>
+    <a href="https://gist.github.com/mo49" target="_blank">
+      <font-awesome-icon :icon="['fab', 'github']" class="fa-3x"/>
+      <p>Gist</p>
+    </a>
     <a href="https://www.facebook.com/kazuki.mochizuki" target="_blank">
       <font-awesome-icon :icon="['fab', 'facebook']" class="fa-3x"/>
       <p>Facebook</p>
