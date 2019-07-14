@@ -63,6 +63,7 @@ export default {
 
 <style lang="scss">
 .container[data-page="gists"]{
+  word-break: break-all;
   width: 100%;
   box-sizing: border-box;
   .gallery{
