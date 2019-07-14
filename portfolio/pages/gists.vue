@@ -86,7 +86,9 @@ export default {
     }
   }
   iframe{
+    touch-action: none;
     pointer-events: none;
+    overflow: hidden;
     break-inside: avoid;
     border-style: inherit;
     width: 100%;
@@ -96,7 +98,7 @@ export default {
       padding: 20px 10px 30px;
     }
     @include sp-layout{
-      max-height: 600px;
+      max-height: 500px;
       padding: 50px 0 50px;
     }
   }
