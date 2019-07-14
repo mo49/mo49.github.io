@@ -66,6 +66,7 @@ export default {
   word-break: break-all;
   width: 100%;
   box-sizing: border-box;
+  overflow: hidden;
   .gallery{
     width: 100%;
     column-gap: 0;
@@ -93,6 +94,7 @@ export default {
     break-inside: avoid;
     border-style: inherit;
     width: 100%;
+    max-width: 100%;
     border-bottom: 3px #ccc dotted;
     @include pc-layout{
       max-height: 800px;
