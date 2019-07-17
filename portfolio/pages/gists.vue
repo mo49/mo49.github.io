@@ -108,6 +108,7 @@ export default {
     }
   }
   .cover{
+    z-index: index($z, modal);
     position: fixed;
     width: 100%;
     height: 100%;
