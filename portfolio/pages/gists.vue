@@ -1,6 +1,9 @@
 <template>
   <section class="container" data-page="gists">
-    <div class="gallery">
+    <div v-if="$ua.deviceType() == 'smartphone'" class="cover">
+      <p>PCで表示してください。</p>
+    </div>
+    <div v-else class="gallery">
       <a v-for="id in ids" :key="id" :href="gist_link(id)" target="_blank">
         <script :src="`https://gist.github.com/mo49/${id}.js`"></script>
       </a>
@@ -9,7 +12,6 @@
 </template>
 
 <script>
-
 export default {
   data() {
     return {
@@ -103,6 +105,23 @@ export default {
     @include sp-layout{
       max-height: 500px;
       padding: 50px 0 50px;
+    }
+  }
+  .cover{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    p{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
     }
   }
 }

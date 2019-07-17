@@ -43,7 +43,8 @@ module.exports = {
   modules: [
     '@nuxtjs/style-resources',
     'nuxt-fontawesome',
-    'nuxt-basic-auth-module'
+    'nuxt-basic-auth-module',
+    'nuxt-user-agent',
   ],
   css: [
     'normalize.css'
