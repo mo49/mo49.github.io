@@ -25,28 +25,26 @@
           <input type="checkbox" checked>
           <p class="accordion-menu__title">Travel Abroad</p>
           <i></i>
-          <p class="accordion-menu__content">
-            <ul>
-              <li>China ( Beijing, Shanghai, Xi'an, Shenzhen, Hong Kong )</li>
-              <li>Korea ( Seoul )</li>
-              <li>Philippine ( Cebu Island )</li>
-              <li>Thailand ( Bangkok, Ayutthaya )</li>
-              <li>India ( New Delhi, Jaipur, Agra, Haridwar )</li>
-              <li>France ( Paris, Mont Saint-Michel )</li>
-              <li>UK ( London )</li>
-              <li>Italy ( Roma )</li>
-              <li>Spain ( Madrid, Barcelona )</li>
-              <li>Netherlands ( Amsterdam, Rotterdam, Alkmaar )</li>
-              <li>Egypt ( Cairo, Giza, Bahariya, Luxor, Aswan, Abu Simbel )</li>
-              <li>Jordan ( Amman, Petra )</li>
-              <li>Israel ( Jerusalem )</li>
-              <li>USA ( NY, Washington D.C., LA, Los Angeles, Hawaii )</li>
-              <li>Canada ( Banff )</li>
-              <li>Mexico ( Mexico City )</li>
-              <li>Peru ( Lima, Cusco, Huacachina, Nazca, Ollantaytambo, Machu Picchu, Puno )</li>
-              <li>Chile ( Santiago, Easter Island )</li>
-            </ul>
-          </p>
+          <ul class="accordion-menu__content">
+            <li>China ( Beijing, Shanghai, Xi'an, Shenzhen, Hong Kong )</li>
+            <li>Korea ( Seoul )</li>
+            <li>Philippine ( Cebu Island )</li>
+            <li>Thailand ( Bangkok, Ayutthaya )</li>
+            <li>India ( New Delhi, Jaipur, Agra, Haridwar )</li>
+            <li>France ( Paris, Mont Saint-Michel )</li>
+            <li>UK ( London )</li>
+            <li>Italy ( Roma )</li>
+            <li>Spain ( Madrid, Barcelona )</li>
+            <li>Netherlands ( Amsterdam, Rotterdam, Alkmaar )</li>
+            <li>Egypt ( Cairo, Giza, Bahariya, Luxor, Aswan, Abu Simbel )</li>
+            <li>Jordan ( Amman, Petra )</li>
+            <li>Israel ( Jerusalem )</li>
+            <li>USA ( NY, Washington D.C., LA, Los Angeles, Hawaii )</li>
+            <li>Canada ( Banff )</li>
+            <li>Mexico ( Mexico City )</li>
+            <li>Peru ( Lima, Cusco, Huacachina, Nazca, Ollantaytambo, Machu Picchu, Puno )</li>
+            <li>Chile ( Santiago, Easter Island )</li>
+          </ul>
         </li>
       </ul>
     </div>
