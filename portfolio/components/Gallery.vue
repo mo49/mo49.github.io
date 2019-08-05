@@ -2,68 +2,24 @@
   <div class="gallery">
     <h2>GALLERY</h2>
 
-    <h3>3DCG/VFX</h3>
+    <h3>CG / VR</h3>
     <ul class="gallery__list" data-genre="3dcg-vfx">
       <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
-            <div class="gallery__thumb"></div>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showroom_office+')' } "></div>
             <figcaption class="gallery__caption">
               <p>株式会社SHOWROOM,荒井ビルオフィス</p>
-              <p>Maya</p>
+              <p>CG / Maya</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
         </nuxt-link>
       </li>
-    </ul>
-
-    <h3>VR</h3>
-    <ul class="gallery__list" data-genre="vr">
-      <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/vr/tele-magic">
-          <figure>
-            <div class="gallery__thumb"></div>
-            <figcaption class="gallery__caption">
-              <p>Tele-Magic</p>
-              <p>Unity / FOVE / Theta V</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li>
-      <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/vr/gracity">
-          <figure>
-            <div class="gallery__thumb"></div>
-            <figcaption class="gallery__caption">
-              <p>Gracity</p>
-              <p>Unity / Vive / PUN / VRTK</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li>
-      <!-- <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/3dcg-vfx/showroom-office">
-          <figure>
-            <div class="gallery__thumb"></div>
-            <figcaption class="gallery__caption">
-              <p>VR Heading Soccer</p>
-              <p>Unity / FOVE</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li> -->
-    </ul>
-
-    <h3>Unity/UE4</h3>
-    <ul class="gallery__list" data-genre="unity-ue">
       <li class="gallery__item" data-label="business" data-is-lock="false">
         <nuxt-link to="works/unity-ue/srv-live2d">
           <figure>
-            <div class="gallery__thumb"></div>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_readyyy+')' } "></div>
             <figcaption class="gallery__caption">
               <p>SHOWROOM V - Readyyy!版</p>
               <p>Unity / Live2D</p>
@@ -72,9 +28,34 @@
           </figure>
         </nuxt-link>
       </li>
+      <li class="gallery__item" data-label="private" data-is-lock="false">
+        <nuxt-link to="works/vr/tele-magic">
+          <figure>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_tele_magic+')' } "></div>
+            <figcaption class="gallery__caption">
+              <p>Tele-Magic</p>
+              <p>VR / Unity / FOVE / Theta V</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
+      <li class="gallery__item" data-label="private" data-is-lock="false">
+        <nuxt-link to="works/vr/gracity">
+          <figure>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_gracity+')' } "></div>
+            <figcaption class="gallery__caption">
+              <p>Gracity</p>
+              <p>VR / Unity / Vive / PUN / VRTK</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
+
     </ul>
 
-    <h3>Web Front-End</h3>
+    <h3>Web</h3>
     <ul class="gallery__list" data-genre="web">
       <!-- <li class="gallery__item" data-label="business" data-is-lock="true">
         <nuxt-link to="works/web/virtual-cheki" target="_blank">
@@ -205,36 +186,22 @@
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      img_showroom_office: require('@/assets/image/works/3dcg-vfx/showroom-office/1.jpg'),
+      img_tele_magic: require('@/assets/image/works/vr/tele-magic/1.png'),
+      img_gracity: require('@/assets/image/works/vr/gracity/1.png'),
+      img_readyyy: require('@/assets/image/works/unity-ue/readyyy/1.png'),
+    }
+  }
+}
+</script>
+
 <style lang="scss">
 @import "~assets/sass/module/gallery";
 .gallery__list{
-  &[data-genre="3dcg-vfx"]{
-    .gallery__item{
-      &:nth-child(1) .gallery__thumb{
-        background-image: url("~assets/image/works/3dcg-vfx/showroom-office/1.jpg");
-      }
-      &:nth-child(2) .gallery__thumb{
-        background-image: url("~assets/image/works/3dcg-vfx/showroom-office/1.jpg");
-      }
-    }
-  }
-  &[data-genre="vr"]{
-    .gallery__item{
-      &:nth-child(1) .gallery__thumb{
-        background-image: url("~assets/image/works/vr/tele-magic/1.png");
-      }
-      &:nth-child(2) .gallery__thumb{
-        background-image: url("~assets/image/works/vr/gracity/1.png");
-      }
-    }
-  }
-  &[data-genre="unity-ue"]{
-    .gallery__item{
-      &:nth-child(1) .gallery__thumb{
-        background-image: url("~assets/image/works/unity-ue/readyyy/1.png");
-      }
-    }
-  }
   &[data-genre="web"]{
     .gallery__item{
       &:nth-child(1) .gallery__thumb{
