@@ -35,7 +35,7 @@
       <ul class="work-image__list">
         <li class="work-image__item size-full">
           <div class="youtube">
-            <iframe src="https://www.youtube.com/embed/nD44LwPUkMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/nD44LwPUkMU?start=209" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </li>
         <li class="work-image__item">

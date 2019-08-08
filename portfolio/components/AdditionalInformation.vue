@@ -39,7 +39,7 @@
             <li>Egypt ( Cairo, Giza, Bahariya, Luxor, Aswan, Abu Simbel )</li>
             <li>Jordan ( Amman, Petra )</li>
             <li>Israel ( Jerusalem )</li>
-            <li>USA ( NY, Washington D.C., LA, Los Angeles, Hawaii )</li>
+            <li>USA ( NY, Washington D.C., LA, Las Vegas, Hawaii )</li>
             <li>Canada ( Banff )</li>
             <li>Mexico ( Mexico City )</li>
             <li>Peru ( Lima, Cusco, Huacachina, Nazca, Ollantaytambo, Machu Picchu, Puno )</li>
