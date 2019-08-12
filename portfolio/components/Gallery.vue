@@ -10,7 +10,7 @@
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mv_underthewater+')' } "></div>
             <figcaption class="gallery__caption">
               <p>Music Video - Under The Water</p>
-              <p>Maya / Unity / ShaderLab / GPGPU</p>
+              <p>Maya / Unity / ShaderLab / GPGPU / After Effects</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
