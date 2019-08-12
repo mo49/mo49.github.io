@@ -5,12 +5,24 @@
     <h3>CG / VR</h3>
     <ul class="gallery__list" data-genre="3dcg-vfx">
       <li class="gallery__item" data-label="private" data-is-lock="false">
+        <nuxt-link to="works/3dcg-vfx/mv-underthewater">
+          <figure>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mv_underthewater+')' } "></div>
+            <figcaption class="gallery__caption">
+              <p>Music Video - Under The Water</p>
+              <p>Maya / Unity / ShaderLab / GPGPU</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
+      <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/3dcg-vfx/showroom-office">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showroom_office+')' } "></div>
             <figcaption class="gallery__caption">
               <p>株式会社SHOWROOM,荒井ビルオフィス</p>
-              <p>CG / Maya</p>
+              <p>Maya</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
@@ -34,7 +46,7 @@
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_tele_magic+')' } "></div>
             <figcaption class="gallery__caption">
               <p>Tele-Magic</p>
-              <p>VR / Unity / FOVE / Theta V</p>
+              <p>Unity / FOVE / Theta V</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
@@ -46,7 +58,7 @@
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_gracity+')' } "></div>
             <figcaption class="gallery__caption">
               <p>Gracity</p>
-              <p>VR / Unity / Vive / PUN / VRTK</p>
+              <p>Unity / Vive / PUN / VRTK</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
@@ -190,6 +202,7 @@
 export default {
   data() {
     return {
+      img_mv_underthewater: require('@/assets/image/works/3dcg-vfx/mv-underthewater/1.png'),
       img_showroom_office: require('@/assets/image/works/3dcg-vfx/showroom-office/1.jpg'),
       img_tele_magic: require('@/assets/image/works/vr/tele-magic/1.png'),
       img_gracity: require('@/assets/image/works/vr/gracity/1.png'),
