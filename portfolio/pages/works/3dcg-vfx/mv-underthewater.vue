@@ -14,7 +14,7 @@
         </span>
       </p>
       <p>
-        シーンに登場するCGモデルはすべてMayaで作成した。群体アルゴリズムに基づき泳ぐ魚群、トレイルの表現はGPGPUのコンピュートシェーダで実現。動画後半のワイヤーフレーム表現はShaderLabで書いていて、Unity内のポストプロセスで発光させている。カメラワークはTimelineとCinemachineで作成し、シーンはほぼ一発撮りしている。最後にポスプロとしてAEで簡単なノイズを乗せたり、タイムリマップで動きに緩急をつけた。<br>
+        シーンに登場するCGモデルはすべてMayaで作成した。群体アルゴリズムに基づき泳ぐ魚群、トレイルの表現はGPGPUのコンピュートシェーダで実現。動画後半のワイヤーフレーム表現はShaderLabで書いていて、シーン全体をUnity内のポストプロセスで発光させている。カメラワークはTimelineとCinemachineで作成し、シーンはほぼ一発撮り。最後にポスプロとしてAEで簡単なノイズを乗せたり、タイムリマップで動きに緩急をつけた。<br>
         <span class="en">
           All CG models in this video were created with Maya. GPGPU, compute shader is used to represent the fish school that swim based on the swarm algorithm and trail particle. The wire frame in the latter half of the video is also implemented with ShaderLab, and it is emitted by the post process in Unity. And the camera work is created on Timeline and Cinemachine, and the scene is shot almost once. Finally what I adjusted on After Effects is simple noise expression and time-remapping.
         </span>
@@ -25,7 +25,7 @@
       <ul class="work-image__list">
         <li class="work-image__item size-full">
           <div class="youtube">
-            <iframe src="https://www.youtube.com/embed/W8E1U9eQwhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/oAf4lD8YEbM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </li>
         <li class="work-image__item size-half">
