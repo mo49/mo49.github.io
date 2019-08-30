@@ -3,18 +3,45 @@ section[data-page="index"]{
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 20px;
+    opacity: 0;
+  }
+  .title{
+    text-align: center;
+    display: block;
+    position: absolute;
+    color: #fff;
+    h2{
+      color: #fff;
+      font-size: 2.5rem;
+    }
+    @include pc-layout{
+      top: 0px;
+    }
+    @include sp-layout{
+      top: 0px;
+    }
   }
   h2{
-    margin-bottom: 15px;
-    padding-bottom: 5px;
-    border-bottom: dotted 1px $border-color;
+    // border-bottom: dotted 1px $border-color;
   }
   h3{
     margin-bottom: 15px;
   }
-  div[data-bg]{
+  & > div{
     padding: 30px 20px;
     margin-bottom: 20px;
+    position: relative;
+    @include pc-layout{
+      margin: 50px 0 100px;
+      padding-top: 100px;
+    }
+    @include sp-layout{
+      margin: 50px 0 100px;
+      padding-top: 100px;
+    }
+  }
+  canvas{
+    position: absolute;
   }
 }
 

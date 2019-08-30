@@ -1,6 +1,10 @@
 <template>
   <div class="history">
-    <h2>HISTORY</h2>
+    <Ameba :width="600" :height="600" :color="'#E3170A'" />
+    <div class="title">
+      <h2>HISTORY</h2>
+      <p>経歴</p>
+    </div>
     <div class="history__content">
       <h3>CAREER</h3>
       <ul class="history__list">
@@ -56,6 +60,65 @@
   </div>
 </template>
 
-<style lang="scss">
-@import "~assets/sass/module/history";
+<script>
+import Ameba from '~/components/Ameba.vue'
+export default {
+  components: {
+    Ameba,
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+*{
+  position: relative;
+}
+.title{
+  left: 50%;
+  transform: translateX(-50%);
+}
+canvas{
+  top: -80px;
+  @include pc-layout{
+    left: 110px;
+  }
+  @include sp-layout{
+    left: -120px;
+  }
+}
+.history{
+  $padding-left: 5px;
+
+  &__content{
+    // padding-left: $padding-left;
+  }
+
+  h3{
+  }
+
+  &__list{
+    padding-left: $padding-left;
+    margin-bottom: 30px;
+  }
+  &__item{
+    list-style: none;
+  }
+  &__year{
+    font-weight: bold;
+    color: $font-color-sub;
+    margin-top: 20px;
+  }
+  &__name{
+    font-weight: bold;
+    color: $font-color-sub;
+    padding-left: $padding-left;
+  }
+  &__desc{
+    padding-left: 30px;
+    li{
+      list-style-type: disc;
+    }
+  }
+}
+
 </style>

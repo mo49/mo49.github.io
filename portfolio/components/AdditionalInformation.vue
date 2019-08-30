@@ -1,6 +1,10 @@
 <template>
   <div class="additional-information">
-    <h2>ADDITIONAL INFORMATION</h2>
+    <Ameba :width="500" :height="500" :color="'#9F73FF'" />
+    <div class="title">
+      <h2>Others</h2>
+      <p>その他</p>
+    </div>
     <div class="additional-information__content">
       <ul class="additional-information__list">
         <li class="additional-information__item">
@@ -46,6 +50,64 @@
   </div>
 </template>
 
-<style lang="scss">
-@import "~assets/sass/module/additional-information";
+<script>
+import Ameba from '~/components/Ameba.vue'
+export default {
+  components: {
+    Ameba,
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+*{
+  position: relative;
+}
+.title{
+  @include pc-layout{
+    left: 0px;
+  }
+  @include sp-layout{
+    left: 20px;
+  }
+}
+canvas{
+  top: -80px;
+  left: -200px;
+}
+
+.additional-information{
+  margin-bottom: 200px;
+  a{
+    // @include link();
+    color: $font-color-desc;
+    &:visited{
+      color: $font-color-desc;
+    }
+  }
+  &__item{
+    list-style: disc;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    ul{
+      margin-left: 10px;
+    }
+    li{
+      list-style-type: circle;
+    }
+  }
+  .accordion-menu{
+    @include accordion-menu('.accordion-menu__content', 2px);
+    &__title{
+      display: inline-block;
+    }
+    i{
+      margin-top: 0;
+      left: 12px;
+      top: -11px;
+      position: relative;
+      display: inline-block;
+    }
+  }
+}
 </style>
