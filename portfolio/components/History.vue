@@ -42,13 +42,6 @@
           </ul>
         </li>
         <li class="history__item">
-          <p class="history__year">2017</p>
-          <h4 class="history__name">VR ACADEMY</h4>
-          <ul class="history__desc">
-            <li>Expert Course, a 2nd cohort</li>
-          </ul>
-        </li>
-        <li class="history__item">
           <p class="history__year">2018 – 2019</p>
           <h4 class="history__name">DIGITAL HOLLYWOOD SCHOOL</h4>
           <ul class="history__desc">
