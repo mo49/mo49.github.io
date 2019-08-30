@@ -87,9 +87,9 @@ canvas{
     text-align: center;
     position: relative;
     text-decoration: none;
-    color: $link-color;
+    color: $font-color-sub;
     &:visited{
-      color: $font-color-main;
+      color: $font-color-sub;
     }
     p{
       position: absolute;

@@ -84,7 +84,7 @@ export default {
     draw() {
       this.ctx.clearRect(0, 0, this.$el.width, this.$el.height);
       for(let i = 0; i < this.circles.length; i++) {
-        this.drawCircle(this.color, this.circles[i]['point'], .8);
+        this.drawCircle(this.color, this.circles[i]['point'], .75);
       }
     },
     drawCircle(color, point, alpha) {
