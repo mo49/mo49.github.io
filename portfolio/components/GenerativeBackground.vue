@@ -54,6 +54,13 @@ export default {
         // drawLissajous();
       }
 
+      p.windowResized = function() {
+        if(isSP) return;
+        p.resizeCanvas(window.innerWidth,window.innerHeight);
+        calculateLissajousPoints();
+        drawLissajous();
+      }
+
       function calculateLissajousPoints() {
         for (var i = 0; i <= pointCount; i++) {
           var angle = p.map(i, 0, pointCount, 0, p.TAU);
@@ -65,12 +72,6 @@ export default {
 
           lissajousPoints[i] = p.createVector(x,y);
         }
-      }
-
-      p.windowResized = function() {
-        p.resizeCanvas(window.innerWidth,window.innerHeight);
-        calculateLissajousPoints();
-        drawLissajous();
       }
 
       function drawLissajous() {
@@ -108,11 +109,11 @@ export default {
 #generative-canvas{
   pointer-events: none;
   position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 100vw;
-  height: 100vh;
+  // left: 50%;
+  // top: 50%;
+  // transform: translate(-50%, -50%);
+  // width: 100vw;
+  // height: 100vh;
   z-index: -1;
   canvas{
   }
