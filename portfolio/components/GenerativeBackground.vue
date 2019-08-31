@@ -42,6 +42,8 @@ export default {
 
         calculateLissajousPoints();
         drawLissajous();
+
+        p.noLoop();
       };
 
       p.draw = function() {
