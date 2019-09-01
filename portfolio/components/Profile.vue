@@ -83,7 +83,7 @@ canvas{
   }
 }
 .profile__thumb{
-  background-image: url("~assets/image/profile.jpg");
+  background-image: url("~assets/image/profile.png");
 }
 </style>
 
