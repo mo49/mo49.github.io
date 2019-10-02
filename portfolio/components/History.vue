@@ -45,7 +45,7 @@
           <p class="history__year">2018 – 2019</p>
           <h4 class="history__name">DIGITAL HOLLYWOOD SCHOOL</h4>
           <ul class="history__desc">
-            <li>3DCG Course, a scholarship student</li>
+            <li>3DCG/VFX Course, a scholarship student</li>
           </ul>
         </li>
       </ul>
