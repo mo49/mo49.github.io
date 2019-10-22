@@ -6,12 +6,13 @@
       <p>経歴</p>
     </div>
     <div class="history__content">
-      <h3>CAREER</h3>
+      <h3>EMPLOYMENT</h3>
       <ul class="history__list">
         <li class="history__item">
           <p class="history__year">2015 – 2018</p>
           <h4 class="history__name">KAYAC.INC</h4>
           <ul class="history__desc">
+            <li>Full-time</li>
             <li>HTMLファイ部 | Web Front-End Engineer</li>
           </ul>
         </li>
@@ -19,6 +20,7 @@
           <p class="history__year">2018 –</p>
           <h4 class="history__name">SHOWROOM</h4>
           <ul class="history__desc">
+            <li>Full-time</li>
             <li>xR Div. | Unity Developer, Web Front-End Engineer</li>
           </ul>
         </li>
