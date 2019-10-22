@@ -33,10 +33,6 @@
       <font-awesome-icon :icon="['fab', 'medium']" class="fa-3x"/>
       <p>Medium</p>
     </a>
-    <a href="https://scrapbox.io/artresearching/" target="_blank">
-      <font-awesome-icon :icon="['fas', 'bookmark']" class="fa-3x"/>
-      <p>Scrapbox</p>
-    </a>
     <a href="https://qiita.com/mczkzk" target="_blank">
       <font-awesome-icon :icon="['fas', 'blog']" class="fa-3x"/>
       <p>Qiita</p>
