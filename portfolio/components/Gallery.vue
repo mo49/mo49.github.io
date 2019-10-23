@@ -87,7 +87,7 @@
       <li class="gallery__item" data-label="business" data-is-lock="false">
         <nuxt-link to="works/web/onepiece">
           <figure>
-            <div class="gallery__thumb"></div>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_onepiece+')' } "></div>
             <figcaption class="gallery__caption">
               <p>ONE PIECE WCI編 テレビアニメ連動サイト</p>
               <p>D3.js / Canvas</p>
@@ -99,7 +99,7 @@
       <li class="gallery__item" data-label="business" data-is-lock="false">
         <nuxt-link to="works/web/kamakura-fireworks">
           <figure>
-            <div class="gallery__thumb"></div>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_kamakura_fireworks+')' } "></div>
             <figcaption class="gallery__caption">
               <p>第69回 鎌倉花火大会</p>
               <p>Canvas / JavaScript</p>
@@ -111,7 +111,7 @@
       <li class="gallery__item" data-label="business" data-is-lock="false">
         <nuxt-link to="works/web/hirameki">
           <figure>
-            <div class="gallery__thumb"></div>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_hirameki+')' } "></div>
             <figcaption class="gallery__caption">
               <p>ひらめきエンジン</p>
               <p>Bodymovin / Electron</p>
@@ -120,10 +120,22 @@
           </figure>
         </nuxt-link>
       </li>
+      <li class="gallery__item" data-label="business" data-is-lock="false">
+        <nuxt-link to="works/web/showstage">
+          <figure>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showstage+')' } "></div>
+            <figcaption class="gallery__caption">
+              <p>SHOWSTAGE</p>
+              <p>Nuxt.js</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
       <!-- <li class="gallery__item" data-label="business" data-is-lock="true">
         <nuxt-link to="works/web/obayashi" target="_blank">
           <figure>
-            <div class="gallery__thumb"></div>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_gracity+')' } "></div>
             <figcaption class="gallery__caption">
               <p>（仮）BIMシステム</p>
               <p>Three.js / Blender / WebGL / JavaScript</p>
@@ -135,7 +147,7 @@
       <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/web/mental-energy">
           <figure>
-            <div class="gallery__thumb"></div>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mental_energy+')' } "></div>
             <figcaption class="gallery__caption">
               <p>Mental Energy</p>
               <p>PHP / MySQL / Canvas / CreateJS</p>
@@ -147,7 +159,7 @@
       <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link to="works/web/webgl-world-heritage">
           <figure>
-            <div class="gallery__thumb"></div>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_webgl_world_heritage+')' } "></div>
             <figcaption class="gallery__caption">
               <p>WebGL世界遺産</p>
               <p>Three.js</p>
@@ -214,6 +226,12 @@ export default {
       img_tele_magic: require('@/assets/image/works/vr/tele-magic/1.png'),
       img_gracity: require('@/assets/image/works/vr/gracity/1.png'),
       img_readyyy: require('@/assets/image/works/unity-ue/readyyy/1.png'),
+      img_onepiece: require('@/assets/image/works/web/onepiece/1.png'),
+      img_kamakura_fireworks: require('@/assets/image/works/web/kamakura-fireworks/1.png'),
+      img_hirameki: require('@/assets/image/works/web/hirameki/3.jpg'),
+      img_showstage: require('@/assets/image/works/web/showstage/1.png'),
+      img_mental_energy: require('@/assets/image/works/web/mental-energy/2.png'),
+      img_webgl_world_heritage: require('@/assets/image/works/web/webgl-world-heritage/1.png'),
     }
   }
 }
@@ -346,25 +364,6 @@ canvas{
 // list
 //////////////////////////////
 .gallery__list{
-  &[data-genre="web"]{
-    .gallery__item{
-      &:nth-child(1) .gallery__thumb{
-        background-image: url("~assets/image/works/web/onepiece/1.png");
-      }
-      &:nth-child(2) .gallery__thumb{
-        background-image: url("~assets/image/works/web/kamakura-fireworks/1.png");
-      }
-      &:nth-child(3) .gallery__thumb{
-        background-image: url("~assets/image/works/web/hirameki/3.jpg");
-      }
-      &:nth-child(4) .gallery__thumb{
-        background-image: url("~assets/image/works/web/mental-energy/2.png");
-      }
-      &:nth-child(5) .gallery__thumb{
-        background-image: url("~assets/image/works/web/webgl-world-heritage/1.png");
-      }
-    }
-  }
   &[data-genre="other"]{
     .gallery__item{
       &:nth-child(1) .gallery__thumb{
