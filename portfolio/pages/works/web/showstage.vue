@@ -6,67 +6,76 @@
     <div class="work-about" data-bg="odd">
       <h2>About</h2>
       <p>
-        利用者がいつも頭の片隅に置いているワード（ブレストのお題やビジネス上のキーワードなど）と、それとは関係のない偶発ワード（流行語や辞書のワードなど）を組み合わせることで、新しい発想の種を提供するサイネージ。HONDAの最先端技術を研究するイノベーションラボの会議室にて初めて導入された。ライセンス化しアプリケーションとして販売中。
-        <br>
+        一体型VRヘッドセット「Oculus Go」に対応した，VR空間の生ライブプラットフォームサービス「SHOWSTAGE(ショウステージ)」のWebサイト．ライブ検索，お知らせ，ログイン，チケット購入，購入履歴一覧，ライブスクショ閲覧などの機能があるECサイト．<br>
         <span class="en">
-          Digital Signage providing the seed of new idea created by combining the words that users always put in the back of their head such as brainstorming titles and business keywords, and incidental words that don't relate to it such as buzzwords and dictionary words. It was first introduced in the conference room of the Innovation Lab, which is HONDA's most advanced research and development institutions. It's licensed and sold as an application.
+          The website of the Live VR Platform "SHOWSTAGE" that supports the integrated VR headset "Oculus Go". This is E-commerce web site which has functions such as searching lives, notification, login, purchasing ticket, purchase history and screenshot list.
         </span>
       </p>
       <p>
-        私の担当はフロントエンド全般。流行りのワードは各種APIで取得し、背景のアニメーションはBodymovinというライブラリを使用したSVGアニメーションになっている。
-        <br>
+        エンジニアはフロントエンド1名，バックエンド2名で作成．私の担当はフロントエンド．
         <span class="en">
-          I'm in charged of whole web-front-end part. I obtained buzzwords with various APIs, and made SVG animation using a library, Bodymovin.
+          One web front-end engineer and two back-end engineers write program. I'm in web front-end.
         </span>
       </p>
       <p>
-        <a href="https://confit.atlas.jp/guide/event-img/jsai2018/4Pin1-44/public/pdf?type=in" target="_blank">発想支援システム「ひらめきエンジン」の紹介</a>
+        <a href="https://www.showstage.live/" target="_blank">SHOWSTAGE</a>
       </p>
     </div>
     <div class="work-image" data-bg="even">
       <h2>Image / Movie</h2>
       <ul class="work-image__list">
-        <li class="work-image__item size-full">
-          <img src="~assets/image/works/web/hirameki/1.png" @click="openModal">
+        <li class="work-image__item">
+          <img src="~assets/image/works/web/showstage/1.png" @click="openModal">
           <figcaption>
-            基本画面
+            トップ
           </figcaption>
         </li>
         <li class="work-image__item">
-          <img src="~assets/image/works/web/hirameki/2.jpg" @click="openModal">
+          <img src="~assets/image/works/web/showstage/2.png" @click="openModal">
           <figcaption>
-            会議スペース(カヤック)
+            ライブ個別ページ
           </figcaption>
         </li>
         <li class="work-image__item">
-          <img src="~assets/image/works/web/hirameki/3.jpg" @click="openModal">
+          <img src="~assets/image/works/web/showstage/3.png" @click="openModal">
           <figcaption>
-            コミュニケーションスペース(乃村工藝社：本社)
+            購入確認
           </figcaption>
         </li>
-        <li class="work-image__item size-full">
-          <div class="youtube">
-            <iframe src="https://www.youtube.com/embed/wFX5WZIb9ws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+        <li class="work-image__item">
+          <img src="~assets/image/works/web/showstage/4.png" @click="openModal">
+          <figcaption>
+            購入済みチケット
+          </figcaption>
+        </li>
+        <li class="work-image__item">
+          <img src="~assets/image/works/web/showstage/5.png" @click="openModal">
+          <figcaption>
+            ポイントの購入
+          </figcaption>
+        </li>
+        <li class="work-image__item">
+          <img src="~assets/image/works/web/showstage/6.png" @click="openModal">
+          <figcaption>
+            アカウント設定
+          </figcaption>
         </li>
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
       <h2>Skill</h2>
-      <p>Bodymovin / Electron / JavaScript</p>
+      <p>Nuxt.js</p>
     </div>
     <div class="work-time" data-bg="even">
       <h2>Production Time</h2>
       <p>
-        from January to February, 2017. (about 1month)<br>
-        from January to February, 2018. (about 1month)
+        from August to October, 2019. (about 3month)
       </p>
     </div>
     <div class="work-media" data-bg="odd">
       <h2>Media</h2>
       <ul>
-        <li><a class="link-hover" href="https://www.kayac.com/news/2018/06/hiramekiengine" target="_blank">カヤックと乃村工藝社さんで“アイデアの種”を無限に生み出す発想支援アプリケーション「ひらめきエンジン」の販売を開始しました！</a></li>
-        <li><a class="link-hover" href="https://www.nikkei.com/article/DGXLRSP483806_Y8A620C1000000/" target="_blank">乃村工芸社とカヤック、発想支援アプリケーション「ひらめきエンジン」を販売開始 </a></li>
+        <li><a class="link-hover" href="https://prtimes.jp/main/html/rd/p/000000315.000026205.html" target="_blank">SHOWROOM、VR空間で生ライブが楽しめるサービス「SHOWSTAGE β版」パフォーマーは有料配信が可能に</a></li>
       </ul>
     </div>
     <modal ref="modal" />
