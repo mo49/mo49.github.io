@@ -72,6 +72,18 @@
 
     <h3>Web</h3>
     <ul class="gallery__list" data-genre="web">
+      <li class="gallery__item" data-label="business" data-is-lock="false">
+        <nuxt-link to="works/web/showstage">
+          <figure>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showstage+')' } "></div>
+            <figcaption class="gallery__caption">
+              <p>SHOWSTAGE</p>
+              <p>Nuxt.js</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
       <!-- <li class="gallery__item" data-label="business" data-is-lock="true">
         <nuxt-link to="works/web/virtual-cheki" target="_blank">
           <figure>
@@ -115,18 +127,6 @@
             <figcaption class="gallery__caption">
               <p>ひらめきエンジン</p>
               <p>Bodymovin / Electron</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li>
-      <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link to="works/web/showstage">
-          <figure>
-            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showstage+')' } "></div>
-            <figcaption class="gallery__caption">
-              <p>SHOWSTAGE</p>
-              <p>Nuxt.js</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
