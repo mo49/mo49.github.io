@@ -25,7 +25,7 @@
       <font-awesome-icon :icon="['fab', 'youtube-square']" class="fa-3x"/>
       <p>YouTube</p>
     </a>
-    <a href="https://www.instagram.com/mczkzk_/" target="_blank">
+    <a href="https://www.instagram.com/mczkzk49/" target="_blank">
       <font-awesome-icon :icon="['fab', 'instagram']" class="fa-3x"/>
       <p>Instagram</p>
     </a>
