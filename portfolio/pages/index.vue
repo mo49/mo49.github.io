@@ -1,11 +1,11 @@
 <template>
   <section class="container" data-page="index">
     <h1 class="index__title">PORTFOLIO SITE</h1>
-    <profile />
-    <history />
-    <gallery />
-    <social-accounts />
-    <additional-information />
+    <profile id="profile" />
+    <history id="history" />
+    <gallery id="gallery" />
+    <social-accounts id="media" />
+    <additional-information id="others" />
   </section>
 </template>
 
