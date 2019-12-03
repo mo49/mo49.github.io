@@ -1,15 +1,30 @@
+<i18n>
+{
+  "ja": {
+    "skillset": "スキルセット詳細",
+    "language": "日本語 - ネイティブ，英語 - 日常会話",
+    "travel": "海外渡航歴"
+  },
+  "en": {
+    "skillset": "More details on the skillset",
+    "language": "Japanese - Native, English - Basic",
+    "travel": "Travel Abroad"
+  }
+}
+</i18n>
+
 <template>
   <div class="additional-information">
     <Ameba :width="500" :height="500" :color="'#9F73FF'" />
     <div class="title">
       <h2>Others</h2>
-      <p>その他</p>
+      <p v-if="$isJa">その他</p>
     </div>
     <div class="additional-information__content">
       <ul class="additional-information__list">
         <li class="additional-information__item">
           <p>
-            <nuxt-link to="/skillset">More details on the skillset</nuxt-link>
+            <nuxt-link to="/skillset" v-if="$isJa">{{ $t('skillset') }}</nuxt-link>
           </p>
         </li>
         <li class="additional-information__item">
@@ -18,13 +33,33 @@
           </p>
         </li>
         <li class="additional-information__item">
-          <p>Japanese - Native, English - Basic</p>
+          <p>{{ $t('language') }}</p>
         </li>
         <li class="additional-information__item accordion-menu">
           <input type="checkbox" checked>
-          <p class="accordion-menu__title">Travel Abroad</p>
+          <p class="accordion-menu__title">{{ $t('travel') }}</p>
           <i></i>
-          <ul class="accordion-menu__content">
+          <ul v-if="$isJa" class="accordion-menu__content">
+            <li>中国 / 北京, 上海, 西安, 深セン, 香港</li>
+            <li>韓国 / ソウル</li>
+            <li>フィリピン / セブ島</li>
+            <li>タイ / バンコク, アユタヤ</li>
+            <li>インド / ニューデリー, ジャイプール, アグラ, ハリドワール</li>
+            <li>フランス / パリ, モン・サン・ミッシェル</li>
+            <li>イギリス /ロンドン</li>
+            <li>イタリア / ローマ</li>
+            <li>スペイン / マドリード, バルセロナ</li>
+            <li>オランダ / アムステルダム, ロッテルダム, アルクマール</li>
+            <li>エジプト / カイロ, ギザ, バハレイヤ, ルクソール, アスワン, アブ・シンベル</li>
+            <li>ヨルダン / アンマン, ペトラ</li>
+            <li>イスラエル / エルサレム</li>
+            <li>アメリカ / ニューヨーク, ワシントン, ロサンゼルス, ラスベガス, ハワイ</li>
+            <li>カナダ / バンフ</li>
+            <li>メキシコ / メキシコシティ</li>
+            <li>ペルー / リマ, クスコ, ワカチナ, ナスカ, オリャンタイタンボ, マチュピチュ, プーノ</li>
+            <li>チリ / サンティアゴ, イースター島</li>
+          </ul>
+          <ul v-else class="accordion-menu__content">
             <li>China / Beijing, Shanghai, Xi'an, Shenzhen, Hong Kong</li>
             <li>Korea / Seoul</li>
             <li>Philippine / Cebu Island</li>

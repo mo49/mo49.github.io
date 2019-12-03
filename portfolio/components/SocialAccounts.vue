@@ -3,7 +3,7 @@
     <Ameba :width="400" :height="400" :color="'#AFE84C'" />
     <div class="title">
       <h2>MEDIA</h2>
-      <p>メディア</p>
+      <p v-if="$isJa">メディア</p>
     </div>
     <a href="https://github.com/mo49" target="_blank">
       <font-awesome-icon :icon="['fab', 'github']" class="fa-3x"/>

@@ -3,7 +3,7 @@
     <Ameba :width="900" :height="900" :color="'#FFDE00'" />
     <div class="title">
       <h2>GALLERY</h2>
-      <p>作品集</p>
+      <p v-if="$isJa">作品集</p>
     </div>
     <h3>CG / VR</h3>
     <ul class="gallery__list" data-genre="3dcg-vfx">
@@ -24,7 +24,8 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showroom_office+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>株式会社SHOWROOM,荒井ビルオフィス</p>
+              <p v-if="$isJa">株式会社SHOWROOM,荒井ビルオフィス</p>
+              <p v-else>SHOWROOM Inc. Office in Arai Building</p>
               <p>Maya</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -36,7 +37,8 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_readyyy+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>SHOWROOM V - Readyyy!版</p>
+              <p v-if="$isJa">SHOWROOM V - Readyyy!版</p>
+              <p>SHOWROOM V - Readyyy!</p>
               <p>Unity / Live2D</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -101,7 +103,8 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_onepiece+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>ONE PIECE WCI編 テレビアニメ連動サイト</p>
+              <p v-if="$isJa">ONE PIECE WCI編 テレビアニメ連動サイト</p>
+              <p v-else>ONE PIECE Whole Cake Island Arc - Web site interacted with TV Anime show</p>
               <p>D3.js / Canvas</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -113,7 +116,8 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_kamakura_fireworks+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>第69回 鎌倉花火大会</p>
+              <p v-if="$isJa">第69回 鎌倉花火大会</p>
+              <p v-else>The 69th Kamakura Fireworks Festival</p>
               <p>Canvas / JavaScript</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -125,7 +129,8 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_hirameki+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>ひらめきエンジン</p>
+              <p v-if="$isJa">ひらめきエンジン</p>
+              <p v-else>Hirameki engine</p>
               <p>Bodymovin / Electron</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -161,7 +166,8 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_webgl_world_heritage+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>WebGL世界遺産</p>
+              <p v-if="$isJa">WebGL世界遺産</p>
+              <p v-else>WebGL World Heritage</p>
               <p>Three.js</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
