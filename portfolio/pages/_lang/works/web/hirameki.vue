@@ -1,0 +1,97 @@
+<template>
+  <section class="container work" data-page="work">
+    <h1 class="work__title">
+      ひらめきエンジン<br>
+      <span class="en">
+        Hirameki engine
+      </span>
+    </h1>
+    <div class="work-about" data-bg="odd">
+      <h2>About</h2>
+      <p>
+        利用者がいつも頭の片隅に置いているワード（ブレストのお題やビジネス上のキーワードなど）と、それとは関係のない偶発ワード（流行語や辞書のワードなど）を組み合わせることで、新しい発想の種を提供するサイネージ。HONDAの最先端技術を研究するイノベーションラボの会議室にて初めて導入された。ライセンス化しアプリケーションとして販売中。
+        <br>
+        <span class="en">
+          Digital Signage providing the seed of new idea created by combining the words that users always put in the back of their head such as brainstorming titles and business keywords, and incidental words that don't relate to it such as buzzwords and dictionary words. It was first introduced in the conference room of the Innovation Lab, which is HONDA's most advanced research and development institutions. It's licensed and sold as an application.
+        </span>
+      </p>
+      <p>
+        私の担当はフロントエンド全般。流行りのワードは各種APIで取得し、背景のアニメーションはBodymovinというライブラリを使用したSVGアニメーションになっている。
+        <br>
+        <span class="en">
+          I'm in charged of whole web-front-end part. I obtained buzzwords with various APIs, and made SVG animation using a library, Bodymovin.
+        </span>
+      </p>
+      <p>
+        <a href="https://confit.atlas.jp/guide/event-img/jsai2018/4Pin1-44/public/pdf?type=in" target="_blank">発想支援システム「ひらめきエンジン」の紹介</a>
+      </p>
+    </div>
+    <div class="work-image" data-bg="even">
+      <h2>Image / Movie</h2>
+      <ul class="work-image__list">
+        <li class="work-image__item size-full">
+          <img src="~assets/image/works/web/hirameki/1.png" @click="openModal">
+          <figcaption>
+            基本画面
+          </figcaption>
+        </li>
+        <li class="work-image__item">
+          <img src="~assets/image/works/web/hirameki/2.jpg" @click="openModal">
+          <figcaption>
+            会議スペース(カヤック)
+          </figcaption>
+        </li>
+        <li class="work-image__item">
+          <img src="~assets/image/works/web/hirameki/3.jpg" @click="openModal">
+          <figcaption>
+            コミュニケーションスペース(乃村工藝社：本社)
+          </figcaption>
+        </li>
+        <li class="work-image__item size-full">
+          <div class="youtube">
+            <iframe src="https://www.youtube.com/embed/wFX5WZIb9ws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="work-skill" data-bg="odd">
+      <h2>Skill</h2>
+      <p>Bodymovin / Electron / JavaScript</p>
+    </div>
+    <div class="work-time" data-bg="even">
+      <h2>Production Time</h2>
+      <p>
+        from January to February, 2017. (about 1month)<br>
+        from January to February, 2018. (about 1month)
+      </p>
+    </div>
+    <div class="work-media" data-bg="odd">
+      <h2>Media</h2>
+      <ul>
+        <li><a class="link-hover" href="https://www.kayac.com/news/2018/06/hiramekiengine" target="_blank">カヤックと乃村工藝社さんで“アイデアの種”を無限に生み出す発想支援アプリケーション「ひらめきエンジン」の販売を開始しました！</a></li>
+        <li><a class="link-hover" href="https://www.nikkei.com/article/DGXLRSP483806_Y8A620C1000000/" target="_blank">乃村工芸社とカヤック、発想支援アプリケーション「ひらめきエンジン」を販売開始 </a></li>
+      </ul>
+    </div>
+    <modal ref="modal" />
+  </section>
+</template>
+
+<script>
+import Modal from "~/components/Modal"
+
+export default {
+  components: {
+    Modal,
+  },
+  methods: {
+    openModal(evt) {
+      this.$refs.modal.openModal(evt);
+    },
+  },
+}
+</script>
+
+<style lang="scss">
+@import "~assets/sass/page/works";
+</style>
+

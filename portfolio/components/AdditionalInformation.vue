@@ -1,30 +1,15 @@
-<i18n>
-{
-  "ja": {
-    "skillset": "スキルセット詳細",
-    "language": "日本語 - ネイティブ，英語 - 日常会話",
-    "travel": "海外渡航歴"
-  },
-  "en": {
-    "skillset": "More details on the skillset",
-    "language": "Japanese - Native, English - Basic",
-    "travel": "Travel Abroad"
-  }
-}
-</i18n>
-
 <template>
   <div class="additional-information">
     <Ameba :width="500" :height="500" :color="'#9F73FF'" />
     <div class="title">
       <h2>Others</h2>
-      <p v-if="$isJa">その他</p>
+      <p>{{ $t('others.ja-title') }}</p>
     </div>
     <div class="additional-information__content">
       <ul class="additional-information__list">
         <li class="additional-information__item">
           <p>
-            <nuxt-link to="/skillset" v-if="$isJa">{{ $t('skillset') }}</nuxt-link>
+            <nuxt-link to="/skillset" v-if="$isJa">{{ $t('others.skillset') }}</nuxt-link>
           </p>
         </li>
         <li class="additional-information__item">
@@ -33,11 +18,11 @@
           </p>
         </li>
         <li class="additional-information__item">
-          <p>{{ $t('language') }}</p>
+          <p>{{ $t('others.language') }}</p>
         </li>
         <li class="additional-information__item accordion-menu">
           <input type="checkbox" checked>
-          <p class="accordion-menu__title">{{ $t('travel') }}</p>
+          <p class="accordion-menu__title">{{ $t('others.travel') }}</p>
           <i></i>
           <ul v-if="$isJa" class="accordion-menu__content">
             <li>中国 / 北京, 上海, 西安, 深セン, 香港</li>

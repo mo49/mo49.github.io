@@ -42,26 +42,13 @@ module.exports = {
   },
   plugins: [
     '~/plugins/isJa',
+    '~/plugins/i18n',
   ],
   modules: [
     '@nuxtjs/style-resources',
     'nuxt-fontawesome',
     'nuxt-basic-auth-module',
     'nuxt-user-agent',
-    [
-      'nuxt-i18n',
-      {
-        locales: [
-          { code: 'ja', iso: 'ja_JP' },
-          { code: 'en', iso: 'en-US' },
-        ],
-        defaultLocale: 'ja',
-        vueI18n: {
-          fallbackLocale: 'ja',
-        },
-        vueI18nLoader: true
-      }
-    ]
   ],
   css: [
     'normalize.css'
@@ -88,6 +75,9 @@ module.exports = {
         icons: ['fab']
       },
     ]
+  },
+  router: {
+    middleware: 'i18n'
   }
 }
 
