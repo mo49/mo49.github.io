@@ -41,8 +41,8 @@ module.exports = {
     }
   },
   plugins: [
-    '~/plugins/isJa',
     '~/plugins/i18n',
+    '~/plugins/isJa',
   ],
   modules: [
     '@nuxtjs/style-resources',
