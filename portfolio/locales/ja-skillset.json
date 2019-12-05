@@ -1,0 +1,12 @@
+{
+  "skillset": {
+    "proficiency": "習熟度",
+    "label": "表記",
+    "rank": {
+      "professional": "業務経験があり慣れている",
+      "amateur": "継続的に勉強している",
+      "beginner": "触ったことがある"
+    },
+    "reference": "参照"
+  }
+}
