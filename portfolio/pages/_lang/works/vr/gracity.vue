@@ -4,7 +4,7 @@
       Gracity
     </h1>
     <div class="work-about" data-bg="odd">
-      <h2>About</h2>
+      <h2>{{ $t('works.headlines.about') }}</h2>
       <p>
         PUNとVRTKを組み合わせてVRオンラインマルチプレイ対戦ゲームを制作した。舞台は中世風の街並み。プレイヤー（魔法使い）は街中に散在する魔法の杖を取得し、遭遇した敵と対戦するゲーム。重量変更のギミックを盛り込み、重力（Gravity）と街(City)から、「Gracity」というタイトル（造語）をつけた。<br>
         <span class="en">
@@ -31,7 +31,7 @@
 
     </div>
     <div class="work-image" data-bg="even">
-      <h2>Image / Movie</h2>
+      <h2>{{ $t('works.headlines.image') }}</h2>
       <ul class="work-image__list">
         <li class="work-image__item size-full">
           <div class="youtube">
@@ -53,11 +53,11 @@
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
-      <h2>Skill</h2>
+      <h2>{{ $t('works.headlines.skill') }}</h2>
       <p>Unity / C# / Vive / Photon / VRTK</p>
     </div>
     <div class="work-time" data-bg="even">
-      <h2>Production Time</h2>
+      <h2>{{ $t('works.headlines.production-time') }}</h2>
       <p>from December 2017 to January 2018. (about 1month)</p>
     </div>
     <div class="work-media" data-bg="odd">

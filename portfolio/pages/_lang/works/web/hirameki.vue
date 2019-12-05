@@ -7,7 +7,7 @@
       </span>
     </h1>
     <div class="work-about" data-bg="odd">
-      <h2>About</h2>
+      <h2>{{ $t('works.headlines.about') }}</h2>
       <p>
         利用者がいつも頭の片隅に置いているワード（ブレストのお題やビジネス上のキーワードなど）と、それとは関係のない偶発ワード（流行語や辞書のワードなど）を組み合わせることで、新しい発想の種を提供するサイネージ。HONDAの最先端技術を研究するイノベーションラボの会議室にて初めて導入された。ライセンス化しアプリケーションとして販売中。
         <br>
@@ -27,7 +27,7 @@
       </p>
     </div>
     <div class="work-image" data-bg="even">
-      <h2>Image / Movie</h2>
+      <h2>{{ $t('works.headlines.image') }}</h2>
       <ul class="work-image__list">
         <li class="work-image__item size-full">
           <img src="~assets/image/works/web/hirameki/1.png" @click="openModal">
@@ -55,11 +55,11 @@
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
-      <h2>Skill</h2>
+      <h2>{{ $t('works.headlines.skill') }}</h2>
       <p>Bodymovin / Electron / JavaScript</p>
     </div>
     <div class="work-time" data-bg="even">
-      <h2>Production Time</h2>
+      <h2>{{ $t('works.headlines.production-time') }}</h2>
       <p>
         from January to February, 2017. (about 1month)<br>
         from January to February, 2018. (about 1month)

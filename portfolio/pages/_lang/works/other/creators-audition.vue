@@ -7,7 +7,7 @@
       </span>
     </h1>
     <div class="work-about" data-bg="odd">
-      <h2>About</h2>
+      <h2>{{ $t('works.headlines.about') }}</h2>
       <p>
         デジタルハリウッドで開催される「CREATORS AUDITION」の告知ポスターとリーフレット。
         <br><br>
@@ -15,7 +15,7 @@
       </p>
     </div>
     <div class="work-image" data-bg="even">
-      <h2>Image / Movie</h2>
+      <h2>{{ $t('works.headlines.image') }}</h2>
       <ul class="work-image__list">
         <li class="work-image__item size-full">
           <img src="~assets/image/works/other/creators-audition/1.png" @click="openModal">
@@ -32,11 +32,11 @@
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
-      <h2>Skill</h2>
+      <h2>{{ $t('works.headlines.skill') }}</h2>
       <p>Illustrator / Photoshop</p>
     </div>
     <div class="work-time" data-bg="even">
-      <h2>Production Time</h2>
+      <h2>{{ $t('works.headlines.production-time') }}</h2>
       <p>December, 2014. (about 2weeks)</p>
     </div>
     <div class="work-media" data-bg="odd">

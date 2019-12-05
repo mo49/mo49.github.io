@@ -12,16 +12,16 @@
           <p class="history__year">2015 – 2018</p>
           <h4 class="history__name">{{ $t('history.company1') }}</h4>
           <ul class="history__desc">
-            <li>{{ $t('history.company1-desc1') }}</li>
             <li>{{ $t('history.company1-desc2') }}</li>
+            <li>{{ $t('history.company1-desc1') }}</li>
           </ul>
         </li>
         <li class="history__item">
           <p class="history__year">2018 –</p>
           <h4 class="history__name">{{ $t('history.company2') }}</h4>
           <ul class="history__desc">
-            <li>{{ $t('history.company2-desc1') }}</li>
             <li>{{ $t('history.company2-desc2') }}</li>
+            <li>{{ $t('history.company2-desc1') }}</li>
           </ul>
         </li>
       </ul>

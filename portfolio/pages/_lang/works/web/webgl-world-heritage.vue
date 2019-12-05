@@ -7,7 +7,7 @@
       </span>
     </h1>
     <div class="work-about" data-bg="odd">
-      <h2>About</h2>
+      <h2>{{ $t('works.headlines.about') }}</h2>
       <p>
         デジタルハリウッド東京本校卒業制作。<br>
         <span class="en">
@@ -22,7 +22,7 @@
       </p>
     </div>
     <div class="work-image" data-bg="even">
-      <h2>Image / Movie</h2>
+      <h2>{{ $t('works.headlines.image') }}</h2>
       <ul class="work-image__list">
         <li class="work-image__item size-full">
           <img src="~assets/image/works/web/webgl-world-heritage/1.png" @click="openModal">
@@ -68,11 +68,11 @@
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
-      <h2>Skill</h2>
+      <h2>{{ $t('works.headlines.skill') }}</h2>
       <p>Three.js / JavaScript / AfterEffects</p>
     </div>
     <div class="work-time" data-bg="even">
-      <h2>Production Time</h2>
+      <h2>{{ $t('works.headlines.production-time') }}</h2>
       <p>from May to June, 2015. (about 3weeks)</p>
     </div>
     <div class="work-media" data-bg="odd">

@@ -4,7 +4,7 @@
       SHOWSTAGE
     </h1>
     <div class="work-about" data-bg="odd">
-      <h2>About</h2>
+      <h2>{{ $t('works.headlines.about') }}</h2>
       <p>
         一体型VRヘッドセット「Oculus Go」に対応した，VR空間の生ライブプラットフォームサービス「SHOWSTAGE(ショウステージ)」のWebサイト．ライブ検索，お知らせ，ログイン，チケット購入，購入履歴一覧，ライブスクショ閲覧などの機能があるECサイト．<br>
         <span class="en">
@@ -22,7 +22,7 @@
       </p>
     </div>
     <div class="work-image" data-bg="even">
-      <h2>Image / Movie</h2>
+      <h2>{{ $t('works.headlines.image') }}</h2>
       <ul class="work-image__list">
         <li class="work-image__item">
           <img src="~assets/image/works/web/showstage/1.png" @click="openModal">
@@ -63,11 +63,11 @@
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
-      <h2>Skill</h2>
+      <h2>{{ $t('works.headlines.skill') }}</h2>
       <p>Nuxt.js</p>
     </div>
     <div class="work-time" data-bg="even">
-      <h2>Production Time</h2>
+      <h2>{{ $t('works.headlines.production-time') }}</h2>
       <p>
         from August to October, 2019. (about 3month)
       </p>

@@ -7,7 +7,7 @@
       </span>
     </h1>
     <div class="work-about" data-bg="odd">
-      <h2>About</h2>
+      <h2>{{ $t('works.headlines.about') }}</h2>
       <p>
         一時は中止が決まった鎌倉花火大会をクラウドファンディングで開催することが決定した。その支援者の皆様のメッセージと名前を入れた花火を打ち上げる公式Webサイト。<br>
         <span class="en">
@@ -26,7 +26,7 @@
 
     </div>
     <div class="work-image" data-bg="even">
-      <h2>Image / Movie</h2>
+      <h2>{{ $t('works.headlines.image') }}</h2>
       <ul class="work-image__list">
         <li class="work-image__item">
           <img src="~assets/image/works/web/kamakura-fireworks/2.png" @click="openModal">
@@ -54,11 +54,11 @@
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
-      <h2>Skill</h2>
+      <h2>{{ $t('works.headlines.skill') }}</h2>
       <p>Canvas / JavaScript</p>
     </div>
     <div class="work-time" data-bg="even">
-      <h2>Production Time</h2>
+      <h2>{{ $t('works.headlines.production-time') }}</h2>
       <p>from May to June, 2017. (about 3weeks)</p>
     </div>
     <div class="work-media" data-bg="odd">

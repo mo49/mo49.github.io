@@ -101,6 +101,10 @@ body{
       font-size: $base-font-size--sp*1.2;
     }
   }
+  pre{
+    white-space: pre-wrap;
+    text-align: left;
+  }
 }
 [v-cloak]{
   display: none;

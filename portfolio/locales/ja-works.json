@@ -1,0 +1,15 @@
+{
+  "works": {
+    "headlines": {
+      "about": "作品について",
+      "image": "イメージ画像 / 映像",
+      "skill": "使用技術",
+      "production-time": "制作期間"
+    },
+    "underthewater": {
+      "title": "Music Video - Under The Water",
+      "desc": "デジタルハリウッド本科3DCG/VFXコースの卒業制作。動画に登場するCGモデルはすべてMayaで作成した。群体アルゴリズムに基づき泳ぐ魚群やトレイルの表現はGPGPUを駆使するcompute shaderで実現。動画後半のワイヤーフレーム表現はShaderLabで書いていて、シーン全体をUnity内のポストプロセスで発光させている。カメラワークはTimelineとCinemachineで作成、シーンはほぼ一発撮り。最後にAEで簡単なノイズを乗せたりタイムリマップで動きに緩急をつけた。",
+      "production-time": "2019年7~8月"
+    }
+  }
+}

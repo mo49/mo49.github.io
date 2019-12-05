@@ -4,7 +4,7 @@
       Tele-Magic
     </h1>
     <div class="work-about" data-bg="odd">
-      <h2>About</h2>
+      <h2>{{ $t('works.headlines.about') }}</h2>
       <p>
         自分から2~3mほど離れた場所に置いたThetaのライブストリーミング映像を見ながら、なんちゃってテレイグジスタンス体験ができるタワーディフェンスゲーム。<br>
         <span class="en">
@@ -31,7 +31,7 @@
       </p>
     </div>
     <div class="work-image" data-bg="even">
-      <h2>Image / Movie</h2>
+      <h2>{{ $t('works.headlines.image') }}</h2>
       <ul class="work-image__list">
         <li class="work-image__item size-full">
           <div class="youtube">
@@ -54,11 +54,11 @@
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
-      <h2>Skill</h2>
+      <h2>{{ $t('works.headlines.skill') }}</h2>
       <p>Unity / C# / FOVE / Theta</p>
     </div>
     <div class="work-time" data-bg="even">
-      <h2>Production Time</h2>
+      <h2>{{ $t('works.headlines.production-time') }}</h2>
       <p>February 2018. (about 2weeks)</p>
     </div>
     <div class="work-media" data-bg="odd">

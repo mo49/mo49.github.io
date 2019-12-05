@@ -7,7 +7,7 @@
       </span>
     </h1>
     <div class="work-about" data-bg="odd">
-      <h2>About</h2>
+      <h2>{{ $t('works.headlines.about') }}</h2>
       <p>
         『ワンピース』のテレビアニメ放送とスマホがリアルタイムで連動する12週間連続企画。1回の放送を30シーンに分割、アニメ放送中に「アツイ！」と思ったシーンに合わせて連打し、自分が最も連打したシーンとみんなが最も連打したシーンが一致するとプレゼント応募券を獲得できるというサイト。<br>
         <span class="en">A 12-week continuous project in which the TV Anime, "One Piece" and the smartphone are linked in real time. You try to mash a button when you are excited on air. Divide one broadcast into 30 scenes and you can get an opportunity to apply for the present if the scene you select and the scene other viewer select are same.</span>
@@ -20,7 +20,7 @@
       </p>
     </div>
     <div class="work-image" data-bg="even">
-      <h2>Image / Movie</h2>
+      <h2>{{ $t('works.headlines.image') }}</h2>
       <ul class="work-image__list">
         <li class="work-image__item">
           <img src="~assets/image/works/web/onepiece/1.png" @click="openModal">
@@ -61,11 +61,11 @@
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
-      <h2>Skill</h2>
+      <h2>{{ $t('works.headlines.skill') }}</h2>
       <p>D3.js / JavaScript / Canvas</p>
     </div>
     <div class="work-time" data-bg="even">
-      <h2>Production Time</h2>
+      <h2>{{ $t('works.headlines.production-time') }}</h2>
       <p>from September to October, 2017. (about 2months)</p>
     </div>
     <div class="work-media" data-bg="odd">

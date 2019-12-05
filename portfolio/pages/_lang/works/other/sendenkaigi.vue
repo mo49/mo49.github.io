@@ -7,7 +7,7 @@
       </span>
     </h1>
     <div class="work-about" data-bg="odd">
-      <h2>About</h2>
+      <h2>{{ $t('works.headlines.about') }}</h2>
       <p>
         課題：ヤマハ大人の音楽レッスンに20代・30代の若者が通いたくなるアイデア。<br>
         <br>
@@ -17,7 +17,7 @@
       </p>
     </div>
     <div class="work-image" data-bg="even">
-      <h2>Image / Movie</h2>
+      <h2>{{ $t('works.headlines.image') }}</h2>
       <ul class="work-image__list">
         <li class="work-image__item">
           <img src="~assets/image/works/other/sendenkaigi/1.png" @click="openModal">
@@ -40,11 +40,11 @@
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
-      <h2>Skill</h2>
+      <h2>{{ $t('works.headlines.skill') }}</h2>
       <p>CopyWriting</p>
     </div>
     <div class="work-time" data-bg="even">
-      <h2>Production Time</h2>
+      <h2>{{ $t('works.headlines.production-time') }}</h2>
       <p>October, 2014. (about 1day)</p>
     </div>
     <div class="work-media" data-bg="odd">

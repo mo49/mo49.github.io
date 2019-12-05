@@ -4,7 +4,7 @@
       Mental Energy
     </h1>
     <div class="work-about" data-bg="odd">
-      <h2>About</h2>
+      <h2>{{ $t('works.headlines.about') }}</h2>
       <p>
         エンジニア学校「<a class="link-hover" href="https://gsacademy.tokyo/" target="_blank">ジーズアカデミー</a>」の卒業制作。<br>
         <span class="en">
@@ -25,7 +25,7 @@
       </p>
     </div>
     <div class="work-image" data-bg="even">
-      <h2>Image / Movie</h2>
+      <h2>{{ $t('works.headlines.image') }}</h2>
       <ul class="work-image__list">
         <li class="work-image__item size-full">
           <div class="youtube">
@@ -56,11 +56,11 @@
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
-      <h2>Skill</h2>
+      <h2>{{ $t('works.headlines.skill') }}</h2>
       <p>PHP / MySQL / Canvas / CreateJS / Javascript / GoogleMapsAPI / GoogleChartAPI / NotificationsAPI / AfterEffects</p>
     </div>
     <div class="work-time" data-bg="even">
-      <h2>Production Time</h2>
+      <h2>{{ $t('works.headlines.production-time') }}</h2>
       <p>from May to June, 2016. (about 1month)</p>
     </div>
     <div class="work-media" data-bg="odd">
