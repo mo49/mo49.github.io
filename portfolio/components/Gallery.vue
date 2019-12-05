@@ -8,7 +8,7 @@
     <h3>CG / VR</h3>
     <ul class="gallery__list" data-genre="3dcg-vfx">
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/3dcg-vfx/mv-underthewater">
+        <nuxt-link :to="$i18n.path('works/3dcg-vfx/mv-underthewater')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mv_underthewater+')' } "></div>
             <figcaption class="gallery__caption">
@@ -20,7 +20,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/3dcg-vfx/showroom-office">
+        <nuxt-link :to="$i18n.path('works/3dcg-vfx/showroom-office')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showroom_office+')' } "></div>
             <figcaption class="gallery__caption">
@@ -32,7 +32,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link to="works/unity-ue/srv-live2d">
+        <nuxt-link :to="$i18n.path('works/unity-ue/srv-live2d')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_readyyy+')' } "></div>
             <figcaption class="gallery__caption">
@@ -44,7 +44,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/vr/tele-magic">
+        <nuxt-link :to="$i18n.path('works/vr/tele-magic')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_tele_magic+')' } "></div>
             <figcaption class="gallery__caption">
@@ -56,7 +56,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/vr/gracity">
+        <nuxt-link :to="$i18n.path('works/vr/gracity')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_gracity+')' } "></div>
             <figcaption class="gallery__caption">
@@ -73,7 +73,7 @@
     <h3>Web</h3>
     <ul class="gallery__list" data-genre="web">
       <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link to="works/web/showstage">
+        <nuxt-link :to="$i18n.path('works/web/showstage')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showstage+')' } "></div>
             <figcaption class="gallery__caption">
@@ -85,7 +85,7 @@
         </nuxt-link>
       </li>
       <!-- <li class="gallery__item" data-label="business" data-is-lock="true">
-        <nuxt-link to="works/web/virtual-cheki" target="_blank">
+        <nuxt-link :to="$i18n.path('works/web/virtual-cheki')">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -97,7 +97,7 @@
         </nuxt-link>
       </li> -->
       <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link to="works/web/onepiece">
+        <nuxt-link :to="$i18n.path('works/web/onepiece')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_onepiece+')' } "></div>
             <figcaption class="gallery__caption">
@@ -109,7 +109,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link to="works/web/kamakura-fireworks">
+        <nuxt-link :to="$i18n.path('works/web/kamakura-fireworks')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_kamakura_fireworks+')' } "></div>
             <figcaption class="gallery__caption">
@@ -121,7 +121,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link to="works/web/hirameki">
+        <nuxt-link :to="$i18n.path('works/web/hirameki')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_hirameki+')' } "></div>
             <figcaption class="gallery__caption">
@@ -133,7 +133,7 @@
         </nuxt-link>
       </li>
       <!-- <li class="gallery__item" data-label="business" data-is-lock="true">
-        <nuxt-link to="works/web/obayashi" target="_blank">
+        <nuxt-link :to="$i18n.path('works/web/obayashi')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_gracity+')' } "></div>
             <figcaption class="gallery__caption">
@@ -145,7 +145,7 @@
         </nuxt-link>
       </li> -->
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/web/mental-energy">
+        <nuxt-link :to="$i18n.path('works/web/mental-energy')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mental_energy+')' } "></div>
             <figcaption class="gallery__caption">
@@ -157,7 +157,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/web/webgl-world-heritage">
+        <nuxt-link :to="$i18n.path('works/web/webgl-world-heritage')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_webgl_world_heritage+')' } "></div>
             <figcaption class="gallery__caption">
@@ -173,7 +173,7 @@
     <h3>Other</h3>
     <ul class="gallery__list" data-genre="other">
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/other/tabippo2015">
+        <nuxt-link :to="$i18n.path('works/other/tabippo2015')">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -185,7 +185,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/other/creators-audition">
+        <nuxt-link :to="$i18n.path('works/other/creators-audition')">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -197,7 +197,7 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/other/sendenkaigi">
+        <nuxt-link :to="$i18n.path('works/other/sendenkaigi')">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">

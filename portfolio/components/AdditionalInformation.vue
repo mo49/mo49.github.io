@@ -9,7 +9,7 @@
       <ul class="additional-information__list">
         <li class="additional-information__item">
           <p>
-            <nuxt-link to="/skillset" v-if="$isJa">{{ $t('others.skillset') }}</nuxt-link>
+            <nuxt-link :to="$i18n.path('skillset')">{{ $t('others.skillset') }}</nuxt-link>
           </p>
         </li>
         <li class="additional-information__item">

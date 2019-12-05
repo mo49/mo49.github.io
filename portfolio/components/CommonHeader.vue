@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="header__container">
-      <nuxt-link :to="{name: 'index'}">
+      <nuxt-link :to="$i18n.path('')">
         <h1 class="header__logo">logo</h1>
       </nuxt-link>
       <LocaleButtons class="locale-buttons" />
