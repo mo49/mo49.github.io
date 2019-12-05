@@ -10,6 +10,76 @@
       "title": "Music Video - Under The Water",
       "desc": "The graduation work of Digital Hollywood 3DCG/VFX course. All CG models in this video were created with Maya. GPGPU, compute shader is used to represent the fish school that swim based on the swarm algorithm and trail particle. The wire frame in the latter half of the video is also implemented with ShaderLab, and it is emitted by the post process in Unity. And the camera work is created on Timeline and Cinemachine, and the scene is shot almost once. Finally what I adjusted on After Effects is simple noise expression and time-remapping.",
       "production-time": "from July to August, 2019. (about 2months)"
+    },
+    "office": {
+      "title": "SHOWROOM Inc. Office in Arai Building",
+      "desc": "Produced a work three months after entering Digital Hollywood 3DCG course. I thought that it might be commonplace to work in VR in the near future, and reproduced my office with 3DCG to get a more specific image.\n\nI used about 30 spotlights and point lights, and tried to make the standlights see-through with SSS. So I spent some time around the lighting using Arnold. I modeled everything other than the human body model shot at Super Scan Studio.",
+      "production-time": "December, 2018. (about 2weeks)"
+    },
+    "readyyy": {
+      "title": "SHOWROOM V - Readyyy!",
+      "desc": "Live2D version of the application, SHOWROOM V that enables a user to live stream as virtual character on smartphone. Virtual Livestreamers often make models in the format of VRM, but in reality, many people are using two-dimensional illustrations instead, so there is a demand for Live2D. We distributed an app customized for each organizer, and this time, I customized our app to have performers of SEGA's new idol project “Readyyy!” live stream on SHOWROOM. Since December 2018, each member regularly live stream, and I maintain backgrounds and characters each time.\n\nI’m in charge of programming and management. The library, ULSee is adopted to replace the tracking code entirely for VRM with for Live2D. Based on the acquired vertex information, the parameter threshold and tracking sensitivity were adjusted so that the performer moved most naturally. Performance was not good when there was a lot of access, so I tuned that I reviewed the memory, cache, draw calls and texture bakes.",
+      "production-time": "from October to December 2018. (about 3months)"
+    },
+    "tele-magic": {
+      "title": "Tele-Magic",
+      "desc": "A tower defense game where you can experience a kind of telexistence experience while watching the live streaming video of Theta placed at a distance of 2 to 3 meters from you.\n\nFirst, when you sit facing the Theta and wear the HMD, you will see you wearing the HMD in real world (transfer to Theta's point of view). Since the enemy will advance toward you in real world when you press the start button, you should generate explosion magic and repel the enemy.\n\nIt is a simple operation that only looks at the bursting magic switch, but also requires the strategy that it can not be cleared unless the bursting magic is generated at an optimal timing considering the casting time, the remaining number of switches, its own HP, enemy speed, etc.",
+      "cap1": "Theta with background",
+      "cap2": "Theta without background",
+      "cap3": "exhibited at VR Contents fes. 2018 Spring",
+      "production-time": "February 2018. (about 2weeks)"
+    },
+    "gracity": {
+      "title": "Gracity",
+      "desc": "I made a VR online multiplayer game with PUN and VRTK. The stage is a medieval city. A player, sorcerer gets magic wands scattered all over the city and tries to beat down the enemies he encounters. Incorporating a gimmick of weight change, from Gravity and City, I gave a title Gracity, coined word.\n\nExhibited at the 2nd VR Academy Audition. Three modes of Practice, PvP, PvE are prepared to consider the level of VR familiarity of the visitors. On the day, there were many VR professionals, so most people enjoyed PvE mode. While it is a multiplayer game, I participated in on browser mode and provided covering fire.",
+      "cap1": "Exhibition",
+      "cap2": "User guide",
+      "production-time": "from December 2017 to January 2018. (about 1month)"
+    },
+    "showstage": {
+      "title": "",
+      "desc": "",
+      "production-time": ""
+    },
+    "onepiece": {
+      "title": "",
+      "desc": "",
+      "production-time": ""
+    },
+    "kamakura": {
+      "title": "",
+      "desc": "",
+      "production-time": ""
+    },
+    "hirameki": {
+      "title": "",
+      "desc": "",
+      "production-time": ""
+    },
+    "mental-energy": {
+      "title": "",
+      "desc": "",
+      "production-time": ""
+    },
+    "world-heritage": {
+      "title": "",
+      "desc": "",
+      "production-time": ""
+    },
+    "tabippo": {
+      "title": "",
+      "desc": "",
+      "production-time": ""
+    },
+    "poster": {
+      "title": "",
+      "desc": "",
+      "production-time": ""
+    },
+    "copywriting": {
+      "title": "",
+      "desc": "",
+      "production-time": ""
     }
   }
 }
