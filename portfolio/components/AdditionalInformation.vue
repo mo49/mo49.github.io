@@ -25,44 +25,24 @@
           <p class="accordion-menu__title">{{ $t('others.travel') }}</p>
           <i></i>
           <ul v-if="$isJa" class="accordion-menu__content">
-            <li>中国 / 北京, 上海, 西安, 深セン, 香港</li>
-            <li>韓国 / ソウル</li>
-            <li>フィリピン / セブ島</li>
-            <li>タイ / バンコク, アユタヤ</li>
-            <li>インド / ニューデリー, ジャイプール, アグラ, ハリドワール</li>
-            <li>フランス / パリ, モン・サン・ミッシェル</li>
-            <li>イギリス /ロンドン</li>
-            <li>イタリア / ローマ</li>
-            <li>スペイン / マドリード, バルセロナ</li>
-            <li>オランダ / アムステルダム, ロッテルダム, アルクマール</li>
-            <li>エジプト / カイロ, ギザ, バハレイヤ, ルクソール, アスワン, アブ・シンベル</li>
-            <li>ヨルダン / アンマン, ペトラ</li>
-            <li>イスラエル / エルサレム</li>
-            <li>アメリカ / ニューヨーク, ワシントン, ロサンゼルス, ラスベガス, ハワイ</li>
-            <li>カナダ / バンフ</li>
-            <li>メキシコ / メキシコシティ</li>
-            <li>ペルー / リマ, クスコ, ワカチナ, ナスカ, オリャンタイタンボ, マチュピチュ, プーノ</li>
-            <li>チリ / サンティアゴ, イースター島</li>
-          </ul>
-          <ul v-else class="accordion-menu__content">
-            <li>China / Beijing, Shanghai, Xi'an, Shenzhen, Hong Kong</li>
-            <li>Korea / Seoul</li>
-            <li>Philippine / Cebu Island</li>
-            <li>Thailand / Bangkok, Ayutthaya</li>
-            <li>India / New Delhi, Jaipur, Agra, Haridwar</li>
-            <li>France / Paris, Mont Saint-Michel</li>
-            <li>UK / London</li>
-            <li>Italy / Roma</li>
-            <li>Spain / Madrid, Barcelona</li>
-            <li>Netherlands / Amsterdam, Rotterdam, Alkmaar</li>
-            <li>Egypt / Cairo, Giza, Bahariya, Luxor, Aswan, Abu Simbel</li>
-            <li>Jordan / Amman, Petra</li>
-            <li>Israel / Jerusalem</li>
-            <li>USA / NY, Washington D.C., LA, Las Vegas, Hawaii</li>
-            <li>Canada / Banff</li>
-            <li>Mexico / Mexico City</li>
-            <li>Peru / Lima, Cusco, Huacachina, Nazca, Ollantaytambo, Machu Picchu, Puno</li>
-            <li>Chile / Santiago, Easter Island</li>
+            <li>{{ $t('others.country.china') }}</li>
+            <li>{{ $t('others.country.korea') }}</li>
+            <li>{{ $t('others.country.philippine') }}</li>
+            <li>{{ $t('others.country.thailand') }}</li>
+            <li>{{ $t('others.country.india') }}</li>
+            <li>{{ $t('others.country.france') }}</li>
+            <li>{{ $t('others.country.uk') }}</li>
+            <li>{{ $t('others.country.italy') }}</li>
+            <li>{{ $t('others.country.spain') }}</li>
+            <li>{{ $t('others.country.netherlands') }}</li>
+            <li>{{ $t('others.country.egypt') }}</li>
+            <li>{{ $t('others.country.jordan') }}</li>
+            <li>{{ $t('others.country.israel') }}</li>
+            <li>{{ $t('others.country.usa') }}</li>
+            <li>{{ $t('others.country.canada') }}</li>
+            <li>{{ $t('others.country.mexico') }}</li>
+            <li>{{ $t('others.country.peru') }}</li>
+            <li>{{ $t('others.country.chile') }}</li>
           </ul>
         </li>
       </ul>
