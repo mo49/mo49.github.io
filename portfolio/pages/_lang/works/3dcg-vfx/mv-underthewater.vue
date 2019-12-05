@@ -7,7 +7,7 @@
     </h1>
     <div class="work-about" data-bg="odd">
       <h2>About</h2>
-      <span v-if="$isJa">
+      <span v-if="$isJa()">
         <p>デジタルハリウッド本科3DCG/VFXコースの卒業制作。</p>
         <p>動画に登場するCGモデルはすべてMayaで作成した。群体アルゴリズムに基づき泳ぐ魚群やトレイルの表現はGPGPUを駆使するcompute shaderで実現。動画後半のワイヤーフレーム表現はShaderLabで書いていて、シーン全体をUnity内のポストプロセスで発光させている。カメラワークはTimelineとCinemachineで作成、シーンはほぼ一発撮り。最後にAEで簡単なノイズを乗せたりタイムリマップで動きに緩急をつけた。</p>
       </span>
