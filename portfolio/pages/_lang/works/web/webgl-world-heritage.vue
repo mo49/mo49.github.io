@@ -1,25 +1,9 @@
 <template>
   <section class="container work" data-page="work">
-    <h1 class="work__title">
-      WebGL世界遺産<br>
-      <span class="en">
-        WebGL World Heritage
-      </span>
-    </h1>
+    <h1 class="work__title">{{ $t('works.world-heritage.title') }}</h1>
     <div class="work-about" data-bg="odd">
       <h2>{{ $t('works.headlines.about') }}</h2>
-      <p>
-        デジタルハリウッド東京本校卒業制作。<br>
-        <span class="en">
-          Graduation work of Digital Hollywood Tokyo School
-        </span>
-      </p>
-      <p>
-        2015年7月現在のすべての世界遺産1,031件のデータ（緯度経度、登録年、ジャンル）をWebGLで可視化したインフォグラフィック作品。<br>
-        <span class="en">
-          An infographic work that visualizes all World Heritage using WebGL. I used 1,031 data (i.g. latitude, longitude, registered year, genre) from July 2015
-        </span>
-      </p>
+      <pre>{{ $t('works.world-heritage.desc') }}</pre>
     </div>
     <div class="work-image" data-bg="even">
       <h2>{{ $t('works.headlines.image') }}</h2>
@@ -32,13 +16,13 @@
         <li class="work-image__item">
           <img src="~assets/image/works/web/webgl-world-heritage/2.png" @click="openModal">
           <figcaption>
-            チュートリアル
+            {{ $t('works.world-heritage.cap1') }}
           </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/webgl-world-heritage/3.png" @click="openModal">
           <figcaption>
-            ポップアップを表示
+            {{ $t('works.world-heritage.cap2') }}
           </figcaption>
         </li>
         <li class="work-image__item size-full">
@@ -46,7 +30,7 @@
             <iframe src="https://www.youtube.com/embed/7ai4iDLLyCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <figcaption>
-            プロモーションビデオ
+            {{ $t('works.world-heritage.cap3') }}
           </figcaption>
         </li>
         <li class="work-image__item size-full">
@@ -54,7 +38,7 @@
             <iframe src="https://www.youtube.com/embed/1O1qjFUHb3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <figcaption>
-            インタビュー映像
+            {{ $t('works.world-heritage.cap4') }}
           </figcaption>
         </li>
         <li class="work-image__item size-full">
@@ -62,7 +46,7 @@
             <iframe src="https://www.youtube.com/embed/0ARLtfpPxUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <figcaption>
-            デジタルフロンティアグランプリ2016授賞式
+            {{ $t('works.world-heritage.cap5') }}
           </figcaption>
         </li>
       </ul>
@@ -73,7 +57,7 @@
     </div>
     <div class="work-time" data-bg="even">
       <h2>{{ $t('works.headlines.production-time') }}</h2>
-      <p>from May to June, 2015. (about 3weeks)</p>
+      <p></p>
     </div>
     <div class="work-media" data-bg="odd">
       <h2>Media</h2>

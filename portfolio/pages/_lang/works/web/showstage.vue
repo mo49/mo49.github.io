@@ -1,22 +1,9 @@
 <template>
   <section class="container work" data-page="work">
-    <h1 class="work__title">
-      SHOWSTAGE
-    </h1>
+    <h1 class="work__title">{{ $t('works.showstage.title') }}</h1>
     <div class="work-about" data-bg="odd">
       <h2>{{ $t('works.headlines.about') }}</h2>
-      <p>
-        一体型VRヘッドセット「Oculus Go」に対応した，VR空間の生ライブプラットフォームサービス「SHOWSTAGE(ショウステージ)」のWebサイト．ライブ検索，お知らせ，ログイン，チケット購入，購入履歴一覧，ライブスクショ閲覧などの機能があるECサイト．<br>
-        <span class="en">
-          The website of the Live VR Platform "SHOWSTAGE" that supports the integrated VR headset "Oculus Go". This is E-commerce web site which has functions such as searching lives, notification, login, purchasing ticket, purchase history and screenshot list.
-        </span>
-      </p>
-      <p>
-        エンジニアはフロントエンド1名，バックエンド2名で作成．私の担当はフロントエンド．
-        <span class="en">
-          One web front-end engineer and two back-end engineers write program. I'm in web front-end.
-        </span>
-      </p>
+      <pre>{{ $t('works.showstage.desc') }}</pre>
       <p>
         <a href="https://www.showstage.live/" target="_blank">SHOWSTAGE</a>
       </p>
@@ -27,37 +14,37 @@
         <li class="work-image__item">
           <img src="~assets/image/works/web/showstage/1.png" @click="openModal">
           <figcaption>
-            トップ
+            {{ $t('works.showstage.cap1') }}
           </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/showstage/2.png" @click="openModal">
           <figcaption>
-            ライブ個別ページ
+            {{ $t('works.showstage.cap2') }}
           </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/showstage/3.png" @click="openModal">
           <figcaption>
-            購入確認
+            {{ $t('works.showstage.cap3') }}
           </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/showstage/4.png" @click="openModal">
           <figcaption>
-            購入済みチケット
+            {{ $t('works.showstage.cap4') }}
           </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/showstage/5.png" @click="openModal">
           <figcaption>
-            ポイントの購入
+            {{ $t('works.showstage.cap5') }}
           </figcaption>
         </li>
         <li class="work-image__item">
           <img src="~assets/image/works/web/showstage/6.png" @click="openModal">
           <figcaption>
-            アカウント設定
+            {{ $t('works.showstage.cap6') }}
           </figcaption>
         </li>
       </ul>
@@ -68,9 +55,7 @@
     </div>
     <div class="work-time" data-bg="even">
       <h2>{{ $t('works.headlines.production-time') }}</h2>
-      <p>
-        from August to October, 2019. (about 3month)
-      </p>
+      <p>{{ $t('works.showstage.production-time') }}</p>
     </div>
     <div class="work-media" data-bg="odd">
       <h2>Media</h2>

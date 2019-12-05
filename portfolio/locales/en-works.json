@@ -37,34 +37,61 @@
       "production-time": "from December 2017 to January 2018. (about 1month)"
     },
     "showstage": {
-      "title": "",
-      "desc": "",
-      "production-time": ""
+      "title": "SHOWSTAGE",
+      "desc": "The website of the Live VR Platform 'SHOWSTAGE' that supports the integrated VR headset 'Oculus Go'. This is E-commerce web site which has functions such as searching lives, notification, login, purchasing ticket, purchase history and screenshot list.\n\nOne web front-end engineer and two back-end engineers write program. I'm in web front-end.",
+      "cap1": "Top page",
+      "cap2": "Live page",
+      "cap3": "Confirmation page ",
+      "cap4": "My tickets page",
+      "cap5": "Purchasing points page",
+      "cap6": "Settings page",
+      "production-time": "from August to December, 2019. (about 5month)"
     },
     "onepiece": {
-      "title": "",
-      "desc": "",
-      "production-time": ""
+      "title": "ONE PIECE Whole Cake Island Arc - Web site interacted with TV animated show",
+      "desc": "A 12-week continuous project in which the TV Anime, 'One Piece' and the smartphone are linked in real time. You try to mash a button when you are excited on air. Divide one broadcast into 30 scenes and you can get an opportunity to apply for the present if the scene you select and the scene other viewer select are same.\n\nI'm in charge of top screen and result screen on air. The total number of viewers, the number of taps of everyone for each scene and the number of taps of individuals were displayed in real time to give a sense of coordination. Data is acquired by regularly calling API while considering performance. In terms of direction, we use D3.js to draw interactive and scalable graphs. Animations such as an interruption animation, a result screen slot, and a confetti effect that are caught in any place on air. There are also 7 pattern design changes according to the tone-manner of each broadcast. While the clear deadline of on-air day was decided, we dealt with the request from the client until the last minute. During one week before the first on-air day, we worked staying overnight at the company, and I acquired the basic strength of creator.",
+      "cap1": "On air page",
+      "cap2": "Result page",
+      "cap3": "appeared in Weekly Shonen Jump",
+      "cap4": "Playing",
+      "cap5": "Capture",
+      "cap6": "Special program",
+      "production-time": "from September to October, 2017. (about 2months)"
     },
     "kamakura": {
-      "title": "",
-      "desc": "",
-      "production-time": ""
+      "title": "The 69th Kamakura Fireworks Festival",
+      "desc": "It was decided to hold the Kamakura Fireworks Festival, which was temporarily suspended, in crowdfunding. The official website to launch fireworks with their supporters' messages and names.\n\nI'm in charge of the animation of fireworks. I launched three kinds of fireworks, weeping willows, underwater and circular, and randomly generated geometric fireworks. While finely adjusting various parameters such as particle amount, transparency, gravity, velocity, lifespan, etc. I also expressed attention to afterimage, water surface reflection, wave and ship fluctuation, etc. to make it more realistic. BGM is united and the Web Site is finished quite emo.",
+      "cap1": "Weeping willow",
+      "cap2": "Underwater fireworks",
+      "cap3": "The 2017 October issue of Brain, Creator Magazine",
+      "production-time": "from May to June, 2017. (about 3weeks)"
     },
     "hirameki": {
-      "title": "",
-      "desc": "",
-      "production-time": ""
+      "title": "Hirameki engine",
+      "desc": "Digital Signage providing the seed of new idea created by combining the words that users always put in the back of their head such as brainstorming titles and business keywords, and incidental words that don't relate to it such as buzzwords and dictionary words. It was first introduced in the conference room of the Innovation Lab, which is HONDA's most advanced research and development institutions. It's licensed and sold as an application.\n\nI'm in charged of whole web-front-end part. I obtained buzzwords with various APIs, and made SVG animation using a library, Bodymovin.",
+      "cap1": "Default",
+      "cap2": "in Kayac Inc",
+      "cap3": "in Nomurakougei Inc",
+      "production-time": "from January to February, 2017. (about 1month)\nfrom January to February, 2018. (about 1month)"
     },
     "mental-energy": {
-      "title": "",
-      "desc": "",
-      "production-time": ""
+      "title": "Mental Energy",
+      "desc": "The graduation work of the school for engineer, G's Academy.\n\nMental Energy is simply the number of times people can make decisions in a day. Which foods to eat, which clothes to wear, which TV shows to watch... mental energy decreases with each such minor decision. It is said that Steve Jobs wore the same clothes every day to reduce unnecessary decisions and preserve mental energy for important decisions such as business management.\n\nTherefore, I made a service that you can find extra decisions and managed them like a to-do list. I developed from front-end to back-end, i.g. Data Management, Data Analysis and Visualization to user feedback.",
+      "cap1": "Promotion video",
+      "cap2": "Register your rules",
+      "cap3": "Check your rules on the map",
+      "cap4": "Visualize your progress",
+      "production-time": "from May to June, 2016. (about 1month)"
     },
     "world-heritage": {
-      "title": "",
-      "desc": "",
-      "production-time": ""
+      "title": "WebGL World Heritage",
+      "desc": "Graduation work of Digital Hollywood Tokyo School.\n\nAn infographic work that visualizes all World Heritage using WebGL. I used 1,031 data (i.g. latitude, longitude, registered year, genre) from July 2015.",
+      "cap1": "Tutorial",
+      "cap2": "Show modal",
+      "cap3": "Promotion video",
+      "cap4": "Interview",
+      "cap5": "Digital Frontier Grand Prix 2016 award ceremony",
+      "production-time": "from May to June, 2015. (about 3weeks)"
     },
     "tabippo": {
       "title": "",

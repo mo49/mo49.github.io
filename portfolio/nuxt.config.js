@@ -16,7 +16,7 @@ module.exports = {
   basic: {
     name: 'recruiter',
     pass: 'iwantyou',
-    match: /(virtual-cheki|hirameki|obayashi)$/
+    match: /(virtual-cheki|obayashi)$/
   },
   /*
   ** Customize the progress bar color
