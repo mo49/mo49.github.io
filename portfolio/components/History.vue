@@ -3,51 +3,44 @@
     <Ameba :width="600" :height="600" :color="'#E3170A'" />
     <div class="title">
       <h2>HISTORY</h2>
-      <p>経歴</p>
+      <p>{{ $t('history.ja-title') }}</p>
     </div>
     <div class="history__content">
-      <h3>EMPLOYMENT</h3>
+      <h3>{{ $t('history.employment') }}</h3>
       <ul class="history__list">
         <li class="history__item">
           <p class="history__year">2015 – 2018</p>
-          <h4 class="history__name">KAYAC.INC</h4>
+          <h4 class="history__name">{{ $t('history.company1') }}</h4>
           <ul class="history__desc">
-            <li>Full-time</li>
-            <li>HTMLファイ部 | Web Front-End Engineer</li>
+            <li>{{ $t('history.company1-desc2') }}</li>
+            <li>{{ $t('history.company1-desc1') }}</li>
           </ul>
         </li>
         <li class="history__item">
           <p class="history__year">2018 –</p>
-          <h4 class="history__name">SHOWROOM</h4>
+          <h4 class="history__name">{{ $t('history.company2') }}</h4>
           <ul class="history__desc">
-            <li>Full-time</li>
-            <li>xR Div. | Unity Developer, Web Front-End Engineer</li>
+            <li>{{ $t('history.company2-desc2') }}</li>
+            <li>{{ $t('history.company2-desc1') }}</li>
           </ul>
         </li>
       </ul>
-      <h3>EDUCATION</h3>
+      <h3>{{ $t('history.education') }}</h3>
       <ul class="history__list">
         <li class="history__item">
           <p class="history__year">2009 – 2013</p>
-          <h4 class="history__name">KEIO UNIVERSITY</h4>
+          <h4 class="history__name">{{ $t('history.school1') }}</h4>
           <ul class="history__desc">
-            <li>Bachelor of Arts in Human Science</li>
-            <li>Development Economics Seminar</li>
+            <li>{{ $t('history.school1-desc1') }}</li>
+            <li>{{ $t('history.school1-desc2') }}</li>
           </ul>
         </li>
         <li class="history__item">
-          <p class="history__year">2014 – 2015</p>
-          <h4 class="history__name">DIGITAL HOLLYWOOD SCHOOL</h4>
+          <p class="history__year">2014 – 2015 / 2018 – 2019</p>
+          <h4 class="history__name">{{ $t('history.school2') }}</h4>
           <ul class="history__desc">
-            <li>Interactive Design Course</li>
-            <li>G’s Academy Developer Course, a 3rd cohort</li>
-          </ul>
-        </li>
-        <li class="history__item">
-          <p class="history__year">2018 – 2019</p>
-          <h4 class="history__name">DIGITAL HOLLYWOOD SCHOOL</h4>
-          <ul class="history__desc">
-            <li>3DCG/VFX Course, a scholarship student</li>
+            <li>{{ $t('history.school2-desc1') }} (2014 – 2015)</li>
+            <li>{{ $t('history.school2-desc2') }} (2018 – 2019)</li>
           </ul>
         </li>
       </ul>

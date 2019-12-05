@@ -16,7 +16,7 @@ module.exports = {
   basic: {
     name: 'recruiter',
     pass: 'iwantyou',
-    match: /(virtual-cheki|hirameki|obayashi)$/
+    match: /(virtual-cheki|obayashi)$/
   },
   /*
   ** Customize the progress bar color
@@ -40,6 +40,10 @@ module.exports = {
       }
     }
   },
+  plugins: [
+    '~/plugins/i18n',
+    '~/plugins/isJa',
+  ],
   modules: [
     '@nuxtjs/style-resources',
     'nuxt-fontawesome',
@@ -71,6 +75,9 @@ module.exports = {
         icons: ['fab']
       },
     ]
+  },
+  router: {
+    middleware: 'i18n'
   }
 }
 

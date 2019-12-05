@@ -3,16 +3,16 @@
     <Ameba :width="900" :height="900" :color="'#FFDE00'" />
     <div class="title">
       <h2>GALLERY</h2>
-      <p>作品集</p>
+      <p>{{ $t('gallery.ja-title') }}</p>
     </div>
     <h3>CG / VR</h3>
     <ul class="gallery__list" data-genre="3dcg-vfx">
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/3dcg-vfx/mv-underthewater">
+        <nuxt-link :to="$i18n.path('works/3dcg-vfx/mv-underthewater')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mv_underthewater+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>Music Video - Under The Water</p>
+              <p>{{ $t('gallery.mv') }}</p>
               <p>Maya / Unity / ShaderLab / GPGPU / After Effects</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -20,11 +20,11 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/3dcg-vfx/showroom-office">
+        <nuxt-link :to="$i18n.path('works/3dcg-vfx/showroom-office')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showroom_office+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>株式会社SHOWROOM,荒井ビルオフィス</p>
+              <p>{{ $t('gallery.office') }}</p>
               <p>Maya</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -32,11 +32,11 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link to="works/unity-ue/srv-live2d">
+        <nuxt-link :to="$i18n.path('works/unity-ue/srv-live2d')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_readyyy+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>SHOWROOM V - Readyyy!版</p>
+              <p>{{ $t('gallery.readyyy') }}</p>
               <p>Unity / Live2D</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -44,11 +44,11 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/vr/tele-magic">
+        <nuxt-link :to="$i18n.path('works/vr/tele-magic')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_tele_magic+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>Tele-Magic</p>
+              <p>{{ $t('gallery.tele-magic') }}</p>
               <p>Unity / FOVE / Theta V</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -56,11 +56,11 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/vr/gracity">
+        <nuxt-link :to="$i18n.path('works/vr/gracity')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_gracity+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>Gracity</p>
+              <p>{{ $t('gallery.gracity') }}</p>
               <p>Unity / Vive / PUN / VRTK</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -73,11 +73,11 @@
     <h3>Web</h3>
     <ul class="gallery__list" data-genre="web">
       <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link to="works/web/showstage">
+        <nuxt-link :to="$i18n.path('works/web/showstage')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showstage+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>SHOWSTAGE</p>
+              <p>{{ $t('gallery.showstage') }}</p>
               <p>Nuxt.js</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -85,7 +85,7 @@
         </nuxt-link>
       </li>
       <!-- <li class="gallery__item" data-label="business" data-is-lock="true">
-        <nuxt-link to="works/web/virtual-cheki" target="_blank">
+        <nuxt-link :to="$i18n.path('works/web/virtual-cheki')">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
@@ -97,11 +97,11 @@
         </nuxt-link>
       </li> -->
       <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link to="works/web/onepiece">
+        <nuxt-link :to="$i18n.path('works/web/onepiece')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_onepiece+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>ONE PIECE WCI編 テレビアニメ連動サイト</p>
+              <p>{{ $t('gallery.onepiece') }}</p>
               <p>D3.js / Canvas</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -109,11 +109,11 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link to="works/web/kamakura-fireworks">
+        <nuxt-link :to="$i18n.path('works/web/kamakura-fireworks')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_kamakura_fireworks+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>第69回 鎌倉花火大会</p>
+              <p>{{ $t('gallery.kamakura') }}</p>
               <p>Canvas / JavaScript</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -121,11 +121,11 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link to="works/web/hirameki">
+        <nuxt-link :to="$i18n.path('works/web/hirameki')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_hirameki+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>ひらめきエンジン</p>
+              <p>{{ $t('gallery.hirameki') }}</p>
               <p>Bodymovin / Electron</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -133,7 +133,7 @@
         </nuxt-link>
       </li>
       <!-- <li class="gallery__item" data-label="business" data-is-lock="true">
-        <nuxt-link to="works/web/obayashi" target="_blank">
+        <nuxt-link :to="$i18n.path('works/web/obayashi')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_gracity+')' } "></div>
             <figcaption class="gallery__caption">
@@ -145,11 +145,11 @@
         </nuxt-link>
       </li> -->
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/web/mental-energy">
+        <nuxt-link :to="$i18n.path('works/web/mental-energy')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mental_energy+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>Mental Energy</p>
+              <p>{{ $t('gallery.mental-energy') }}</p>
               <p>PHP / MySQL / Canvas / CreateJS</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -157,11 +157,11 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/web/webgl-world-heritage">
+        <nuxt-link :to="$i18n.path('works/web/webgl-world-heritage')">
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_webgl_world_heritage+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>WebGL世界遺産</p>
+              <p>{{ $t('gallery.world-heritage') }}</p>
               <p>Three.js</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -173,11 +173,11 @@
     <h3>Other</h3>
     <ul class="gallery__list" data-genre="other">
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/other/tabippo2015">
+        <nuxt-link :to="$i18n.path('works/other/tabippo2015')">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
-              <p>TABIPPO2015ショートムービー</p>
+              <p>{{ $t('gallery.tabippo') }}</p>
               <p>AfterEffects / CINEMA 4D</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -185,11 +185,11 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/other/creators-audition">
+        <nuxt-link :to="$i18n.path('works/other/creators-audition')">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
-              <p>CREATORS AUDITION ポスター</p>
+              <p>{{ $t('gallery.poster') }}</p>
               <p>Illustrator / Photoshop</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -197,11 +197,11 @@
         </nuxt-link>
       </li>
       <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link to="works/other/sendenkaigi">
+        <nuxt-link :to="$i18n.path('works/other/sendenkaigi')">
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
-              <p>第52回宣伝会議賞 協賛企業賞</p>
+              <p>{{ $t('gallery.copywriting') }}</p>
               <p>Copywriting</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>

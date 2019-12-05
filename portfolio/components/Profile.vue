@@ -3,15 +3,15 @@
     <Ameba :width="450" :height="450" :color="'#00C8FF'" />
     <div class="title">
       <h2>PROFILE</h2>
-      <p>基本情報</p>
+      <p>{{ $t('profile.ja-title') }}</p>
     </div>
     <div class="profile__content">
       <div class="profile__left">
         <p class="profile__thumb"></p>
       </div>
       <div class="profile__right">
-        <h3 class="profile__name">Kazuki Mochizuki | 1989.04.09</h3>
-        <p class="profile__desc">Developer / Virtual Being / Backpacker</p>
+        <h3 class="profile__name">{{ $t('profile.name') }} | 1989.04.09</h3>
+        <p class="profile__desc">{{ $t('profile.roll') }}</p>
       </div>
     </div>
   </div>

@@ -3,13 +3,13 @@
     <Ameba :width="500" :height="500" :color="'#9F73FF'" />
     <div class="title">
       <h2>Others</h2>
-      <p>その他</p>
+      <p>{{ $t('others.ja-title') }}</p>
     </div>
     <div class="additional-information__content">
       <ul class="additional-information__list">
         <li class="additional-information__item">
           <p>
-            <nuxt-link to="/skillset">More details on the skillset</nuxt-link>
+            <nuxt-link :to="$i18n.path('skillset')">{{ $t('others.skillset') }}</nuxt-link>
           </p>
         </li>
         <li class="additional-information__item">
@@ -18,31 +18,31 @@
           </p>
         </li>
         <li class="additional-information__item">
-          <p>Japanese - Native, English - Basic</p>
+          <p>{{ $t('others.language') }}</p>
         </li>
         <li class="additional-information__item accordion-menu">
           <input type="checkbox" checked>
-          <p class="accordion-menu__title">Travel Abroad</p>
+          <p class="accordion-menu__title">{{ $t('others.travel') }}</p>
           <i></i>
-          <ul class="accordion-menu__content">
-            <li>China / Beijing, Shanghai, Xi'an, Shenzhen, Hong Kong</li>
-            <li>Korea / Seoul</li>
-            <li>Philippine / Cebu Island</li>
-            <li>Thailand / Bangkok, Ayutthaya</li>
-            <li>India / New Delhi, Jaipur, Agra, Haridwar</li>
-            <li>France / Paris, Mont Saint-Michel</li>
-            <li>UK / London</li>
-            <li>Italy / Roma</li>
-            <li>Spain / Madrid, Barcelona</li>
-            <li>Netherlands / Amsterdam, Rotterdam, Alkmaar</li>
-            <li>Egypt / Cairo, Giza, Bahariya, Luxor, Aswan, Abu Simbel</li>
-            <li>Jordan / Amman, Petra</li>
-            <li>Israel / Jerusalem</li>
-            <li>USA / NY, Washington D.C., LA, Las Vegas, Hawaii</li>
-            <li>Canada / Banff</li>
-            <li>Mexico / Mexico City</li>
-            <li>Peru / Lima, Cusco, Huacachina, Nazca, Ollantaytambo, Machu Picchu, Puno</li>
-            <li>Chile / Santiago, Easter Island</li>
+          <ul v-if="$isJa" class="accordion-menu__content">
+            <li>{{ $t('others.country.china') }}</li>
+            <li>{{ $t('others.country.korea') }}</li>
+            <li>{{ $t('others.country.philippine') }}</li>
+            <li>{{ $t('others.country.thailand') }}</li>
+            <li>{{ $t('others.country.india') }}</li>
+            <li>{{ $t('others.country.france') }}</li>
+            <li>{{ $t('others.country.uk') }}</li>
+            <li>{{ $t('others.country.italy') }}</li>
+            <li>{{ $t('others.country.spain') }}</li>
+            <li>{{ $t('others.country.netherlands') }}</li>
+            <li>{{ $t('others.country.egypt') }}</li>
+            <li>{{ $t('others.country.jordan') }}</li>
+            <li>{{ $t('others.country.israel') }}</li>
+            <li>{{ $t('others.country.usa') }}</li>
+            <li>{{ $t('others.country.canada') }}</li>
+            <li>{{ $t('others.country.mexico') }}</li>
+            <li>{{ $t('others.country.peru') }}</li>
+            <li>{{ $t('others.country.chile') }}</li>
           </ul>
         </li>
       </ul>
