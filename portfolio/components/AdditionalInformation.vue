@@ -2,7 +2,7 @@
   <div class="additional-information">
     <Ameba :width="500" :height="500" :color="'#9F73FF'" />
     <div class="title">
-      <h2>Others</h2>
+      <h2>OTHERS</h2>
       <p>{{ $t('others.ja-title') }}</p>
     </div>
     <div class="additional-information__content">

@@ -2,7 +2,7 @@
   <div class="social-accounts">
     <Ameba :width="400" :height="400" :color="'#AFE84C'" />
     <div class="title">
-      <h2>{{ $t('works.headlines.media') }}</h2>
+      <h2>MEDIA</h2>
       <p>{{ $t('media.ja-title') }}</p>
     </div>
     <a href="https://github.com/mo49" target="_blank">
