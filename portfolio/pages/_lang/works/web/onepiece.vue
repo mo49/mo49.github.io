@@ -55,7 +55,7 @@
       <p>{{ $t('works.onepiece.production-time') }}</p>
     </div>
     <div class="work-media" data-bg="odd">
-      <h2>Media</h2>
+      <h2>{{ $t('works.headlines.media') }}</h2>
       <ul>
         <li><a class="link-hover" href="https://www.kayac.com/news/2017/09/ONEPIECE_1709" target="_blank">史上初！？『ワンピース』アニメ放送とスマホがリアルタイムで連動する、特設プレゼントキャンペーンがスタート！</a></li>
         <li><a class="link-hover" href="https://www.kayac.com/service/client/1576" target="_blank">ONE PIECE（ワンピース）アニメ連動キャンペーン</a></li>

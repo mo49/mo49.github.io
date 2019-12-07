@@ -30,7 +30,7 @@
       <p>{{ $t('works.readyyy.production-time') }}</p>
     </div>
     <div class="work-media" data-bg="odd">
-      <h2>Media</h2>
+      <h2>{{ $t('works.headlines.media') }}</h2>
       <ul>
         <li><a class="link-hover" href="https://ready.sega.jp/news/60897/" target="_blank" rel="noopener noreferrer">アイドルたちによる『SHOWROOM』生配信がスタート！初回配信は12月10日 蒼志バースデー配信！！</a></li>
       </ul>

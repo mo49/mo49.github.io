@@ -43,7 +43,7 @@
       <p>{{ $t('works.kamakura.production-time') }}</p>
     </div>
     <div class="work-media" data-bg="odd">
-      <h2>Media</h2>
+      <h2>{{ $t('works.headlines.media') }}</h2>
       <ul>
         <li><a class="link-hover" href="https://www.kayac.com/news/2017/05/kamakurafireworks" target="_blank">名前入りバーチャル花火が打ちあがる、「第69回鎌倉花火大会2017」公式サイトがオープン!</a></li>
         <li><a class="link-hover" href="https://www.sendenkaigi.com/books/back-number-brain/11411" target="_blank">月刊ブレーン2017年10月号 No.687 | 宣伝会議オンライン</a></li>

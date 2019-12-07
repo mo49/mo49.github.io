@@ -60,7 +60,7 @@
       <p></p>
     </div>
     <div class="work-media" data-bg="odd">
-      <h2>Media</h2>
+      <h2>{{ $t('works.headlines.media') }}</h2>
       <ul>
         <li><a class="link-hover" href="http://school.dhw.co.jp/course/digital/index.html" target="_blank">デジタルハリウッド（専門スクール） 本科UI/UXD専攻</a></li>
         <li><a class="link-hover" href="http://school.dhw.co.jp/p/uiuxd-lp/1708dhw/" target="_blank">デジタルハリウッド（専門スクール） 本科UI/UXD専攻 201708</a></li>

@@ -58,7 +58,7 @@
       <p>{{ $t('works.showstage.production-time') }}</p>
     </div>
     <div class="work-media" data-bg="odd">
-      <h2>Media</h2>
+      <h2>{{ $t('works.headlines.media') }}</h2>
       <ul>
         <li><a class="link-hover" href="https://prtimes.jp/main/html/rd/p/000000315.000026205.html" target="_blank">SHOWROOM、VR空間で生ライブが楽しめるサービス「SHOWSTAGE β版」パフォーマーは有料配信が可能に</a></li>
       </ul>

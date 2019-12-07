@@ -43,7 +43,7 @@
       <pre>{{ $t('works.hirameki.production-time') }}</pre>
     </div>
     <div class="work-media" data-bg="odd">
-      <h2>Media</h2>
+      <h2>{{ $t('works.headlines.media') }}</h2>
       <ul>
         <li><a class="link-hover" href="https://www.kayac.com/news/2018/06/hiramekiengine" target="_blank">カヤックと乃村工藝社さんで“アイデアの種”を無限に生み出す発想支援アプリケーション「ひらめきエンジン」の販売を開始しました！</a></li>
         <li><a class="link-hover" href="https://www.nikkei.com/article/DGXLRSP483806_Y8A620C1000000/" target="_blank">乃村工芸社とカヤック、発想支援アプリケーション「ひらめきエンジン」を販売開始 </a></li>

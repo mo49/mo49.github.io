@@ -56,7 +56,7 @@
       <p>from January to February, 2015. (about 3weeks)</p>
     </div>
     <div class="work-media" data-bg="odd">
-      <h2>Media</h2>
+      <h2>{{ $t('works.headlines.media') }}</h2>
       <ul>
         <li><a class="link-hover" href="http://tabippo.net/tabippo2015tokyo-report/" target="_blank">【2200人が歓喜！】TABIPPO2015東京イベントレポート</a></li>
       </ul>

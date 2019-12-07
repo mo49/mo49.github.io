@@ -48,7 +48,7 @@
       <p>October, 2014. (about 1day)</p>
     </div>
     <div class="work-media" data-bg="odd">
-      <h2>Media</h2>
+      <h2>{{ $t('works.headlines.media') }}</h2>
       <ul>
         <li><a class="link-hover" href="http://mag.sendenkaigi.com/senden/201504/sendenkaigi-award/004851.php" target="_blank">宣伝会議賞 協賛企業賞発表！ヤマハミュージックジャパン～日本放送協会</a></li>
       </ul>
