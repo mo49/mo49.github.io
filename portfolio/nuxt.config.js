@@ -1,3 +1,5 @@
+const pagesJson = require('./data/pages.json')
+
 module.exports = {
   /*
   ** Headers of the page
@@ -78,6 +80,13 @@ module.exports = {
   },
   router: {
     middleware: 'i18n'
+  },
+  generate: {
+    routes() {
+      return pagesJson.pages.map(page => {
+        return `en/${page}`
+      })
+    }
   }
 }
 
