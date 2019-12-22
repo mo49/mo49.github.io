@@ -25,10 +25,6 @@
       <font-awesome-icon :icon="['fab', 'youtube-square']" class="fa-3x"/>
       <p>YouTube</p>
     </a>
-    <a href="https://www.instagram.com/mczkzk49/" target="_blank">
-      <font-awesome-icon :icon="['fab', 'instagram']" class="fa-3x"/>
-      <p>Instagram</p>
-    </a>
     <a href="https://medium.com/@k.mochizuki.0409" target="_blank">
       <font-awesome-icon :icon="['fab', 'medium']" class="fa-3x"/>
       <p>Medium</p>
@@ -36,6 +32,14 @@
     <a href="https://qiita.com/mczkzk" target="_blank">
       <font-awesome-icon :icon="['fas', 'blog']" class="fa-3x"/>
       <p>Qiita</p>
+    </a>
+    <a href="https://www.instagram.com/mczkzk49/" target="_blank">
+      <font-awesome-icon :icon="['fab', 'instagram']" class="fa-3x"/>
+      <p>Instagram</p>
+    </a>
+    <a href="https://creator.pixta.jp/@mczkzk" target="_blank">
+      <font-awesome-icon :icon="['fas', 'camera']" class="fa-3x"/>
+      <p>PIXTA</p>
     </a>
   </div>
 </template>
