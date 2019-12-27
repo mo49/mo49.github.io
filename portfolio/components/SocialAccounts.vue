@@ -41,6 +41,10 @@
       <font-awesome-icon :icon="['fas', 'camera']" class="fa-3x"/>
       <p>PIXTA</p>
     </a>
+    <a href="https://www.shutterstock.com/g/mczkzk" target="_blank">
+      <font-awesome-icon :icon="['fas', 'camera']" class="fa-3x"/>
+      <p>shutterstock</p>
+    </a>
   </div>
 </template>
 
