@@ -37,14 +37,6 @@
       <font-awesome-icon :icon="['fab', 'instagram']" class="fa-3x"/>
       <p>Instagram</p>
     </a>
-    <a href="https://creator.pixta.jp/@mczkzk" target="_blank">
-      <font-awesome-icon :icon="['fas', 'camera']" class="fa-3x"/>
-      <p>PIXTA</p>
-    </a>
-    <a href="https://www.shutterstock.com/g/mczkzk" target="_blank">
-      <font-awesome-icon :icon="['fas', 'camera']" class="fa-3x"/>
-      <p>shutterstock</p>
-    </a>
   </div>
 </template>
 
