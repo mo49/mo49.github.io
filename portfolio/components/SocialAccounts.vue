@@ -33,7 +33,7 @@
       <font-awesome-icon :icon="['fas', 'blog']" class="fa-3x"/>
       <p>Qiita</p>
     </a>
-    <a href="https://www.instagram.com/mczkzk49/" target="_blank">
+    <a href="https://www.instagram.com/mczkzk_/" target="_blank">
       <font-awesome-icon :icon="['fab', 'instagram']" class="fa-3x"/>
       <p>Instagram</p>
     </a>
