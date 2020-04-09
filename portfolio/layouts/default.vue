@@ -121,6 +121,7 @@ body{
   margin: 0 auto;
   @include pc-layout{
     min-width: $pc_min_width;
+    overflow: hidden;
   }
   @include sp-layout{
     width: 100%;
