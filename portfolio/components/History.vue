@@ -9,14 +9,6 @@
       <h3>{{ $t('history.employment') }}</h3>
       <ul class="history__list">
         <li class="history__item">
-          <p class="history__year">2015 – 2018</p>
-          <h4 class="history__name">{{ $t('history.company1') }}</h4>
-          <ul class="history__desc">
-            <li>{{ $t('history.company1-desc2') }}</li>
-            <li>{{ $t('history.company1-desc1') }}</li>
-          </ul>
-        </li>
-        <li class="history__item">
           <p class="history__year">2018 –</p>
           <h4 class="history__name">{{ $t('history.company2') }}</h4>
           <ul class="history__desc">
@@ -24,23 +16,31 @@
             <li>{{ $t('history.company2-desc1') }}</li>
           </ul>
         </li>
+        <li class="history__item">
+          <p class="history__year">2015 – 2018</p>
+          <h4 class="history__name">{{ $t('history.company1') }}</h4>
+          <ul class="history__desc">
+            <li>{{ $t('history.company1-desc2') }}</li>
+            <li>{{ $t('history.company1-desc1') }}</li>
+          </ul>
+        </li>
       </ul>
       <h3>{{ $t('history.education') }}</h3>
       <ul class="history__list">
         <li class="history__item">
-          <p class="history__year">2009 – 2013</p>
-          <h4 class="history__name">{{ $t('history.school1') }}</h4>
-          <ul class="history__desc">
-            <li>{{ $t('history.school1-desc1') }}</li>
-            <li>{{ $t('history.school1-desc2') }}</li>
-          </ul>
-        </li>
-        <li class="history__item">
           <p class="history__year">2014 – 2015 / 2018 – 2019</p>
           <h4 class="history__name">{{ $t('history.school2') }}</h4>
           <ul class="history__desc">
-            <li>{{ $t('history.school2-desc1') }} (2014 – 2015)</li>
-            <li>{{ $t('history.school2-desc2') }} (2018 – 2019)</li>
+            <li>{{ $t('history.school2-desc1') }}</li>
+            <li>{{ $t('history.school2-desc2') }}</li>
+          </ul>
+        </li>
+        <li class="history__item">
+          <p class="history__year">2009 – 2013</p>
+          <h4 class="history__name">{{ $t('history.school1') }}</h4>
+          <ul class="history__desc">
+            <li>{{ $t('history.school1-desc1') }} (2014 – 2015)</li>
+            <li>{{ $t('history.school1-desc2') }} (2018 – 2019)</li>
           </ul>
         </li>
       </ul>
