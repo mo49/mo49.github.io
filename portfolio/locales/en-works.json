@@ -39,7 +39,7 @@
     },
     "showstage": {
       "title": "SHOWSTAGE",
-      "desc": "The website of the Live VR Platform 'SHOWSTAGE' that supports the integrated VR headset 'Oculus Go'. This is E-commerce web site which has functions such as searching lives, notification, login, purchasing ticket, purchase history and screenshot list.\n\nOne web front-end engineer and two back-end engineers write program. I'm in web front-end.",
+      "desc": "The website of the Live VR Platform 'SHOWSTAGE' that supports the integrated VR headset 'Oculus Go'. A feature-rich e-commerce site. You can login, search for concerts, purchase tickets, see purchase history and screen shots, etc.\n\nIt was created by one engineer on the web front-end and two on the back-end. I am responsible for the former.",
       "cap1": "Top page",
       "cap2": "Live page",
       "cap3": "Confirmation page ",
@@ -61,7 +61,7 @@
     },
     "kamakura": {
       "title": "The 69th Kamakura Fireworks Festival",
-      "desc": "It was decided to hold the Kamakura Fireworks Festival, which was temporarily suspended, in crowdfunding. The official website to launch fireworks with their supporters' messages and names.\n\nI'm in charge of the animation of fireworks. I launched three kinds of fireworks, weeping willows, underwater and circular, and randomly generated geometric fireworks. While finely adjusting various parameters such as particle amount, transparency, gravity, velocity, lifespan, etc. I also expressed attention to afterimage, water surface reflection, wave and ship fluctuation, etc. to make it more realistic. BGM is united and the Web Site is finished quite emo.",
+      "desc": "It was decided to hold the Kamakura Fireworks Festival, which was temporarily suspended, in crowdfunding. The official website to launch fireworks with their supporters' messages and names.\n\nI'm in charge of the animation of fireworks. I launched three kinds of fireworks, weeping willows, underwater and circular, and randomly generated geometric fireworks. While finely adjusting various parameters such as particle amount, transparency, gravity, velocity, lifespan, etc. I also expressed attention to afterimage, water surface reflection, wave and ship fluctuation, etc. to make it more realistic. The site is quite emotive with background music.",
       "cap1": "Weeping willow",
       "cap2": "Underwater fireworks",
       "cap3": "The 2017 October issue of Brain, Creator Magazine",
