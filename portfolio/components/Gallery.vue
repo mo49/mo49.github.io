@@ -5,70 +5,6 @@
       <h2>GALLERY</h2>
       <p>{{ $t('gallery.ja-title') }}</p>
     </div>
-    <h3>CG / VR</h3>
-    <ul class="gallery__list" data-genre="3dcg-vfx">
-      <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link :to="$i18n.path('works/3dcg-vfx/mv-underthewater')">
-          <figure>
-            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mv_underthewater+')' } "></div>
-            <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.mv') }}</p>
-              <p>Maya / Unity / ShaderLab / GPGPU / After Effects</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li>
-      <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link :to="$i18n.path('works/3dcg-vfx/showroom-office')">
-          <figure>
-            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showroom_office+')' } "></div>
-            <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.office') }}</p>
-              <p>Maya</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li>
-      <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link :to="$i18n.path('works/unity-ue/srv-live2d')">
-          <figure>
-            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_readyyy+')' } "></div>
-            <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.readyyy') }}</p>
-              <p>Unity / Live2D</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li>
-      <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link :to="$i18n.path('works/vr/tele-magic')">
-          <figure>
-            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_tele_magic+')' } "></div>
-            <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.tele-magic') }}</p>
-              <p>Unity / FOVE / Theta V</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li>
-      <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link :to="$i18n.path('works/vr/gracity')">
-          <figure>
-            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_gracity+')' } "></div>
-            <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.gracity') }}</p>
-              <p>Unity / Vive / PUN / VRTK</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li>
-
-    </ul>
 
     <h3>Web</h3>
     <ul class="gallery__list" data-genre="web">
@@ -163,6 +99,70 @@
             <figcaption class="gallery__caption">
               <p>{{ $t('gallery.world-heritage') }}</p>
               <p>Three.js</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
+    </ul>
+
+    <h3>CG / VR</h3>
+    <ul class="gallery__list" data-genre="3dcg-vfx">
+      <li class="gallery__item" data-label="private" data-is-lock="false">
+        <nuxt-link :to="$i18n.path('works/3dcg-vfx/mv-underthewater')">
+          <figure>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mv_underthewater+')' } "></div>
+            <figcaption class="gallery__caption">
+              <p>{{ $t('gallery.mv') }}</p>
+              <p>Maya / Unity / ShaderLab / GPGPU / After Effects</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
+      <li class="gallery__item" data-label="private" data-is-lock="false">
+        <nuxt-link :to="$i18n.path('works/3dcg-vfx/showroom-office')">
+          <figure>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showroom_office+')' } "></div>
+            <figcaption class="gallery__caption">
+              <p>{{ $t('gallery.office') }}</p>
+              <p>Maya</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
+      <li class="gallery__item" data-label="business" data-is-lock="false">
+        <nuxt-link :to="$i18n.path('works/unity-ue/srv-live2d')">
+          <figure>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_readyyy+')' } "></div>
+            <figcaption class="gallery__caption">
+              <p>{{ $t('gallery.readyyy') }}</p>
+              <p>Unity / Live2D</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
+      <li class="gallery__item" data-label="private" data-is-lock="false">
+        <nuxt-link :to="$i18n.path('works/vr/tele-magic')">
+          <figure>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_tele_magic+')' } "></div>
+            <figcaption class="gallery__caption">
+              <p>{{ $t('gallery.tele-magic') }}</p>
+              <p>Unity / FOVE / Theta V</p>
+            </figcaption>
+            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
+          </figure>
+        </nuxt-link>
+      </li>
+      <li class="gallery__item" data-label="private" data-is-lock="false">
+        <nuxt-link :to="$i18n.path('works/vr/gracity')">
+          <figure>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_gracity+')' } "></div>
+            <figcaption class="gallery__caption">
+              <p>{{ $t('gallery.gracity') }}</p>
+              <p>Unity / Vive / PUN / VRTK</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
