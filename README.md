@@ -38,5 +38,5 @@ https://v3.nuxtjs.org/getting-started/quick-start/
 ### husky
 https://typicode.github.io/husky/#/
 
-### ealint
+### eslint
 https://qiita.com/kentarou_masuda/items/c0180fe383b01ba54cbf
