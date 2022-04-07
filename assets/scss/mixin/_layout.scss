@@ -1,17 +1,17 @@
 @mixin pc-layout {
-  @media (min-width: $pc_min_width) {
+  @media (min-width: $pc-min-width) {
     @content;
   }
 }
 
 @mixin sp-layout {
-  @media (max-width: ($pc_min_width - 1)) {
+  @media (max-width: ($pc-min-width - 1)) {
     @content;
   }
 }
 
 @mixin sp-s-layout {
-  @media (max-width: $sp_s_width) {
+  @media (max-width: $sp-s-width) {
     @content;
   }
 }

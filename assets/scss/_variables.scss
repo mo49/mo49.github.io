@@ -2,65 +2,66 @@
 // media query
 // ======================================
 
-$wrapper_width: 900px;
-$pc_min_width: 768px;
-$sp_s_width: 375px;
+$wrapper-width: 900px;
+$pc-min-width: 768px;
+$sp-s-width: 375px;
 
 // ======================================
 // color
 // ======================================
 
 // main color
-$main-color: #ff0000 !default;
+$main-color: #f00 !default;
+
 // accent
 $accent-color: #ff4200 !default;
+
 // background
-$bg-color: rgba(#efefef, .8) !default;
+$bg-color: rgba(#efefef, 0.8) !default;
+
 // font
 $font-color-main: #000 !default;
 $font-color-sub: #181818 !default;
 $font-color-desc: #333 !default;
 $font-color-en: #666 !default;
+
 // links
 $link-color: #678cf5 !default;
 $link-color-hover: $link-color !default;
 $link-color-visited: #c167f5 !default;
 $link-color-active: null !default;
+
 // border
 $border-color: #666 !default;
+
 // label
 $label-color-business: #f56767 !default;
 $label-color-private: #73f567 !default;
-
-
 
 // ======================================
 // z-index
 // ======================================
 
-$z:
-wrapper,
-footer,
-header,
-gnav,
-modal,
-loading;
+$z: wrapper,
+  footer,
+  header,
+  gnav,
+  modal,
+  loading;
+
 /*
 usage
 z-index: index($z, header);
 */
 
-
 // ======================================
 // font
 // ======================================
 
-$font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$sans-serif: YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", sans-serif;
-$serif: YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-
-$base-font-size--pc: 16px;
-$base-font-size--sp: 16px;
-
-$base-line-height--pc: 21px;
-$base-line-height--sp: 21px;
+$font-family: "Source Sans Pro", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif;
+$sans-serif: yugothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", meiryo, "メイリオ", sans-serif;
+$serif: yumincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+$base-font-size-pc: 16px;
+$base-font-size-sp: 16px;
+$base-line-height-pc: 21px;
+$base-line-height-sp: 21px;

@@ -1,10 +1,12 @@
-@mixin link(){
+@mixin link() {
   color: $link-color;
   padding: 2px 5px;
-  &:visited{
+
+  &:visited {
     color: $link-color-visited;
   }
-  &:hover{
+
+  &:hover {
     color: #fff;
     background-color: $link-color-hover;
   }

@@ -22,7 +22,6 @@
 html {
   // font-family: $font-family;
   text-size-adjust: 100%;
-  text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: $font-color-desc;
@@ -37,13 +36,13 @@ body {
   }
 
   @include pc-layout {
-    font-size: $base-font-size--pc;
-    line-height: $base-line-height--pc;
+    font-size: $base-font-size-pc;
+    line-height: $base-line-height-pc;
   }
 
   @include sp-layout {
-    font-size: $base-font-size--sp;
-    line-height: $base-line-height--sp;
+    font-size: $base-font-size-sp;
+    line-height: $base-line-height-sp;
   }
 
   p,
@@ -66,11 +65,11 @@ body {
     color: $font-color-main;
 
     @include pc-layout {
-      font-size: $base-font-size--pc * 1.6;
+      font-size: $base-font-size-pc * 1.6;
     }
 
     @include sp-layout {
-      font-size: $base-font-size--sp * 1.6;
+      font-size: $base-font-size-sp * 1.6;
     }
   }
 
@@ -78,11 +77,11 @@ body {
     color: $font-color-main;
 
     @include pc-layout {
-      font-size: $base-font-size--pc * 1.6;
+      font-size: $base-font-size-pc * 1.6;
     }
 
     @include sp-layout {
-      font-size: $base-font-size--sp * 1.6;
+      font-size: $base-font-size-sp * 1.6;
     }
   }
 
@@ -90,11 +89,11 @@ body {
     color: $font-color-main;
 
     @include pc-layout {
-      font-size: $base-font-size--pc * 1.4;
+      font-size: $base-font-size-pc * 1.4;
     }
 
     @include sp-layout {
-      font-size: $base-font-size--sp * 1.4;
+      font-size: $base-font-size-sp * 1.4;
     }
   }
 
@@ -102,11 +101,11 @@ body {
     color: $font-color-main;
 
     @include pc-layout {
-      font-size: $base-font-size--pc * 1.2;
+      font-size: $base-font-size-pc * 1.2;
     }
 
     @include sp-layout {
-      font-size: $base-font-size--sp * 1.2;
+      font-size: $base-font-size-sp * 1.2;
     }
   }
 
@@ -134,7 +133,7 @@ body {
   margin: 0 auto;
 
   @include pc-layout {
-    min-width: $pc_min_width;
+    min-width: $pc-min-width;
     overflow: hidden;
   }
 
@@ -145,7 +144,7 @@ body {
 
 .container {
   @include pc-layout {
-    width: $pc_min_width;
+    width: $pc-min-width;
     margin: 0 auto;
   }
 }
