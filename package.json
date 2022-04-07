@@ -14,8 +14,8 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.{js,ts,vue}": "eslint",
-    "*.{css,scss,vue}": "stylelint"
+    "*.{js,ts,vue}": "eslint --fix",
+    "*.{css,scss,vue}": "stylelint --fix"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^9.0.0",
