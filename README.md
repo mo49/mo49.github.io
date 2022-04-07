@@ -40,3 +40,13 @@ https://typicode.github.io/husky/#/
 
 ### eslint
 https://qiita.com/kentarou_masuda/items/c0180fe383b01ba54cbf
+https://eslint.vuejs.org/rules/
+
+### scss
+https://github.com/nuxt-community/style-resources-module
+https://stackoverflow.com/questions/69953025/nuxt-3-resolver-resolvemodule-is-not-a-function
+
+### stylelint
+https://github.com/nuxt-community/stylelint-module
+yarnだとエラーになるのでnpm
+https://github.com/stylelint/stylelint/issues/3077
