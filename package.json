@@ -6,17 +6,17 @@
     "start": "node .output/server/index.mjs",
     "lint:js": "eslint --ext .js,.ts,.vue --ignore-path .gitignore .",
     "lint:style": "stylelint '**/*.{css,scss,vue}' --ignore-path .gitignore",
-    "lint": "yarn lint:js && yarn lint:style",
+    "lint": "npm run lint:js && npm run lint:style",
     "lint-staged": "lint-staged",
     "prepare": "husky install",
     "test": "jest"
   },
   "lint-staged": {
     "*.{js,ts,vue}": [
-      "yarn lint:js --fix"
+      "npm run lint:js --fix"
     ],
     "*.{css,scss,vue}": [
-      "yarn lint:style --fix"
+      "npm run lint:style --fix"
     ]
   },
   "devDependencies": {
