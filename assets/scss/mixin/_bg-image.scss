@@ -1,6 +1,6 @@
 @mixin bg-image($w, $h, $scale:1) {
-  $width: math.floor($w * $scale);
-  $height: math.floor($h * $scale);
+  $width: floor($w * $scale);
+  $height: floor($h * $scale);
 
   width: $width + px;
   height: $height + px;

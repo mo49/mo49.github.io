@@ -1,0 +1,3 @@
+@mixin grad-line($deg: 90) {
+  background: linear-gradient($deg + deg, rgb(0 0 0 / 78%) 78%, rgb(0 0 0 / 22%) 78%);
+}
