@@ -2,9 +2,7 @@
   <header class="header">
     <div class="header__container">
       <nuxt-link :to="('/')">
-        <h1 class="header__logo">
-          {{ $t('TOP_TITLE') }}
-        </h1>
+        <div class="header__logo" />
       </nuxt-link>
     </div>
   </header>
@@ -47,9 +45,7 @@
 
   &__logo {
     background-image: url("~/assets/image/logo.png");
-  }
 
-  h1 {
     @include bg-image(30,30);
 
     display: inline-block;
