@@ -48,5 +48,9 @@ https://stackoverflow.com/questions/69953025/nuxt-3-resolver-resolvemodule-is-no
 
 ### stylelint
 https://github.com/nuxt-community/stylelint-module
-yarnだとエラーになるのでnpm
-https://github.com/stylelint/stylelint/issues/3077
+
+### i18n
+nuxt3にi18nが対応していない
+intlifyでもエラーになる
+https://github.com/intlify/nuxt3
+https://github.com/nuxt-community/i18n-module/discussions/1287

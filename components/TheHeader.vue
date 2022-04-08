@@ -1,10 +1,16 @@
 <template>
   <header class="header">
-    <div class="header__container" />
+    <div class="header__container">
+      <nuxt-link :to="('/')">
+        <h1 class="header__logo">
+          {{ $t('TOP_TITLE') }}
+        </h1>
+      </nuxt-link>
+    </div>
   </header>
 </template>
 
-<script>
+<script setup lang="ts">
 </script>
 
 <style lang="scss" scoped>
@@ -40,7 +46,7 @@
   }
 
   &__logo {
-    background-image: url("~assets/image/logo.png");
+    background-image: url("~/assets/image/logo.png");
   }
 
   h1 {
