@@ -21,7 +21,6 @@
   "devDependencies": {
     "@intlify/nuxt3": "^0.1.10",
     "@nuxtjs/eslint-config-typescript": "^9.0.0",
-    "@nuxtjs/i18n": "^7.2.1",
     "@nuxtjs/style-resources": "^1.2.1",
     "@nuxtjs/stylelint-module": "^4.1.0",
     "@types/jest": "^27.4.1",
