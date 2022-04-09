@@ -14,6 +14,9 @@ export default defineNuxtConfig({
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  plugins: [
+    '~/plugins/scroll-behavior'
+  ],
   buildModules: [
     '@nuxtjs/stylelint-module',
     '@nuxtjs/style-resources',
