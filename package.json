@@ -12,7 +12,7 @@
     "format": "yarn format:es && yarn format:style",
     "prepare": "husky install",
     "test": "jest",
-    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+    "deploy": "push-dir --dir=output --branch=master --cleanup"
   },
   "lint-staged": {
     "*.{js,ts,vue}": "eslint --fix",
