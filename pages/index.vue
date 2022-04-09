@@ -1,3 +1,5 @@
 <template>
-  <h1>index</h1>
+  <PageContainer page="index" title="Portfolio Site">
+    <p>なかみ</p>
+  </PageContainer>
 </template>

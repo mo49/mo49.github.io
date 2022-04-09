@@ -1,7 +1,9 @@
 <template>
-  <TheHeader />
-  <slot />
-  <TheFooter />
+  <div v-cloak class="wrapper">
+    <TheHeader />
+    <slot />
+    <TheFooter />
+  </div>
 </template>
 
 <script setup>
