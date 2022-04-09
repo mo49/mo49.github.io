@@ -1,4 +1,18 @@
 {
-	"PROFILE_NAME": "望月一樹（もちづきかずき）",
-	"PROFILE_ROLL": "プログラマー"
+	"TOP_PROFILE_NAME": "望月一樹（もちづきかずき）",
+	"TOP_PROFILE_ROLL": "プログラマー",
+	"WORK_HEADLINE_ABOUT": "作品について",
+	"WORK_HEADLINE_IMAGE": "イメージ",
+	"WORK_HEADLINE_SKILL": "使用技術",
+	"WORK_HEADLINE_PRODUCTION_TIME": "制作期間",
+	"WORK_HEADLINE_MEDIA": "メディア",
+	"WORK_SHOWSTAGE_TITLE": "SHOWSTAGE",
+	"WORK_SHOWSTAGE_DESC": "一体型VRヘッドセット「Oculus Go」に対応した、VR空間の生ライブプラットフォームサービス「SHOWSTAGE(ショウステージ)」のWebサイト。ライブ検索、お知らせ、ログイン、チケット購入、購入履歴一覧、ライブスクショ閲覧などの機能があるECサイト。\n\nエンジニアはフロントエンド1名、バックエンド2名で作成。私の担当はフロントエンド。",
+	"WORK_SHOWSTAGE_CAP1": "トップ",
+	"WORK_SHOWSTAGE_CAP2": "ライブ個別ページ",
+	"WORK_SHOWSTAGE_CAP3": "購入確認",
+	"WORK_SHOWSTAGE_CAP4": "購入済みチケット",
+	"WORK_SHOWSTAGE_CAP5": "ポイントの購入",
+	"WORK_SHOWSTAGE_CAP6": "アカウント設定",
+	"WORK_SHOWSTAGE_PRODUCTION_TIME": "2019年8~12月（5ヵ月）"
 }

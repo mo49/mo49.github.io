@@ -1,4 +1,18 @@
 {
-	"PROFILE_NAME": "Kazuki Mochizuki",
-	"PROFILE_ROLL": "Programmer"
+	"TOP_PROFILE_NAME": "Kazuki Mochizuki",
+	"TOP_PROFILE_ROLL": "Programmer",
+	"WORK_HEADLINE_ABOUT": "About",
+	"WORK_HEADLINE_IMAGE": "Image",
+	"WORK_HEADLINE_SKILL": "Skill",
+	"WORK_HEADLINE_PRODUCTION_TIME": "Production Time",
+	"WORK_HEADLINE_MEDIA": "Media",
+	"WORK_SHOWSTAGE_TITLE": "SHOWSTAGE",
+	"WORK_SHOWSTAGE_DESC": "The website of the Live VR Platform 'SHOWSTAGE' that supports the integrated VR headset 'Oculus Go'. A feature-rich e-commerce site: you can login, search for concerts, purchase tickets, see purchase history and screen shots, etc.\n\nIt was created by one engineer on the web front-end and two on the back-end. I am responsible for the former.",
+	"WORK_SHOWSTAGE_CAP1": "Top page",
+	"WORK_SHOWSTAGE_CAP2": "Live page",
+	"WORK_SHOWSTAGE_CAP3": "Confirmation page",
+	"WORK_SHOWSTAGE_CAP4": "My tickets page",
+	"WORK_SHOWSTAGE_CAP5": "Purchasing points page",
+	"WORK_SHOWSTAGE_CAP6": "Settings page",
+	"WORK_SHOWSTAGE_PRODUCTION_TIME": "from August to December, 2019. (about 5month)"
 }

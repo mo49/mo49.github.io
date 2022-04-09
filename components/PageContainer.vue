@@ -1,16 +1,15 @@
 <template>
-  <section class="container" :data-page="props.page">
-    <h1>{{ props.title }}</h1>
+  <section class="container" :data-page="page">
+    <h1>{{ title }}</h1>
     <slot />
   </section>
 </template>
 
 <script lang="ts" setup>
-const props = defineProps<{
+defineProps<{
   page: string,
   title: string,
 }>()
-
 </script>
 
 <style lang="scss" scoped>

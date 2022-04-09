@@ -12,6 +12,7 @@ module.exports = {
       true,
       { ignoreAtRules: ['include', 'mixin', 'each'] }
     ],
-    'scss/no-global-function-names': null
+    'scss/no-global-function-names': null,
+    'function-no-unknown': null
   }
 }

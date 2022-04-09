@@ -149,6 +149,7 @@ body {
   }
 }
 
-div[data-bg="odd"] {
+div[data-bg="odd"],
+section[data-bg="odd"] {
   background-color: $bg-color;
 }
