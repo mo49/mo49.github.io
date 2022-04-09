@@ -1,6 +1,6 @@
 <template>
   <div class="profile">
-    <MovingAmeba width="450" height="450" color="#00C8FF" />
+    <MovingAmeba :width="450" :height="450" color="#00C8FF" />
     <div class="title">
       <h2>PROFILE</h2>
     </div>

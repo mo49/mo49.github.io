@@ -1,5 +1,5 @@
 <template>
-  <PageContainer page="index" :title="$t(`${WORK_NAME}_TITLE`)">
+  <PageContainer page="work" :title="$t(`${WORK_NAME}_TITLE`)">
     <WorkContainer ref="workContainer">
       <WorkAbout :desc="$t(`${WORK_NAME}_DESC`)" />
       <WorkImage>

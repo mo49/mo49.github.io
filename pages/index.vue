@@ -1,6 +1,7 @@
 <template>
   <PageContainer page="index" title="Portfolio Site">
     <TopProfile />
+    <TopGallery />
   </PageContainer>
 </template>
 
