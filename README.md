@@ -29,6 +29,11 @@ yarn build
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
 
 
+## Static
+
+`yarn generate` not work
+WTF!
+
 ## Locale
 
 https://docs.google.com/spreadsheets/d/10a31sTKlkk9zRvi2IYxTIC6Rr3SunFPZCw-lMT31kHQ/edit
