@@ -1,3 +1,7 @@
+i18nに非対応のためリリース後のnuxt3では動かないことを確認（2022.05.09）
+以下のイシューをウォッチしておく。
+https://github.com/intlify/nuxt3/issues/63
+
 # Nuxt 3 Minimal Starter
 
 We recommend to look at the [documentation](https://v3.nuxtjs.org).
