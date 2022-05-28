@@ -1,7 +1,3 @@
-i18nに非対応のためリリース後のnuxt3では動かないことを確認（2022.05.09）
-以下のイシューをウォッチしておく。
-https://github.com/intlify/nuxt3/issues/63
-
 # Nuxt 3 Minimal Starter
 
 We recommend to look at the [documentation](https://v3.nuxtjs.org).
@@ -64,7 +60,4 @@ https://stackoverflow.com/questions/69953025/nuxt-3-resolver-resolvemodule-is-no
 https://github.com/nuxt-community/stylelint-module
 
 ### i18n
-nuxt3にi18nが対応していない
-intlifyでもエラーになる
 https://github.com/intlify/nuxt3
-https://github.com/nuxt-community/i18n-module/discussions/1287

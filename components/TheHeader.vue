@@ -4,6 +4,7 @@
       <nuxt-link :to="('/')">
         <div class="header__logo" />
       </nuxt-link>
+      <LocaleSwitch />
     </div>
   </header>
 </template>
