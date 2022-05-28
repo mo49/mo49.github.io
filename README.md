@@ -34,6 +34,11 @@ Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
 `yarn generate` not work
 WTF!
 
+```
+Failed to load module script: Expected a JavaScript module script but the server responded with a MIME type of "". Strict MIME type checking is enforced for module scripts per HTML spec.
+```
+generateしてもエラーが出る
+
 ## Locale
 
 https://docs.google.com/spreadsheets/d/10a31sTKlkk9zRvi2IYxTIC6Rr3SunFPZCw-lMT31kHQ/edit
