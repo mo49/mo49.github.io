@@ -9,42 +9,12 @@
       <ul class="additional-information__list">
         <li class="additional-information__item">
           <p>
-            <nuxt-link :to="$i18n.path('skillset')">{{ $t('others.skillset') }}</nuxt-link>
-          </p>
-        </li>
-        <li class="additional-information__item">
-          <p>
             <a class="link-hover" href="https://www.youracclaim.com/badges/2d19f647-3f90-47ba-84d9-3ac3a941ec84/" target="_blank">Unity Certified Developer</a>
             / {{ $t('others.license') }}
           </p>
         </li>
         <li class="additional-information__item">
           <p>{{ $t('others.language') }}</p>
-        </li>
-        <li class="additional-information__item accordion-menu">
-          <input type="checkbox" checked>
-          <p class="accordion-menu__title">{{ $t('others.travel') }}</p>
-          <i></i>
-          <ul v-if="$isJa" class="accordion-menu__content">
-            <li>{{ $t('others.country.china') }}</li>
-            <li>{{ $t('others.country.korea') }}</li>
-            <li>{{ $t('others.country.philippine') }}</li>
-            <li>{{ $t('others.country.thailand') }}</li>
-            <li>{{ $t('others.country.india') }}</li>
-            <li>{{ $t('others.country.france') }}</li>
-            <li>{{ $t('others.country.uk') }}</li>
-            <li>{{ $t('others.country.italy') }}</li>
-            <li>{{ $t('others.country.spain') }}</li>
-            <li>{{ $t('others.country.netherlands') }}</li>
-            <li>{{ $t('others.country.egypt') }}</li>
-            <li>{{ $t('others.country.jordan') }}</li>
-            <li>{{ $t('others.country.israel') }}</li>
-            <li>{{ $t('others.country.usa') }}</li>
-            <li>{{ $t('others.country.canada') }}</li>
-            <li>{{ $t('others.country.mexico') }}</li>
-            <li>{{ $t('others.country.peru') }}</li>
-            <li>{{ $t('others.country.chile') }}</li>
-          </ul>
         </li>
       </ul>
     </div>
