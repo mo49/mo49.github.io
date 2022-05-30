@@ -3,24 +3,11 @@
     <Ameba :width="900" :height="900" :color="'#FFDE00'" />
     <div class="title">
       <h2>GALLERY</h2>
-      <p>{{ $t('gallery.ja-title') }}</p>
     </div>
 
     <h3>Web</h3>
     <ul class="gallery__list" data-genre="web">
       <!-- SHOWROOMと差し替え -->
-      <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link :to="$i18n.path('works/web/showstage')">
-          <figure>
-            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showstage+')' } "></div>
-            <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.showstage') }}</p>
-              <p>Nuxt.js</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li>
       <li class="gallery__item" data-label="business" data-is-lock="false">
         <nuxt-link :to="$i18n.path('works/web/onepiece')">
           <figure>
@@ -38,7 +25,7 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_kamakura_fireworks+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.kamakura') }}</p>
+              <p>{{ $t('WORK_KAMAKURA_TITLE') }}</p>
               <p>Canvas / JavaScript</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>

@@ -1,0 +1,75 @@
+{
+  "profile": {
+    "ja-title": "基本情報",
+    "name": "望月一樹（もちづきかずき）",
+    "roll": "エンジニア / クリエイター / バックパッカー"
+  },
+  "history": {
+    "ja-title": "経歴",
+    "employment": "職歴",
+    "company1": "面白法人カヤック",
+    "company1-desc1": "フルタイム",
+    "company1-desc2": "HTMLファイ部 | Webフロントエンドエンジニア",
+    "company2": "SHOWROOM株式会社",
+    "company2-desc1": "フルタイム",
+    "company2-desc2": "xR事業部 | Webフロントエンドエンジニア",
+    "education": "学歴",
+    "school1": "慶應義塾大学",
+    "school1-desc1": "文学部人間科学専攻",
+    "school1-desc2": "商学部開発経済学ゼミ",
+    "school2": "デジタルハリウッド東京本校",
+    "school2-desc1": "インタラクティブ・デザインコース",
+    "school2-desc2": "3DCG/VFXコース，特待生"
+  },
+  "gallery": {
+    "ja-title": "作品集",
+    "mv": "MV - Under The Water",
+    "office": "株式会社SHOWROOM,荒井ビルオフィス",
+    "readyyy": "SHOWROOM V - Readyyy!版",
+    "tele-magic": "Tele-Magic",
+    "gracity": "Gracity",
+    "showstage": "SHOWSTAGE",
+    "onepiece": "ONE PIECE WCI編 テレビアニメ連動サイト",
+    "kamakura": "第69回 鎌倉花火大会",
+    "hirameki": "ひらめきエンジン",
+    "mental-energy": "Mental Energy",
+    "world-heritage": "WebGL世界遺産",
+    "tabippo": "TABIPPO2015ショートムービー",
+    "poster": "CREATORS AUDITION ポスター",
+    "copywriting": "52回宣伝会議賞 協賛企業賞"
+  },
+  "media": {
+    "ja-title": "メディア"
+  },
+  "others": {
+    "ja-title": "その他",
+    "skillset": "スキルセット詳細",
+    "language": "日本語 - ネイティブ，英語 - 日常会話",
+    "license": "簿記2級 / 世界遺産検定2級",
+    "travel": "海外渡航歴",
+    "country": {
+      "china": "中国 / 北京, 上海, 西安, 深セン, 香港",
+      "korea": "韓国 / ソウル",
+      "philippine": "フィリピン / セブ島",
+      "thailand": "タイ / バンコク, アユタヤ",
+      "india": "インド / ニューデリー, ジャイプール, アグラ, ハリドワール",
+      "france": "フランス / パリ, モン・サン・ミッシェル",
+      "uk": "イギリス /ロンドン",
+      "italy": "イタリア / ローマ",
+      "spain": "スペイン / マドリード, バルセロナ",
+      "netherlands": "オランダ / アムステルダム, ロッテルダム, アルクマール",
+      "egypt": "エジプト / カイロ, ギザ, バハレイヤ, ルクソール, アスワン, アブ・シンベル",
+      "jordan": "ヨルダン / アンマン, ペトラ",
+      "israel": "イスラエル / エルサレム",
+      "usa": "アメリカ / ニューヨーク, ワシントン, ロサンゼルス, ラスベガス, ハワイ",
+      "canada": "カナダ / バンフ",
+      "mexico": "メキシコ / メキシコシティ",
+      "peru": "ペルー / リマ, クスコ, ワカチナ, ナスカ, オリャンタイタンボ, マチュピチュ, プーノ",
+      "chile": "チリ / サンティアゴ, イースター島"
+    }
+  },
+  "links": {
+    "japanese": "日本語",
+    "english": "英語"
+  }
+}

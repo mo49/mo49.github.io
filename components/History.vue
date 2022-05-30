@@ -3,44 +3,43 @@
     <Ameba :width="600" :height="600" :color="'#E3170A'" />
     <div class="title">
       <h2>HISTORY</h2>
-      <p>{{ $t('history.ja-title') }}</p>
     </div>
     <div class="history__content">
-      <h3>{{ $t('history.employment') }}</h3>
+      <h3>{{ $t('TOP_HISTORY_COMPANY') }}</h3>
       <ul class="history__list">
         <li class="history__item">
-          <p class="history__year">2018 –</p>
-          <h4 class="history__name">{{ $t('history.company2') }}</h4>
+          <p class="history__year">2018 -</p>
+          <h4 class="history__name">{{ $t('TOP_HISTORY_COMPANY_2') }}</h4>
           <ul class="history__desc">
-            <li>{{ $t('history.company2-desc2') }}</li>
-            <li>{{ $t('history.company2-desc1') }}</li>
+            <li>{{ $t('TOP_HISTORY_COMPANY_2_DESC_1') }}</li>
+            <li>{{ $t('TOP_HISTORY_COMPANY_2_DESC_2') }}</li>
           </ul>
         </li>
         <li class="history__item">
-          <p class="history__year">2015 – 2018</p>
-          <h4 class="history__name">{{ $t('history.company1') }}</h4>
+          <p class="history__year">2015 - 2018</p>
+          <h4 class="history__name">{{ $t('TOP_HISTORY_COMPANY_1') }}</h4>
           <ul class="history__desc">
-            <li>{{ $t('history.company1-desc2') }}</li>
-            <li>{{ $t('history.company1-desc1') }}</li>
+            <li>{{ $t('TOP_HISTORY_COMPANY_1_DESC_1') }}</li>
+            <li>{{ $t('TOP_HISTORY_COMPANY_1_DESC_2') }}</li>
           </ul>
         </li>
       </ul>
-      <h3>{{ $t('history.education') }}</h3>
+      <h3>{{ $t('TOP_HISTORY_SCHOOL') }}</h3>
       <ul class="history__list">
         <li class="history__item">
-          <p class="history__year">2014 – 2015 / 2018 – 2019</p>
-          <h4 class="history__name">{{ $t('history.school2') }}</h4>
+          <p class="history__year">2014 - 2015 / 2018 - 2019</p>
+          <h4 class="history__name">{{ $t('TOP_HISTORY_SCHOOL_2') }}</h4>
           <ul class="history__desc">
-            <li>{{ $t('history.school2-desc1') }} (2014 – 2015)</li>
-            <li>{{ $t('history.school2-desc2') }} (2018 – 2019)</li>
+            <li>{{ $t('TOP_HISTORY_SCHOOL_2_DESC_1') }} (2014 - 2015)</li>
+            <li>{{ $t('TOP_HISTORY_SCHOOL_2_DESC_2') }} (2018 - 2019)</li>
           </ul>
         </li>
         <li class="history__item">
-          <p class="history__year">2009 – 2013</p>
-          <h4 class="history__name">{{ $t('history.school1') }}</h4>
+          <p class="history__year">2009 - 2013</p>
+          <h4 class="history__name">{{ $t('TOP_HISTORY_SCHOOL_1') }}</h4>
           <ul class="history__desc">
-            <li>{{ $t('history.school1-desc1') }}</li>
-            <li>{{ $t('history.school1-desc2') }}</li>
+            <li>{{ $t('TOP_HISTORY_SCHOOL_1_DESC_1') }}</li>
+            <li>{{ $t('TOP_HISTORY_SCHOOL_1_DESC_2') }}</li>
           </ul>
         </li>
       </ul>

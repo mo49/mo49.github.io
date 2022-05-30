@@ -1,10 +1,10 @@
 <template>
   <div>
     <NuxtLink :to="$route.fullPath.replace(/^\/[^\/]+/, '')" :class="{'is-active': !$isJa()}" exact>
-      {{ $t('links.english') }}
+      {{ $t('LOCALE_EN') }}
     </NuxtLink>
     <NuxtLink :to="`/ja` + $route.fullPath" :class="{'is-active': $isJa()}" exact>
-      {{ $t('links.japanese') }}
+      {{ $t('LOCALE_JA') }}
     </NuxtLink>
   </div>
 </template>

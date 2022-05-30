@@ -12,11 +12,13 @@ export default ({ app, store }) => {
     messages: {
       en: Object.assign(
         require('~/locales/en.json'),
+        require('~/locales/en-top.json'),
         require('~/locales/en-skillset.json'),
         require('~/locales/en-works.json'),
       ),
       ja: Object.assign(
         require('~/locales/ja.json'),
+        require('~/locales/ja-top.json'),
         require('~/locales/ja-skillset.json'),
         require('~/locales/ja-works.json'),
       ),

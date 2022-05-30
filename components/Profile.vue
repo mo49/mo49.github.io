@@ -3,15 +3,14 @@
     <Ameba :width="450" :height="450" :color="'#00C8FF'" />
     <div class="title">
       <h2>PROFILE</h2>
-      <p>{{ $t('profile.ja-title') }}</p>
     </div>
     <div class="profile__content">
       <div class="profile__left">
         <p class="profile__thumb"></p>
       </div>
       <div class="profile__right">
-        <h3 class="profile__name">{{ $t('profile.name') }} | 1989.04.09</h3>
-        <p class="profile__desc">{{ $t('profile.roll') }}</p>
+        <h3 class="profile__name">{{ $t('TOP_PROFILE_NAME') }} | 1989.04.09</h3>
+        <p class="profile__desc">{{ $t('TOP_PROFILE_ROLL') }}</p>
       </div>
     </div>
   </div>
@@ -86,4 +85,3 @@ canvas{
   background-image: url("~assets/image/profile.png");
 }
 </style>
-
