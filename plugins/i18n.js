@@ -10,15 +10,15 @@ export default ({ app, store }) => {
     locale: store.state.locale,
     fallbackLocale: 'en',
     messages: {
-      ja: Object.assign(
-        require('~/locales/ja.json'),
-        require('~/locales/ja-skillset.json'),
-        require('~/locales/ja-works.json'),
-      ),
       en: Object.assign(
         require('~/locales/en.json'),
         require('~/locales/en-skillset.json'),
         require('~/locales/en-works.json'),
+      ),
+      ja: Object.assign(
+        require('~/locales/ja.json'),
+        require('~/locales/ja-skillset.json'),
+        require('~/locales/ja-works.json'),
       ),
     }
   })

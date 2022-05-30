@@ -84,9 +84,8 @@ module.exports = {
   generate: {
     routes() {
       return pagesJson.pages.map(page => {
-        return `en/${page}`
+        return `ja/${page}`
       })
     }
   }
 }
-
