@@ -8,6 +8,7 @@
 
     <h3>Web</h3>
     <ul class="gallery__list" data-genre="web">
+      <!-- SHOWROOMと差し替え -->
       <li class="gallery__item" data-label="business" data-is-lock="false">
         <nuxt-link :to="$i18n.path('works/web/showstage')">
           <figure>
@@ -20,18 +21,6 @@
           </figure>
         </nuxt-link>
       </li>
-      <!-- <li class="gallery__item" data-label="business" data-is-lock="true">
-        <nuxt-link :to="$i18n.path('works/web/virtual-cheki')">
-          <figure>
-            <div class="gallery__thumb"></div>
-            <figcaption class="gallery__caption">
-              <p>（仮）バーチャルチェキ</p>
-              <p>WebSocket / Node.js / Canvas / GCP</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li> -->
       <li class="gallery__item" data-label="business" data-is-lock="false">
         <nuxt-link :to="$i18n.path('works/web/onepiece')">
           <figure>
@@ -68,18 +57,6 @@
           </figure>
         </nuxt-link>
       </li>
-      <!-- <li class="gallery__item" data-label="business" data-is-lock="true">
-        <nuxt-link :to="$i18n.path('works/web/obayashi')">
-          <figure>
-            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_gracity+')' } "></div>
-            <figcaption class="gallery__caption">
-              <p>（仮）BIMシステム</p>
-              <p>Three.js / Blender / WebGL / JavaScript</p>
-            </figcaption>
-            <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
-          </figure>
-        </nuxt-link>
-      </li> -->
       <li class="gallery__item" data-label="private" data-is-lock="false">
         <nuxt-link :to="$i18n.path('works/web/mental-energy')">
           <figure>
@@ -108,13 +85,13 @@
 
     <h3>CG / VR</h3>
     <ul class="gallery__list" data-genre="3dcg-vfx">
-      <li class="gallery__item" data-label="private" data-is-lock="false">
-        <nuxt-link :to="$i18n.path('works/3dcg-vfx/mv-underthewater')">
+      <li class="gallery__item" data-label="business" data-is-lock="false">
+        <nuxt-link :to="$i18n.path('works/unity-ue/srv-live2d')">
           <figure>
-            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mv_underthewater+')' } "></div>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_readyyy+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.mv') }}</p>
-              <p>Maya / Unity / ShaderLab / GPGPU / After Effects</p>
+              <p>{{ $t('gallery.readyyy') }}</p>
+              <p>Unity / Live2D</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
@@ -132,13 +109,13 @@
           </figure>
         </nuxt-link>
       </li>
-      <li class="gallery__item" data-label="business" data-is-lock="false">
-        <nuxt-link :to="$i18n.path('works/unity-ue/srv-live2d')">
+      <li class="gallery__item" data-label="private" data-is-lock="false">
+        <nuxt-link :to="$i18n.path('works/3dcg-vfx/mv-underthewater')">
           <figure>
-            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_readyyy+')' } "></div>
+            <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mv_underthewater+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.readyyy') }}</p>
-              <p>Unity / Live2D</p>
+              <p>{{ $t('gallery.mv') }}</p>
+              <p>Maya / Unity / ShaderLab / GPGPU / After Effects</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
           </figure>
