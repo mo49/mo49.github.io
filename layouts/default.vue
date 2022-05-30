@@ -1,6 +1,5 @@
 <template>
   <div class="wrapper" v-cloak>
-    <GenerativeBackground />
     <common-header/>
     <nuxt/>
     <common-footer/>
@@ -8,12 +7,10 @@
 </template>
 
 <script>
-import GenerativeBackground from '~/components/GenerativeBackground'
 import CommonHeader from '~/components/CommonHeader'
 import CommonFooter from '~/components/CommonFooter'
 export default {
   components: {
-    GenerativeBackground,
     CommonHeader,
     CommonFooter,
   }
@@ -137,4 +134,3 @@ div[data-bg="odd"]{
   background-color: $bg-color;
 }
 </style>
-
