@@ -3,18 +3,17 @@
     <Ameba :width="500" :height="500" :color="'#9F73FF'" />
     <div class="title">
       <h2>OTHERS</h2>
-      <p>{{ $t('others.ja-title') }}</p>
     </div>
     <div class="additional-information__content">
       <ul class="additional-information__list">
         <li class="additional-information__item">
           <p>
             <a class="link-hover" href="https://www.youracclaim.com/badges/2d19f647-3f90-47ba-84d9-3ac3a941ec84/" target="_blank">Unity Certified Developer</a>
-            / {{ $t('others.license') }}
+            / {{ $t('OTHERS_LICENSE') }}
           </p>
         </li>
         <li class="additional-information__item">
-          <p>{{ $t('others.language') }}</p>
+          <p>{{ $t('OTHERS_LANGUAGE') }}</p>
         </li>
       </ul>
     </div>
