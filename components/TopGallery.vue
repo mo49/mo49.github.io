@@ -18,6 +18,17 @@
           </figure>
         </nuxt-link>
       </li>
+      <li class="gallery__item" data-name="showroom" data-label="business" data-is-lock="false">
+        <nuxt-link :to="'/works/web/showroom'">
+          <figure>
+            <div class="gallery__thumb" />
+            <figcaption class="gallery__caption">
+              <p>{{ $t('WORK_SHOWROOM_TITLE') }}</p>
+              <p>Nuxt.js / Composition API / PixiJS / Cypress / Sentry</p>
+            </figcaption>
+          </figure>
+        </nuxt-link>
+      </li>
     </ul>
 
     <h3>CG / VR</h3>
