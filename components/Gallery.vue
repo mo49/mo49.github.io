@@ -37,7 +37,7 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_hirameki+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.hirameki') }}</p>
+              <p>{{ $t('WORK_HIRAMEKI_TITLE') }}</p>
               <p>Bodymovin / Electron</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -49,7 +49,7 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mental_energy+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.mental-energy') }}</p>
+              <p>{{ $t('WORK_MENTAL_ENERGY_TITLE') }}</p>
               <p>PHP / MySQL / Canvas / CreateJS</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -61,7 +61,7 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_webgl_world_heritage+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.world-heritage') }}</p>
+              <p>{{ $t('WORK_WORLD_HERITAGE_TITLE') }}</p>
               <p>Three.js</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
