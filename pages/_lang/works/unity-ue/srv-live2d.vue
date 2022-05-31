@@ -1,12 +1,12 @@
 <template>
   <section class="container work" data-page="work">
-    <h1 class="work__title">{{ $t('works.readyyy.title') }}</h1>
+    <h1 class="work__title">{{ $t('WORK_READYYY_TITLE') }}</h1>
     <div class="work-about" data-bg="odd">
-      <h2>{{ $t('works.headlines.about') }}</h2>
-      <pre>{{ $t('works.readyyy.desc') }}</pre>
+      <h2>{{ $t('WORK_HEADLINE_ABOUT') }}</h2>
+      <pre>{{ $t('WORK_READYYY_DESC') }}</pre>
     </div>
     <div class="work-image" data-bg="even">
-      <h2>{{ $t('works.headlines.image') }}</h2>
+      <h2>{{ $t('WORK_HEADLINE_IMAGE') }}</h2>
       <ul class="work-image__list">
         <li class="work-image__item size-full">
           <img src="~assets/image/works/unity-ue/readyyy/1.png" @click="openModal">
@@ -22,15 +22,15 @@
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
-      <h2>{{ $t('works.headlines.skill') }}</h2>
+      <h2>{{ $t('WORK_HEADLINE_SKILL') }}</h2>
       <p>Unity / C# / Live2D</p>
     </div>
     <div class="work-time" data-bg="even">
-      <h2>{{ $t('works.headlines.production-time') }}</h2>
-      <p>{{ $t('works.readyyy.production-time') }}</p>
+      <h2>{{ $t('WORK_HEADLINE_PRODUCTION_TIME') }}</h2>
+      <p>{{ $t('WORK_READYYY_PRODUCTION_TIME') }}</p>
     </div>
     <div class="work-media" data-bg="odd">
-      <h2>{{ $t('works.headlines.media') }}</h2>
+      <h2>{{ $t('WORK_HEADLINE_MEDIA') }}</h2>
       <ul>
         <li><a class="link-hover" href="https://ready.sega.jp/news/60897/" target="_blank" rel="noopener noreferrer">アイドルたちによる『SHOWROOM』生配信がスタート！初回配信は12月10日 蒼志バースデー配信！！</a></li>
       </ul>
@@ -57,4 +57,3 @@ export default {
 <style lang="scss">
 @import "~assets/sass/page/works";
 </style>
-

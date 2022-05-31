@@ -4,7 +4,7 @@
       BIM Will MANAGEMENT SYSTEM
     </h1>
     <div class="work-about" data-bg="odd">
-      <h2>{{ $t('works.headlines.about') }}</h2>
+      <h2>{{ $t('WORK_HEADLINE_ABOUT') }}</h2>
       <p>
         大林組の展示会で使用されたビル管理システムのデモサイト。
         <br>
@@ -17,7 +17,7 @@
 
     </div>
     <div class="work-image" data-bg="even">
-      <h2>{{ $t('works.headlines.image') }}</h2>
+      <h2>{{ $t('WORK_HEADLINE_IMAGE') }}</h2>
       <ul class="work-image__list">
         <li class="work-image__item size-full">
           <img src="~assets/image/works/web/obayashi/1.png" @click="openModal">
@@ -32,11 +32,11 @@
       </ul>
     </div>
     <div class="work-skill" data-bg="odd">
-      <h2>{{ $t('works.headlines.skill') }}</h2>
+      <h2>{{ $t('WORK_HEADLINE_SKILL') }}</h2>
       <p>Three.js / Blender / WebGL / JavaScript</p>
     </div>
     <div class="work-time" data-bg="even">
-      <h2>{{ $t('works.headlines.production-time') }}</h2>
+      <h2>{{ $t('WORK_HEADLINE_PRODUCTION_TIME') }}</h2>
       <p>from July to September, 2016. (about 2months)</p>
     </div>
     <div class="work-media" data-bg="odd">
@@ -63,4 +63,3 @@ export default {
 <style lang="scss">
 @import "~assets/sass/page/works";
 </style>
-

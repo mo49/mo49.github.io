@@ -77,7 +77,7 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_readyyy+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.readyyy') }}</p>
+              <p>{{ $t('WORK_READYYY_TITLE') }}</p>
               <p>Unity / Live2D</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -89,7 +89,7 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_showroom_office+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.office') }}</p>
+              <p>{{ $t('WORK_OFFICE_TITLE') }}</p>
               <p>Maya</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -101,7 +101,7 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_mv_underthewater+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.mv') }}</p>
+              <p>{{ $t('WORK_UNDERTHEWATER_TITLE') }}</p>
               <p>Maya / Unity / ShaderLab / GPGPU / After Effects</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -113,7 +113,7 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_tele_magic+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.tele-magic') }}</p>
+              <p>{{ $t('WORK_TELEMAGIC_TITLE') }}</p>
               <p>Unity / FOVE / Theta V</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -125,7 +125,7 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_gracity+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.gracity') }}</p>
+              <p>{{ $t('WORK_GRACITY_TITLE') }}</p>
               <p>Unity / Vive / PUN / VRTK</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -141,7 +141,7 @@
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.tabippo') }}</p>
+              <p>{{ $t('WORK_TABIPPO_TITLE') }}</p>
               <p>AfterEffects / CINEMA 4D</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -153,7 +153,7 @@
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.poster') }}</p>
+              <p>{{ $t('WORK_POSTER_TITLE') }}</p>
               <p>Illustrator / Photoshop</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
@@ -165,7 +165,7 @@
           <figure>
             <div class="gallery__thumb"></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.copywriting') }}</p>
+              <p>{{ $t('WORK_SENDENKAIGI_TITLE') }}</p>
               <p>Copywriting</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>
