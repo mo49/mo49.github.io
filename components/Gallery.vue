@@ -281,7 +281,7 @@ canvas{
     justify-content: center;
     @include pc-layout{
       font-size: 14px;
-      padding: 30px;
+      padding: 20px;
     }
     @include sp-layout{
       font-size: 12px;
@@ -296,16 +296,22 @@ canvas{
       font-weight: bold;
       text-shadow: none;
       @include pc-layout{
-        font-size: 14px;
         padding: 10px 15px;
       }
       @include sp-layout{
-        font-size: 12px;
         padding: 5px 8px;
       }
     }
     p:nth-child(1){
       font-weight: bold;
+    }
+    p:nth-child(2){
+      @include pc-layout{
+        font-size: 12px;
+      }
+      @include sp-layout{
+        font-size: 10px;
+      }
     }
   }
   &__item{
