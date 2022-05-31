@@ -13,7 +13,7 @@
           <figure>
             <div class="gallery__thumb" :style=" {'background-image': 'url('+img_onepiece+')' } "></div>
             <figcaption class="gallery__caption">
-              <p>{{ $t('gallery.onepiece') }}</p>
+              <p>{{ $t('WORK_ONEPIECE_TITLE') }}</p>
               <p>D3.js / Canvas</p>
             </figcaption>
             <font-awesome-icon :icon="['fas', 'lock']" class="fa-2x"/>

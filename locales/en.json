@@ -36,5 +36,14 @@
 	"WORK_KAMAKURA_CAP1": "Weeping willow",
 	"WORK_KAMAKURA_CAP2": "Underwater fireworks",
 	"WORK_KAMAKURA_CAP3": "The 2017 October issue of Brain, Creator Magazine",
-	"WORK_KAMAKURA_PRODUCTION_TIME": "from May to June, 2017. (about 3weeks)"
+	"WORK_KAMAKURA_PRODUCTION_TIME": "from May to June, 2017. (about 3weeks)",
+	"WORK_ONEPIECE_TITLE": "ONE PIECE Whole Cake Island Arc - Web site interacted with TV animated show",
+	"WORK_ONEPIECE_DESC": "A 12-week continuous project in which the TV Anime, 'One Piece' and the smartphone are linked in real time. You try to mash a button when you are excited on air. Divide one broadcast into 30 scenes and you can get an opportunity to apply for the present if the scene you select and the scene other viewer select are same.\n\nI'm in charge of top screen and result screen on air. The total number of viewers, the number of taps of everyone for each scene and the number of taps of individuals were displayed in real time to give a sense of coordination. Data is acquired by regularly calling API while considering performance. In terms of direction, we use D3.js to draw interactive and scalable graphs. Animations such as an interruption animation, a result screen slot, and a confetti effect that are caught in any place on air. There are also 7 pattern design changes according to the tone-manner of each broadcast. While the clear deadline of on-air day was decided, we dealt with the request from the client until the last minute. During one week before the first on-air day, we worked staying overnight at the company, and I acquired the basic strength of creator.",
+	"WORK_ONEPIECE_CAP1": "On air page",
+	"WORK_ONEPIECE_CAP2": "Result page",
+	"WORK_ONEPIECE_CAP3": "appeared in Weekly Shonen Jump",
+	"WORK_ONEPIECE_CAP4": "Playing",
+	"WORK_ONEPIECE_CAP5": "Capture",
+	"WORK_ONEPIECE_CAP6": "Special program",
+	"WORK_ONEPIECE_PRODUCTION_TIME": "from September to October, 2017. (about 2months)"
 }
