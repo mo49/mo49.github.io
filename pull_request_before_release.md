@@ -1,2 +1,0 @@
-- [ ] MacのChrome, Safari最新verで動作確認
-- [ ] WindowsのChrome, Edge最新verで動作確認
