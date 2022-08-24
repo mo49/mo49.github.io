@@ -1,5 +1,7 @@
 # portfolio
 
+tmp/20220824
+
 > Nuxt.js project
 
 ## Build Setup
