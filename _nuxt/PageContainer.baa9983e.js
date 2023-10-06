@@ -1,0 +1,1 @@
+import{q as t,o as a,c as o,a as s,t as n,s as _,_ as p}from"./entry.97afc14b.js";const r=["data-page"],c=t({__name:"PageContainer",props:{page:{},title:{}},setup(i){return(e,l)=>(a(),o("section",{class:"container","data-page":e.page},[s("h1",null,n(e.title),1),_(e.$slots,"default",{},void 0,!0)],8,r))}});const u=p(c,[["__scopeId","data-v-8268e3b3"]]);export{u as _};
