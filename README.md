@@ -73,3 +73,7 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Locale
+
+https://docs.google.com/spreadsheets/d/10a31sTKlkk9zRvi2IYxTIC6Rr3SunFPZCw-lMT31kHQ/edit

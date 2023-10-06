@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
   app: {
     head: {
       title: '%s | Portfolio Site',
@@ -12,6 +13,7 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       ]
     },
+    baseURL: '/mo49.github.io/',
   },
   plugins: [
     '~/plugins/scroll-behavior'
